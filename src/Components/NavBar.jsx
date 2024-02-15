@@ -11,8 +11,6 @@ const NavBar = () => {
 
   const IconStyle = "w-[40px] h-[40px] flex items-center justify-center flex-short rounded-full custom-border hover:bg-white/5 box-shadow  border border-white/10 shadow-2xl group overflow-hidden hover:overflow-hidden cursor-pointer"
 
-
-
   return (
     <nav data-aos="fade-up" className='fixed bottom-4 lg:bottom-8 w-full overflow-hidden z-50'>
       <div className='container mx-auto'>
