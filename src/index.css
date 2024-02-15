@@ -7,6 +7,26 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    /* display: none; */
+}
+::-webkit-scrollbar-track {
+    background: #200d3b;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(92.23deg, #ff56f6 21.43%, #b936ee 50.63%, #3bace2 100%, #406aff 117.04%);
+    border-radius: 10px;
+}
+
+/* Media query to hide scrollbar for screens smaller than 768px */
+@media (max-width: 767px) {
+    ::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 .btn {
