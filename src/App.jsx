@@ -1,11 +1,25 @@
-import './App.css'
+import Header from './Components/Header'
+import Banner from './Components/Banner'
+import NavBar from './Components/NavBar'
+import About from './Components/About'
+import Education from './Components/Education'
+import Services from './Components/Services'
+import Work from './Components/Work'
+import Contact from './Components/Contact'
 
 function App() {
 
   return (
     <>
-      <div className='bg-red-400 text-white font-bold mx-72 p-2 rounded-lg shadow-2xl shadow-black'>
-        HIIII, WELCOME TO MY PORTFOLIO WEBSITE
+      <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
+        <Header />
+        <Banner />
+        <NavBar />
+        <About />
+        <Education />
+        <Services />
+        <Work />
+        <Contact />
       </div>
     </>
   )
