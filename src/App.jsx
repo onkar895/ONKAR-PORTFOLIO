@@ -6,12 +6,13 @@ import Education from './Components/Education'
 import Services from './Components/Services'
 import Work from './Components/Work'
 import Contact from './Components/Contact'
+import BgSite from './assets/site-bg.jpg'
 
 function App() {
 
   return (
     <>
-      <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
+      <div style={{ backgroundImage: `url(${BgSite})` }} className='bg-no-repeat bg-cover overflow-hidden'>
         <Header />
         <Banner />
         <NavBar />
@@ -20,7 +21,6 @@ function App() {
         <Services />
         <Work />
         <Contact />
-        <div className='h-[4000px]'></div>
       </div>
     </>
   )

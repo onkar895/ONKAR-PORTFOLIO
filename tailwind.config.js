@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    './public/index.html',
+    './index.html',
     './src/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
@@ -28,8 +28,8 @@ export default {
       },
       backgroundImage: {
         site: "url('./src/assets/site-bg.jpg')",
-        about: "url('./assets/about.png')",
-        services: "url('./assets/services.png')"
+        about: "url('./src/assets/about.png')",
+        services: "url('./src/assets/services.png')"
       }
     }
   },
