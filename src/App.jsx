@@ -8,7 +8,6 @@ import Education from './Components/Education';
 import Services from './Components/Services';
 import Work from './Components/Work';
 import Contact from './Components/Contact';
-import BgSite from './assets/site-bg.jpg';
 import { BarLoader } from "react-spinners";
 
 function App() {

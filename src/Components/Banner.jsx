@@ -1,20 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter, FaDiscord } from "react-icons/fa6";
 import { FiDownload } from "react-icons/fi";
 import { MdEmail } from "react-icons/md";
 import { PiGithubLogoFill } from "react-icons/pi";
-import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from 'framer-motion'
-import { fadeIn } from '../Variants'
 
 
 const Banner = () => {
@@ -24,24 +17,25 @@ const Banner = () => {
         <div className='flex max-sm:flex-wrap-reverse items-center'>
           <div className='flex flex-col max-sm:mt-5'>
             <div className='text-[40px] max-sm:text-[30px]'>
-              <h1 className='font-bold py-2'>Hello, I'm Omkar <span>Karale</span> </h1>
-              <div className='text-[20px] max-sm:text-[16px] lg:text-[22px] font-semibold uppercase overflow-hidden'>
+              <h1 data-aos="fade-up" className='font-bold py-2'>Hello, I'm Omkar <span>Karale</span> </h1>
+              <div className='text-[20px] max-sm:text-[16px] lg:text-[22px] font-semibold uppercase'>
                 <TypeAnimation
                   sequence={["Passionate Web Developer", 2000, "Specialized in FrontEnd Developement", 2000, ""]}
                   speed={50}
                   wrapper="span"
                   repeat={Infinity}
+                  data-aos="fade-up"
                   className="text-gradient"
                 />
               </div>
             </div>
             <div className="mt-2 flex flex-col md:gap-4 gap-6 mx-auto">
-              <p className="text-[1.1rem] md:w-full text-gray-400 sm:text-[.95rem] text-justify">  I’m highly skilled in Frontend Development specializing in building scalable and top-notch web applications,having experience in HTML5, CSS3, Tailwind CSS, Material UI, JavaScript, React.js, Redux.js and Redux-Toolkit to create visually appealing and interactive user interfaces
+              <p data-aos="fade-up" className="text-[1.1rem] md:w-full text-gray-400 sm:text-[.95rem] text-justify">  I’m highly skilled in Frontend Development specializing in building scalable and top-notch web applications,having experience in HTML5, CSS3, Tailwind CSS, Material UI, JavaScript, React.js, Redux.js and Redux-Toolkit to create visually appealing and interactive user interfaces
               </p>
               <div className="tracking-widest shadow-2x font-bold">
-                <h1 className='text-gray-300 max-sm:text-sm'>LET'S BUILD SOMETHING TOGETHER...</h1>
+                <h1 data-aos="fade-up" className='text-gray-300 max-sm:text-sm'>LET'S BUILD SOMETHING TOGETHER...</h1>
               </div>
-              <div className='flex max-sm:flex-wrap gap-x-8 max-sm:gap-x-16 max-w-max max-sm:gap-y-5 md:gap-y-5 lg:gap-y-0 py-1 '>
+              <div data-aos="fade-up" className='flex max-sm:flex-wrap gap-x-8 max-sm:gap-x-16 max-w-max max-sm:gap-y-5 md:gap-y-5 lg:gap-y-0 py-1 '>
                 <div className='flex items-center gap-2 text-sm btn px-3 max-sm:mx-auto'>
                   <a href="https://drive.google.com/file/d/1TmtA6Ft8Pc5-cBfQF66-Xm0NvO7dEapp/view?usp=drive_link" >Download My Resume
                   </a>
