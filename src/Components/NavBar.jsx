@@ -9,13 +9,13 @@ import Character from '../assets/Character.png'
 
 const NavBar = () => {
 
-  const IconStyle = "w-[40px] h-[40px] flex items-center justify-center flex-short rounded-full custom-border hover:bg-white/5 box-shadow  border border-white/10 shadow-2xl group overflow-hidden hover:overflow-hidden cursor-pointer"
+  const IconStyle = "w-[40px] h-[40px] flex items-center justify-center flex-short rounded-full custom-border hover:bg-white/5 box-shadow border border-white/10 shadow-2xl group overflow-hidden hover:overflow-hidden cursor-pointer"
 
   return (
-    <nav data-aos="fade-up" className='fixed bottom-4  w-full overflow-hidden z-50'>
+    <nav className='fixed bottom-4 max-sm:bottom-0 w-full overflow-hidden z-50'>
       <div className='container mx-auto'>
         {/* nav inner */}
-        <div className='w-full bg-black/10 h-[70px] backdrop-blur rounded-full max-w-[560px] mx-auto px-5 max-sm:px-3 flex justify-between items-center text-2xl text-white/50'>
+        <div className='w-full backdrop-blur-xl bg-white/5 h-[70px]  rounded-full max-w-[560px] mx-auto px-5 max-sm:px-3 flex justify-between items-center text-2xl text-white/50'>
           <div className="w-[40px] h-[40px] flex items-center justify-center flex-short rounded-full custom-border box-shadow bg-white group overflow-hidden hover:overflow-hidden cursor-pointer">
             <Link
               to='header'
@@ -30,7 +30,7 @@ const NavBar = () => {
               activeClass='active'
               smooth={true}
               spy={true}
-              offset={200}
+              offset={-200}
               className='cursor-pointer flex items-center justify-center hover:text-white'>
               <BiHomeAlt />
             </Link>

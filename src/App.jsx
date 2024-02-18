@@ -32,11 +32,11 @@ function App() {
       >
         {
           loading ? (
-            <div style={{ backgroundImage: `url(${BgSite})` }} className="bg-no-repeat bg-cover overflow-hidden h-screen w-full flex items-center justify-center">
+            <div className="bg-no-repeat bg-cover overflow-hidden bg-gray-900 h-screen w-full flex items-center justify-center">
               <BarLoader className="text-gradient" height={6} />
             </div>
           ) : (
-            <div style={{ backgroundImage: `url(${BgSite})` }} className='bg-no-repeat bg-cover overflow-hidden'>
+            <div className='bg-no-repeat bg-cover overflow-hidden bg-gray-900'>
               <Header />
               <Banner />
               <NavBar />
