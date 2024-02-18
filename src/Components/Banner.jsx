@@ -7,8 +7,6 @@ import { FiDownload } from "react-icons/fi";
 import { MdEmail } from "react-icons/md";
 import { PiGithubLogoFill } from "react-icons/pi";
 import { TypeAnimation } from "react-type-animation";
-import { motion } from 'framer-motion'
-
 
 const Banner = () => {
   return (
