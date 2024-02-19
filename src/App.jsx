@@ -4,8 +4,6 @@ import Header from './Components/Header';
 import Banner from './Components/Banner';
 import NavBar from './Components/NavBar';
 import About from './Components/About';
-import Education from './Components/Education';
-import Services from './Components/Services';
 import Work from './Components/Work';
 import Contact from './Components/Contact';
 import { BarLoader } from "react-spinners";
@@ -40,8 +38,6 @@ function App() {
               <Banner />
               <NavBar />
               <About />
-              <Education />
-              <Services />
               <Work />
               <Contact />
             </div>

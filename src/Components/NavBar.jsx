@@ -15,7 +15,7 @@ const NavBar = () => {
     <nav className='fixed bottom-4 max-sm:bottom-0 w-full overflow-hidden z-50'>
       <div className='container mx-auto'>
         {/* nav inner */}
-        <div className='w-full backdrop-blur bg-white/5 h-[65px] rounded-full max-w-[560px] mx-auto px-5 max-sm:px-3 flex justify-between items-center text-2xl text-white/50'>
+        <div className='w-full backdrop-blur bg-white/5 h-[65px] rounded-full max-w-[460px] mx-auto px-5 max-sm:px-3 flex justify-between items-center text-2xl text-white/50'>
           <div className="w-[40px] h-[40px] flex items-center justify-center flex-short rounded-full custom-border box-shadow bg-white group overflow-hidden hover:overflow-hidden cursor-pointer">
             <Link
               to='header'
@@ -43,16 +43,6 @@ const NavBar = () => {
               spy={true}
               className='cursor-pointer flex items-center justify-center hover:text-white'>
               <BiUser />
-            </Link>
-          </div>
-          <div className={IconStyle}>
-            <Link
-              to='services'
-              activeClass='active'
-              smooth={true}
-              spy={true}
-              className='cursor-pointer flex items-center justify-center hover:text-white'>
-              <BsClipboardData />
             </Link>
           </div>
           <div className={IconStyle}>
