@@ -46,27 +46,27 @@ const Banner = () => {
 
                 <div className="flex gap-x-8 max-sm:gap-10 max-w-max overflow-hidden text-xl max-sm:mx-auto"
                 >
-                  <div className="bg-black/10 backdrop-blur rounded-full border border-gray-600 text-white/50 p-2 hover:bg-white hover:text-black ">
+                  <div className="bg-transparent backdrop-blur rounded-full border border-gray-600 text-white/50 p-2 hover:bg-white hover:text-black ">
                     <a href="https://github.com/onkar895">
                       <PiGithubLogoFill className='transition-all duration-500 hover:scale-125' />
                     </a>
                   </div>
-                  <div className="bg-black/10 backdrop-blur rounded-full border border-gray-600 text-white/50 p-2 hover:bg-blue-500 hover:text-white">
+                  <div className="bg-transparent backdrop-blur rounded-full border border-gray-600 text-white/50 p-2 hover:bg-blue-500 hover:text-white">
                     <a href="https://www.linkedin.com/in/omkarkarale541/">
                       <FaLinkedinIn className='transition-all duration-500 hover:scale-125' />
                     </a>
                   </div>
-                  <div className="bg-black/10 backdrop-blur rounded-full border border-gray-600 text-white/50 p-2 hover:bg-red-500 hover:text-white">
+                  <div className="bg-transparent backdrop-blur rounded-full border border-gray-600 text-white/50 p-2 hover:bg-red-500 hover:text-white">
                     <a href="mailto:onkarkarale4@gmail.com">
                       <MdEmail className='transition-all duration-500 hover:scale-125' />
                     </a>
                   </div>
-                  <div className="bg-black/10 backdrop-blur rounded-full border border-gray-600 text-white/50 p-2 hover:bg-purple-600 hover:text-white">
+                  <div className="bg-transparent backdrop-blur rounded-full border border-gray-600 text-white/50 p-2 hover:bg-purple-600 hover:text-white">
                     <a href="https://discord.com/users/Onkar895">
                       <FaDiscord className='transition-all duration-500 hover:scale-125' />
                     </a>
                   </div>
-                  <div className="bg-black/10 backdrop-blur rounded-full border border-gray-600 text-white/50 p-2 hover:bg-black hover:text-white">
+                  <div className="bg-transparent backdrop-blur rounded-full border border-gray-600 text-white/50 p-2 hover:bg-black hover:text-white">
                     <a href="https://twitter.com/Onkar895">
                       <FaXTwitter className='transition-all duration-500 hover:scale-125' />
                     </a>
