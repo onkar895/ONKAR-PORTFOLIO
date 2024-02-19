@@ -10,7 +10,7 @@ const About = () => {
   })
   return (
     <section className='section' id='about' ref={ref}>
-      <div className='container mx-auto md:px-12 py-12 w-full'>
+      <div className='container mx-auto md:px-12 w-full'>
         <div data-aos="fade-up" data-aos-duration="2000">
           <Education />
         </div>
