@@ -8,10 +8,11 @@ import { MdEmail } from "react-icons/md";
 import { PiGithubLogoFill } from "react-icons/pi";
 import { TypeAnimation } from "react-type-animation";
 import HII from '../assets/HII.gif'
+import { NavLink } from 'react-router-dom';
 
 const Banner = () => {
   return (
-    <section className='max-sm:section flex items-center md:min-h-[60vh] lg:min-h-[100vh]' id='home'>
+    <section className='flex items-center md:mt-5'>
       <div className='container mx-auto md:px-12'>
         <div className='flex max-sm:flex-wrap-reverse items-center'>
           <div className='flex flex-col gap-2 max-sm:mt-10 max-sm:mx-auto max-sm:text-center'>
@@ -36,13 +37,14 @@ const Banner = () => {
               <div className="tracking-widest shadow-2x font-bold">
                 <h1 data-aos="fade-up" data-aos-duration="2000" className='text-gray-300 max-sm:text-sm'>LET'S BUILD SOMETHING TOGETHER...</h1>
               </div>
-              <div data-aos="fade-up" data-aos-duration="2000" className='flex flex-wrap justify-between max-sm:px-3 lg:w-[77.2%] max-sm:gap-y-8 md:gap-y-5 lg:gap-y-0 py-1'>
+              <div data-aos="fade-up" data-aos-duration="2000" className='flex flex-wrap justify-between max-sm:px-3 lg:w-[77.2%] max-sm:gap-y-8 md:gap-y-5 lg:gap-y-0 py-1 cursor-pointer'>
                 <div className='flex items-center gap-2 text-sm btn px-6'>
                   <a href="https://drive.google.com/file/d/1TmtA6Ft8Pc5-cBfQF66-Xm0NvO7dEapp/view?usp=drive_link" >Resume
                   </a>
                   <FiDownload className='text-xs' />
                 </div>
-                <button className='border border-gray-600 rounded-full px-8 py-2 text-gradient text-sm'>Contact</button>
+                <NavLink to='/contact'
+                  className='border border-gray-600 rounded-full px-8 py-2 text-gradient text-sm cursor-pointer'>Contact</NavLink>
 
                 <div className="flex gap-x-8 max-sm:gap-10 max-w-max overflow-hidden text-xl max-sm:mx-auto"
                 >

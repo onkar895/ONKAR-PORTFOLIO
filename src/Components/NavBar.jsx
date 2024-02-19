@@ -1,10 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import { BiClipboard, BiHomeAlt, BiUser } from 'react-icons/bi'
-import { BsClipboardData, BsBriefcase, BsChatSquare } from 'react-icons/bs'
-import { MdOutlineContactPage } from "react-icons/md";
+import { BiHomeAlt, BiUser } from 'react-icons/bi'
+import { BsBriefcase } from 'react-icons/bs'
 import { LuContact } from "react-icons/lu";
-import { Link } from 'react-scroll'
+import { NavLink } from 'react-router-dom';
 import Character from '../assets/Character.png'
 
 const NavBar = () => {
@@ -12,62 +11,51 @@ const NavBar = () => {
   const IconStyle = "w-[40px] h-[40px] flex items-center justify-center flex-short rounded-full custom-border hover:bg-white/5 box-shadow border border-white/10 shadow-2xl group overflow-hidden hover:overflow-hidden cursor-pointer"
 
   return (
-    <nav className='fixed bottom-4 max-sm:bottom-0 w-full overflow-hidden z-50'>
+    <nav className='fixed bottom-0 max-sm:bottom-0 w-full overflow-hidden z-50'>
       <div className='container mx-auto'>
         {/* nav inner */}
-        <div className='w-full backdrop-blur bg-white/5 h-[65px] rounded-full max-w-[460px] mx-auto px-5 max-sm:px-3 flex justify-between items-center text-2xl text-white/50'>
+        <div className='w-full backdrop-blur backdrop-contrast-75 h-[65px] rounded-full max-w-[460px] mx-auto px-5 max-sm:px-3 flex justify-between items-center text-2xl text-white/50'>
           <div className="w-[40px] h-[40px] flex items-center justify-center flex-short rounded-full custom-border box-shadow bg-white group overflow-hidden hover:overflow-hidden cursor-pointer">
-            <Link
-              to='header'
-              smooth={true}
+            <div
               className="scale-[1.3] transition group-hover:scale-[1.6] w-[32px]">
               <img src={Character} alt="logo" className='rounded-full' />
-            </Link>
+            </div>
           </div>
           <div className={IconStyle}>
-            <Link
-              to='home'
+            <NavLink
+              to='/'
               activeClass='active'
-              smooth={true}
-              spy={true}
-              offset={-200}
               className='cursor-pointer flex items-center justify-center hover:text-white'>
               <BiHomeAlt />
-            </Link>
+            </NavLink>
           </div>
           <div className={IconStyle}>
-            <Link
-              to='about'
+            <NavLink
+              to='/about'
               activeClass='active'
-              smooth={true}
-              spy={true}
               className='cursor-pointer flex items-center justify-center hover:text-white'>
               <BiUser />
-            </Link>
+            </NavLink>
           </div>
           <div className={IconStyle}>
-            <Link
-              to='work'
+            <NavLink
+              to='/work'
               activeClass='active'
-              smooth={true}
-              spy={true}
               className='cursor-pointer flex items-center justify-center hover:text-white'>
               <BsBriefcase />
-            </Link>
+            </NavLink>
           </div>
           <div className={IconStyle}>
-            <Link
-              to='contact'
+            <NavLink
+              to='/contact'
               activeClass='active'
-              smooth={true}
-              spy={true}
               className='cursor-pointer flex items-center justify-center hover:text-white'>
               <LuContact />
-            </Link>
+            </NavLink>
           </div>
-          <button className='btn text-sm cursor-pointer px-5 py-[9px] max-sm:hidden'>
+          <NavLink to="https://www.linkedin.com/in/omkarkarale541/" className='btn text-sm cursor-pointer px-5 py-[9px] max-sm:hidden'>
             <span className='animate-pulse'>Hire Me ✨</span>
-          </button>
+          </NavLink>
         </div>
       </div>
     </nav>

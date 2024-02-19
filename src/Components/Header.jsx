@@ -2,15 +2,17 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import Logo from '../assets/Character.png'
+import { NavLink } from 'react-router-dom'
 
 const Header = () => {
+
   return (
-    <header id='header' className='py-3 backdrop-blur fixed top-0 left-0 z-40 w-full'>
+    <header className='py-5 lg:py-3 backdrop-blur fixed top-0 left-0 z-40 w-full'>
       <div className='container flex justify-between items-center mx-auto md:px-10'>
         <div data-aos="fade-down" data-aos-duration="2000" className='flex items-center gap-2'>
-          <a href="#" className=''>
+          <div>
             <img src={Logo} alt='MyLogo' className='w-10 h-10' />
-          </a>
+          </div>
           <div>
             <span className='text-gradient font-bold text-xl tracking-widest'>OMKAR</span> &nbsp;
             <span className='text-xl font-bold'>KARALE</span>

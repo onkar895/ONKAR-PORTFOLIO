@@ -1,12 +1,13 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useEffect, Suspense } from "react";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header';
-import Banner from './Components/Banner';
-import NavBar from './Components/NavBar';
-import About from './Components/About';
-import Work from './Components/Work';
-import Contact from './Components/Contact';
 import { BarLoader } from "react-spinners";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Work from "./Pages/Work";
+import Contact from "./Pages/Contact";
+import NavBar from "./Components/NavBar";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -29,17 +30,21 @@ function App() {
       >
         {
           loading ? (
-            <div className="bg-no-repeat bg-cover overflow-hidden bg-gray-900 h-screen w-full flex items-center justify-center">
+            <div className="bg-gray-900 w-full h-screen flex items-center justify-center">
               <BarLoader className="text-gradient" height={6} />
             </div>
           ) : (
-            <div className='bg-no-repeat bg-cover overflow-hidden bg-gray-900'>
-              <Header />
-              <Banner />
-              <NavBar />
-              <About />
-              <Work />
-              <Contact />
+            <div className='bg-gray-900 w-full flex items-center justify-center'>
+              <Router>
+                <Header />
+                <NavBar />
+                <Routes>
+                  <Route exact path="/" element={<Home />} />
+                  <Route exact path="/about" element={<About />} />
+                  <Route exact path="/work" element={<Work />} />
+                  <Route exact path="/contact" element={<Contact />} />
+                </Routes>
+              </Router>
             </div>
           )
         }
