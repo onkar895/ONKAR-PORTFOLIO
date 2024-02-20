@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import React, { useState, useEffect, Suspense } from "react";
+import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header';
 import { BarLoader } from "react-spinners";
@@ -20,36 +20,24 @@ function App() {
   }, []);
 
   return (
-    <>
-      <Suspense
-        fallback={
-          <div className="h-screen w-full flex items-center justify-center btn">
-            <BarLoader className="text-gradient" height={6} />
-          </div>
-        }
-      >
-        {
-          loading ? (
-            <div className="bg-gray-900 w-full h-screen flex items-center justify-center">
-              <BarLoader className="text-gradient" height={6} />
-            </div>
-          ) : (
-            <div className='bg-gray-900 w-full flex items-center justify-center'>
-              <Router>
-                <Header />
-                <NavBar />
-                <Routes>
-                  <Route exact path="/" element={<Home />} />
-                  <Route exact path="/about" element={<About />} />
-                  <Route exact path="/work" element={<Work />} />
-                  <Route exact path="/contact" element={<Contact />} />
-                </Routes>
-              </Router>
-            </div>
-          )
-        }
-      </Suspense>
-    </>
+    <div className={loading ? "setBackground w-full h-screen flex items-center justify-center" : "setBackground w-full flex items-center justify-center"}>
+      {
+        loading ? (
+          <BarLoader className="text-gradient" height={6} />
+        ) : (
+          <Router>
+            <Header />
+            <NavBar />
+            <Routes>
+              <Route exact path="/" element={<Home />} />
+              <Route exact path="/about" element={<About />} />
+              <Route exact path="/work" element={<Work />} />
+              <Route exact path="/contact" element={<Contact />} />
+            </Routes>
+          </Router>
+        )
+      }
+    </div>
   );
 }
 

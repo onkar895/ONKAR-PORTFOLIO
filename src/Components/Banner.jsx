@@ -17,7 +17,7 @@ const Banner = () => {
         <div className='flex max-sm:flex-wrap-reverse items-center'>
           <div className='flex flex-col gap-2 max-sm:mt-10 max-sm:mx-auto max-sm:text-center'>
             <div className='max-sm:space-y-4 space-y-2'>
-              <h1 data-aos="fade-up" data-aos-duration="2000" className='flex items-center gap-2 text-sm animate-pulse text-gray-400 max-sm:justify-center'>Hello there ! <img src={HII} alt="" className='w-5 h-5 hover:scale-125 cursor-pointer' /></h1>
+              <h1 data-aos="fade-up" data-aos-duration="2000" className='flex items-center gap-2 lg:text-sm text-2xl animate-pulse text-gray-400 max-sm:justify-center'>Hello there ! <img src={HII} alt="" className='w-7 h-7 lg:w-5 lg:h-5 hover:scale-125 cursor-pointer' /></h1>
               <h1 data-aos="fade-up" data-aos-duration="2000" className='font-bold py-2 text-[40px]'> I'm Omkar <span>Karale</span> </h1>
               <div className='text-[20px] font-semibold uppercase'>
                 <TypeAnimation
@@ -38,13 +38,14 @@ const Banner = () => {
                 <h1 data-aos="fade-up" data-aos-duration="2000" className='text-gray-300 max-sm:text-sm'>LET'S BUILD SOMETHING TOGETHER...</h1>
               </div>
               <div data-aos="fade-up" data-aos-duration="2000" className='flex flex-wrap justify-between max-sm:px-3 lg:w-[77.2%] max-sm:gap-y-8 md:gap-y-5 lg:gap-y-0 py-1 cursor-pointer'>
-                <div className='flex items-center gap-2 text-sm btn px-6'>
-                  <a href="https://drive.google.com/file/d/1TmtA6Ft8Pc5-cBfQF66-Xm0NvO7dEapp/view?usp=drive_link" >Resume
-                  </a>
+                <NavLink to='https://drive.google.com/file/d/1TmtA6Ft8Pc5-cBfQF66-Xm0NvO7dEapp/view?usp=drive_link' className='flex items-center gap-2 text-sm btn px-6'>
+                  <span>Resume</span>
                   <FiDownload className='text-xs' />
-                </div>
+                </NavLink>
                 <NavLink to='/contact'
-                  className='border border-gray-600 rounded-full px-8 py-2 text-gradient text-sm cursor-pointer'>Contact</NavLink>
+                  className='border border-gray-600 rounded-full px-8 py-2 text-gradient text-sm cursor-pointer'>
+                  <span className='font-bolder'>Contact</span>
+                </NavLink>
 
                 <div className="flex gap-x-8 max-sm:gap-10 max-w-max overflow-hidden text-xl max-sm:mx-auto"
                 >
@@ -77,7 +78,7 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div data-aos="fade-down" data-aos-duration="2000" className='hidden lg:flex'>
+          <div data-aos="fade-down" data-aos-duration="2000" className='hidden lg:flex rounded-full'>
             <img
               className="object-cover md:h-[95%] lg:w-[60vw] md:w-[100vw] sm:m-0 rounded-full cursor-pointer hover:scale-110 transition-all duration-700"
               src="https://i.postimg.cc/Y2392L4K/Mypic-Photoroom-png-Photoroom.png"
