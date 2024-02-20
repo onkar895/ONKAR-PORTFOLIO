@@ -78,7 +78,7 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div data-aos="fade-down" data-aos-duration="2000" className='hidden lg:flex rounded-full'>
+          <div data-aos="fade-left" data-aos-duration="2000" className='hidden lg:flex rounded-full'>
             <img
               className="object-cover md:h-[95%] lg:w-[60vw] md:w-[100vw] sm:m-0 rounded-full cursor-pointer hover:scale-110 transition-all duration-700"
               src="https://i.postimg.cc/Y2392L4K/Mypic-Photoroom-png-Photoroom.png"

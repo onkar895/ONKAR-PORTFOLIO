@@ -4,9 +4,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header';
 import { BarLoader } from "react-spinners";
 import Home from "./Pages/Home";
-import About from "./Pages/About";
-import Work from "./Pages/Work";
-import Contact from "./Pages/Contact";
+import AboutPage from "./Pages/AboutPage";
+import ContactPage from "./Pages/ContactPage";
+import WorkPage from "./Pages/WorkPage";
 import NavBar from "./Components/NavBar";
 
 function App() {
@@ -30,9 +30,9 @@ function App() {
             <NavBar />
             <Routes>
               <Route exact path="/" element={<Home />} />
-              <Route exact path="/about" element={<About />} />
-              <Route exact path="/work" element={<Work />} />
-              <Route exact path="/contact" element={<Contact />} />
+              <Route exact path="/about" element={<AboutPage />} />
+              <Route exact path="/work" element={<WorkPage />} />
+              <Route exact path="/contact" element={<ContactPage />} />
             </Routes>
           </Router>
         )

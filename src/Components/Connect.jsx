@@ -10,15 +10,15 @@ import { NavLink } from 'react-router-dom';
 
 const Connect = () => {
   return (
-    <div className="lg:w-[33.33%] w-full shadow-inner shadow-cyan-800 hover:shadow hover:shadow-cyan-300 bg-transparent backdrop-blur rounded-xl py-6 px-7 overflow-hidden cursor-pointer hover:scale-95 transition-all duration-300">
+    <div className="lg:w-[33.33%] w-full shadow-inner shadow-cyan-900 hover:shadow hover:shadow-cyan-300 bg-transparent backdrop-blur rounded-xl py-6 px-7 overflow-hidden cursor-pointer hover:scale-95 transition-all duration-300">
       <h3 data-aos="fade-up" data-aos-duration="2000" className="font-bold lg:text-lg text-2xl text-gradient tracking-wide text-center">Connect & Follow</h3>
-      <div data-aos="fade-up" data-aos-duration="2000" className='flex flex-wrap gap-12 lg:py-6 py-10 mx-auto justify-center'>
+      <div data-aos="fade-up" data-aos-duration="2000" className='flex flex-wrap gap-12 lg:py-6 py-10 mx-auto px-6'>
         <div className='flex items-center gap-14'>
           <NavLink to="https://github.com/onkar895" className='flex items-center gap-3'>
             <div className="backdrop-blur rounded-full p-2 bg-white text-black">
               <PiGithubLogoFill className='transition-all duration-500 hover:scale-125 text-2xl' />
             </div>
-            <div className='text-sm'>
+            <div className='text-sm text-gray-400 hover:text-white'>
               <span>GitHub</span>
             </div>
           </NavLink>
@@ -26,7 +26,7 @@ const Connect = () => {
             <div className="backdrop-blur rounded-full p-2 bg-blue-500 text-white">
               <FaLinkedinIn className='transition-all duration-500 hover:scale-125 text-2xl' />
             </div>
-            <div className='text-sm'>
+            <div className='text-sm text-gray-400 hover:text-white'>
               <span>LinkedIn</span>
             </div>
           </NavLink>
@@ -36,7 +36,7 @@ const Connect = () => {
             <div className="backdrop-blur rounded-full p-2 bg-red-500 text-white">
               <MdEmail className='transition-all duration-500 hover:scale-125 text-2xl' />
             </div>
-            <div className='text-sm'>
+            <div className='text-sm text-gray-400 hover:text-white'>
               <span>E-mail</span>
             </div>
           </div>
@@ -44,7 +44,7 @@ const Connect = () => {
             <div className="backdrop-blur rounded-full p-2 bg-purple-600 text-white">
               <FaDiscord className='transition-all duration-500 hover:scale-125 text-2xl' />
             </div>
-            <div className='text-sm'>
+            <div className='text-sm text-gray-400 hover:text-white'>
               <span>Discord</span>
             </div>
           </NavLink>
@@ -54,7 +54,7 @@ const Connect = () => {
           <div className="backdrop-blur rounded-full p-2 bg-black text-white shadow-inner shadow-gray-400">
             <FaXTwitter className='transition-all duration-500 hover:scale-125 text-2xl' />
           </div>
-          <div className='text-sm'>
+          <div className='text-sm text-gray-400 hover:text-white'>
             <span>Twitter</span>
           </div>
         </NavLink>
