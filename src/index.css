@@ -79,7 +79,4 @@
     .text-gradient {
         @apply bg-gradient-to-r text-transparent bg-clip-text from-[#47A3FA] via-[#B855F9] to-[#F8829E] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
     }
-    .section {
-        @apply py-20 flex items-center;
-    }
 }

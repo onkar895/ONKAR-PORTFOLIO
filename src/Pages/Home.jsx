@@ -9,9 +9,11 @@ const Home = () => {
   return (
     <div className='my-28'>
       <Banner />
-      <About />
-      <Work />
-      <Contact />
+      <div className='flex flex-col gap-3 my-24'>
+        <About />
+        <Work />
+        <Contact />
+      </div>
     </div>
   )
 }

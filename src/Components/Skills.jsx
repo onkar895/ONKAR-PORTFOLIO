@@ -7,9 +7,9 @@ import { FaReact, FaBootstrap, FaGithub, FaGitAlt } from "react-icons/fa";
 
 const Skills = () => {
   return (
-    <div className="lg:w-[33.33%] w-full shadow-inner shadow-cyan-200 hover:shadow hover:shadow-cyan-300  bg-transparent backdrop-blur-2xl rounded-xl py-6 px-7 overflow-hidden cursor-pointer hover:scale-95 transition-all duration-300">
-      <h3 className="font-bold lg:text-lg text-2xl text-gradient tracking-wide text-center">Skills</h3>
-      <div className="flex gap-x-10 gap-y-10 flex-wrap lg:py-6 py-10 max-sm:mx-auto justify-center">
+    <div className="lg:w-[33.33%] w-full shadow-inner shadow-cyan-800 hover:shadow hover:shadow-cyan-300  bg-transparent backdrop-blur rounded-xl py-6 px-7 overflow-hidden cursor-pointer hover:scale-95 transition-all duration-300">
+      <h3 data-aos="fade-up" data-aos-duration="2000" className="font-bold lg:text-lg text-2xl text-gradient tracking-wide text-center">Skills</h3>
+      <div data-aos="fade-up" data-aos-duration="2000" className="flex gap-x-10 gap-y-10 flex-wrap lg:py-6 py-10 max-sm:mx-auto justify-center">
         <div className='bg-white p-2 rounded-xl'>
           <IoLogoHtml5 className='text-orange-500 text-3xl' />
         </div>
