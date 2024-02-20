@@ -7,7 +7,7 @@ import WorkData from '../Components/WorkData'
 const Work = () => {
   return (
     <section data-aos="fade-up" data-aos-duration="2000" className='container mx-auto md:px-12 w-full'>
-      <div className='shadow-inner shadow-cyan-800 bg-transparent backdrop-blur rounded-xl pt-8'>
+      <div className='shadow-inner shadow-cyan-900 bg-transparent backdrop-blur rounded-xl pt-8'>
         <div className='flex flex-col items-center max-sm:justify-center gap-y-3 px-3'>
           <h2 className='font-bold text-xl'>Works & Projects</h2>
           <div className='text-center'>
@@ -15,7 +15,7 @@ const Work = () => {
             <p className='text-sm text-gray-400'>each one perfectly captures the heart and soul I've put into each and every detail.</p>
           </div>
         </div>
-        <div className='flex flex-wrap items-center lg:gap-[1rem] gap-[2rem] mx-auto justify-center py-8 px-3'>
+        <div className='flex justify-center relative flex-wrap items-center overflow-hidden lg:gap-[1rem] gap-[2rem] mx-auto pt-8 px-3'>
           {
             data.map((info) => {
               return (
