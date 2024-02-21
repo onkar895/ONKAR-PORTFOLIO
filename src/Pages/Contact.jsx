@@ -46,7 +46,7 @@ const Contact = () => {
   return (
     <section className='section'>
       <div className='container mx-auto md:px-12 w-full'>
-        <div data-aos="fade-up" data-aos-duration="2000" className='py-6 mx-auto text-center font-bold lg:text-xl text-3xl'>
+        <div data-aos="fade-up" data-aos-duration="2000" className='py-6 mx-auto text-center font-bold lg:text-xl text-2xl'>
           <h2>Contact Me</h2>
           <span className='flex text-sm text-gray-400 mt-3'>Appreciate you taking the time to browse my portfolio! If you have any inquiries or opportunities, feel free to reach out. I'm always up for collaboration and embracing new challenges.</span>
         </div>

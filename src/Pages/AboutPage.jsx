@@ -6,7 +6,7 @@ import Footer from '../Components/Footer'
 const AboutPage = () => {
   return (
     <div className='space-y-5'>
-      <div className='mt-6 space-y-5'>
+      <div className='lg:mt-6 mt-12 space-y-5'>
         <About />
         <Footer />
       </div>
