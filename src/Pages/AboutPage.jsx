@@ -8,7 +8,7 @@ const AboutPage = () => {
     <div className='space-y-5 my-16'>
       <About />
       <Footer />
-      <div className='text-center mt-10'>
+      <div className='text-center'>
         <span className='text-xs'><span className='text-gray-400'>@2024,</span> Omkar Karale 😍</span>
       </div>
     </div>
