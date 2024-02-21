@@ -8,8 +8,8 @@ const Footer = () => {
   return (
     <section data-aos="fade-up" data-aos-duration="2000" className='container mx-auto md:px-12 w-full'>
       <div className='flex max-sm:flex-col items-center shadow-inner shadow-cyan-900 bg-transparent backdrop-blur rounded-xl py-8 px-20'>
-        <div data-aos="fade-right" data-aos-duration="2000" className='lg:w-[30vw]'>
-          <img src={Image} alt="GIF" className='w-full lg:h-[45vh] h-[20vh]' />
+        <div data-aos="fade-right" data-aos-duration="2000">
+          <img src={Image} alt="GIF" className='w-full lg:h-[45vh] h-[22vh] cursor-pointer' />
         </div>
         <div data-aos="fade-up" data-aos-duration="2000" className='flex flex-col gap-4 lg:w-2/4 md:w-[100vw] max-sm:w-[85vw] text-justify'>
           <div className='lg:text-3xl text-xl font-semibold'>

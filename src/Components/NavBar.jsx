@@ -1,12 +1,19 @@
 /* eslint-disable no-unused-vars */
-import React from 'react'
+import React, { useEffect } from 'react'
 import { BiHomeAlt, BiUser } from 'react-icons/bi'
 import { BsBriefcase } from 'react-icons/bs'
+import { useLocation } from 'react-router-dom';
 import { LuContact } from "react-icons/lu";
 import { NavLink } from 'react-router-dom';
 import Character from '../assets/Character.png'
 
 const NavBar = () => {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
 
   const IconStyle = "w-[40px] h-[40px] flex items-center justify-center flex-short rounded-full custom-border hover:bg-white/5 box-shadow border border-white/10 shadow-2xl group overflow-hidden hover:overflow-hidden cursor-pointer"
 
