@@ -15,9 +15,9 @@ const Banner = () => {
     <section className='flex items-center md:mt-5'>
       <div className='container mx-auto md:px-12'>
         <div className='flex max-sm:flex-wrap-reverse items-center'>
-          <div className='flex flex-col gap-2 max-sm:mt-10 max-sm:mx-auto max-sm:text-center'>
+          <div className='flex flex-col gap-2 max-sm:mt-10 max-sm:mx-auto text-center lg:text-start'>
             <div className='max-sm:space-y-4 space-y-2'>
-              <h1 data-aos="fade-up" data-aos-duration="2000" className='flex items-center gap-2 lg:text-sm text-2xl animate-pulse text-gray-400 max-sm:justify-center'>Hello there ! <img src={HII} alt="" className='w-7 h-7 lg:w-5 lg:h-5 hover:scale-125 cursor-pointer' /></h1>
+              <h1 data-aos="fade-up" data-aos-duration="2000" className='flex items-center gap-2 lg:text-sm text-2xl animate-pulse text-gray-400 justify-center lg:justify-start'>Hello there ! <img src={HII} alt="" className='w-7 h-7 lg:w-5 lg:h-5 hover:scale-125 cursor-pointer' /></h1>
               <h1 data-aos="fade-up" data-aos-duration="2000" className='font-bold py-2 text-[40px]'> I'm Omkar <span>Karale</span> </h1>
               <div className='text-[20px] font-semibold uppercase'>
                 <TypeAnimation

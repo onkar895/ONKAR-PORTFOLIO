@@ -7,8 +7,8 @@ import Connect from '../Components/Connect'
 const About = () => {
 
   return (
-    <section className='section'>
-      <div className='container mx-auto md:px-12 mt-20 w-full'>
+    <section data-aos="fade-up" data-aos-duration="2000" className='lg:mt-16'>
+      <div className='container mx-auto md:px-12 w-full'>
         <div data-aos="fade-up" data-aos-duration="2000" className='py-6 mx-auto text-center font-bold lg:text-xl text-3xl'>
           <h2>About Me</h2>
         </div>

@@ -62,7 +62,7 @@ const Connect = () => {
       <div className='w-[100%] h-[0.3px] bg-gray-700 mt-10'>
 
       </div>
-      <div data-aos="fade-up" data-aos-duration="2000" className='flex items-center gap-3 mt-[1.5rem] mx-auto justify-center'>
+      <div className='flex items-center gap-3 mt-[1.5rem] mx-auto justify-center'>
         <div className="w-[40px] h-[40px] flex items-center justify-center flex-short rounded-full custom-border box-shadow bg-white group overflow-hidden hover:overflow-hidden cursor-pointer">
           <div className="scale-[1.3] transition group-hover:scale-[1.6] w-[32px]">
             <img src={Character} alt="logo" className='rounded-full' />

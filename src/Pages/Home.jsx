@@ -7,9 +7,9 @@ import Footer from '../Components/Footer';
 
 const Home = () => {
   return (
-    <div className='my-28'>
+    <div className='lg:my-24 my-20'>
       <Banner />
-      <div className='flex flex-col gap-3 my-8'>
+      <div className='flex flex-col lg:gap-10 gap-6 my-8'>
         <About />
         <Work />
         <Footer />
