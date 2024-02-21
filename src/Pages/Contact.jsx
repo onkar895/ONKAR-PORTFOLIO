@@ -81,9 +81,11 @@ const Contact = () => {
                 className="text-base custom-border px-4 lg:py-3 py-4 rounded-lg flex-short gap-2 bg-cyan-400 bg-opacity-5 transition-all group shadow-2xl hover:bg-black/20 cursor-pointer"
               />
             </form>
-            {messageSent && (
-              <p className="text-sm text-gradient mt-2 mx-2">Thank you! The message has been sent successfully.</p>
-            )}
+            {
+              messageSent && (
+                <p className="text-sm text-center text-gradient mt-2 mx-2">Thank you! The message has been sent successfully.</p>
+              )
+            }
           </div>
         </div>
       </div>

@@ -5,10 +5,12 @@ import Footer from '../Components/Footer'
 
 const AboutPage = () => {
   return (
-    <div className='space-y-5 my-16'>
-      <About />
-      <Footer />
-      <div className='text-center'>
+    <div className='space-y-5'>
+      <div className='mt-6 space-y-5'>
+        <About />
+        <Footer />
+      </div>
+      <div className='text-center pb-20'>
         <span className='text-xs'><span className='text-gray-400'>@2024,</span> Omkar Karale 😍</span>
       </div>
     </div>
