@@ -1,8 +1,9 @@
 /* eslint-disable no-unused-vars */
-import React from 'react'
+// Home.js
+import React from 'react';
 import Banner from '../Components/Banner';
 import About from './About';
-import Work from './Work'
+import Work from './Work';
 import Footer from '../Components/Footer';
 
 const Home = () => {
@@ -18,7 +19,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
