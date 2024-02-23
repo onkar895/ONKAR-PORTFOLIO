@@ -8,9 +8,9 @@ import Footer from '../Components/Footer';
 
 const Home = () => {
   return (
-    <div className='lg:my-28 my-20'>
+    <div className='md:my-28 my-20'>
       <Banner />
-      <div className='flex flex-col lg:gap-10 gap-6 mt-8'>
+      <div className='flex flex-col gap-6 mt-8'>
         <About />
         <Work />
         <Footer />
