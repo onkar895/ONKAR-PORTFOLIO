@@ -66,7 +66,7 @@ const Banner = () => {
                     </a>
                   </div>
                   <div className="bg-transparent backdrop-blur rounded-full border border-gray-600 text-white/50 p-2 hover:bg-purple-600 hover:text-white">
-                    <a href="https://discord.com/users/Onkar895">
+                    <a href="https://discord.com/users/1141731321027231855">
                       <FaDiscord className='transition-all duration-500 hover:scale-125' />
                     </a>
                   </div>

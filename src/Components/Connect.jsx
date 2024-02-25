@@ -40,7 +40,7 @@ const Connect = () => {
               <span>Twitter</span>
             </div>
           </NavLink>
-          <NavLink to="https://discord.com/users/Onkar895" className='flex items-center gap-2'>
+          <NavLink to="https://discord.com/users/1141731321027231855" className='flex items-center gap-2'>
             <div className="backdrop-blur rounded-full p-2 bg-purple-600 text-white">
               <FaDiscord className='transition-all duration-500 hover:scale-125 text-2xl' />
             </div>
