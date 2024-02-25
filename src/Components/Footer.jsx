@@ -16,7 +16,7 @@ const Footer = () => {
             <h1>Ready to ignite your project with a sprinkle of magic?</h1>
           </div>
           <div className='flex text-justify'>
-            <span className='text-xs text-gray-400'>
+            <span className='text-xs font-bold text-gray-400'>
               <span className='text-xs text-white'>
                 Reach out to collaborate and make things happen ✨
               </span>

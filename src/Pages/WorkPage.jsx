@@ -9,7 +9,7 @@ const WorkPage = () => {
       <Work />
       <Footer />
       <div className='text-center mt-10'>
-        <span className='text-xs'><span className='text-gray-400'>@2024,</span> Omkar Karale 😍</span>
+        <span className='text-xs font-bold'><span className='text-gray-400'>@2024,</span> Omkar Karale 😍</span>
       </div>
     </div>
   )

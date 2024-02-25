@@ -34,8 +34,8 @@ const WorkData = ({ info }) => {
       </div>
       <div className='flex flex-col rounded-b-xl py-2 text-center max-sm:gap-1 backdrop-blur shadow-inner shadow-cyan-900'>
         <p className='font-bold text-gray-300 max-sm:text-xl'>{info.title}</p>
-        <p className='text-xs text-gray-400'>{info.desc}</p>
-        <div className='text-xs text-gray-400 md:mt-1'>
+        <p className='text-xs md:font-bold text-gray-400'>{info.desc}</p>
+        <div className='text-xs md:font-bold text-gray-400 md:mt-1'>
           <span>Note : Please hover on the Image to get the project links</span>
         </div>
       </div>

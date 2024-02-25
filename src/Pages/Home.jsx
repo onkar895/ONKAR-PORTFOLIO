@@ -15,7 +15,7 @@ const Home = () => {
         <Work />
         <Footer />
         <div className='text-center'>
-          <span className='text-xs'><span className='text-gray-400'>@2024,</span> Omkar Karale 😍</span>
+          <span className='text-xs md:font-bold'><span className='text-gray-400'>@2024,</span> Omkar Karale 😍</span>
         </div>
       </div>
     </div>

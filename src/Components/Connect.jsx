@@ -14,7 +14,7 @@ const Connect = () => {
       <h3 data-aos="fade-up" data-aos-duration="2000" className="font-bold lg:text-lg text-2xl text-gradient tracking-wide text-center">Connect & Follow</h3>
       <div data-aos="fade-up" data-aos-duration="2000" className='flex flex-wrap gap-12 lg:py-6 py-10 mx-auto px-6'>
         <div className='flex items-center gap-14'>
-          <NavLink to="https://github.com/onkar895" className='flex items-center gap-3'>
+          <NavLink to="https://github.com/onkar895" className='flex items-center gap-2'>
             <div className="backdrop-blur rounded-full p-2 bg-white text-black">
               <PiGithubLogoFill className='transition-all duration-500 hover:scale-125 text-2xl' />
             </div>
@@ -22,7 +22,7 @@ const Connect = () => {
               <span>GitHub</span>
             </div>
           </NavLink>
-          <NavLink to="https://www.linkedin.com/in/omkarkarale541/" className='flex items-center gap-4'>
+          <NavLink to="https://www.linkedin.com/in/omkarkarale541/" className='flex items-center gap-2'>
             <div className="backdrop-blur rounded-full p-2 bg-blue-500 text-white">
               <FaLinkedinIn className='transition-all duration-500 hover:scale-125 text-2xl' />
             </div>
@@ -31,16 +31,16 @@ const Connect = () => {
             </div>
           </NavLink>
         </div>
-        <NavLink to="mailto:onkarkarale4@gmail.com" className='flex items-center gap-14'>
-          <div className='flex items-center gap-4'>
-            <div className="backdrop-blur rounded-full p-2 bg-red-500 text-white">
-              <MdEmail className='transition-all duration-500 hover:scale-125 text-2xl' />
+        <div className='flex items-center gap-14'>
+          <NavLink to="https://twitter.com/Onkar895" className='flex items-center gap-2'>
+            <div className="backdrop-blur rounded-full p-2 bg-black text-white shadow-inner shadow-gray-400">
+              <FaXTwitter className='transition-all duration-500 hover:scale-125 text-2xl' />
             </div>
             <div className='text-sm text-gray-400 hover:text-white'>
-              <span>E-mail</span>
+              <span>Twitter</span>
             </div>
-          </div>
-          <NavLink to="https://discord.com/users/Onkar895" className='flex items-center gap-4'>
+          </NavLink>
+          <NavLink to="https://discord.com/users/Onkar895" className='flex items-center gap-2'>
             <div className="backdrop-blur rounded-full p-2 bg-purple-600 text-white">
               <FaDiscord className='transition-all duration-500 hover:scale-125 text-2xl' />
             </div>
@@ -48,14 +48,13 @@ const Connect = () => {
               <span>Discord</span>
             </div>
           </NavLink>
-        </NavLink>
-
-        <NavLink to="https://twitter.com/Onkar895" className='flex items-center gap-4'>
-          <div className="backdrop-blur rounded-full p-2 bg-black text-white shadow-inner shadow-gray-400">
-            <FaXTwitter className='transition-all duration-500 hover:scale-125 text-2xl' />
+        </div>
+        <NavLink to="mailto:onkarkarale4@gmail.com" className='flex items-center gap-2'>
+          <div className="backdrop-blur rounded-full p-2 bg-red-500 text-white">
+            <MdEmail className='transition-all duration-500 hover:scale-125 text-2xl' />
           </div>
           <div className='text-sm text-gray-400 hover:text-white'>
-            <span>Twitter</span>
+            <span>E-mail</span>
           </div>
         </NavLink>
       </div>
@@ -68,7 +67,7 @@ const Connect = () => {
             <img src={Character} alt="logo" className='rounded-full' />
           </div>
         </div>
-        <div className='text-xs flex flex-col gap-1 text-gray-400'>
+        <div className='text-xs flex flex-col gap-1 text-gray-400 font-bold'>
           <span>Let's Build Something Together!</span>
           <p><span className='text-white'>Send Email to :</span> onkarkarale4@gmail.com</p>
         </div>
