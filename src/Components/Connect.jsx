@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import { FaLinkedinIn } from 'react-icons/fa';
-import { FaXTwitter, FaDiscord } from 'react-icons/fa6';
+import { FaXTwitter, FaWhatsapp } from 'react-icons/fa6';
 import { MdEmail } from 'react-icons/md';
 import { PiGithubLogoFill } from 'react-icons/pi';
 import Character from '../assets/Character.png';
@@ -13,7 +13,7 @@ const Connect = () => {
     <div className="lg:w-[33.33%] w-full shadow-inner shadow-cyan-900 hover:shadow hover:shadow-cyan-300 bg-transparent backdrop-blur rounded-xl py-6 px-7 overflow-hidden cursor-pointer hover:scale-95 transition-all duration-300">
       <h3 data-aos="fade-up" data-aos-duration="2000" className="font-bold lg:text-lg text-2xl text-gradient tracking-wide text-center">Connect & Follow</h3>
       <div data-aos="fade-up" data-aos-duration="2000" className='flex flex-wrap gap-12 lg:py-6 py-10 mx-auto px-6'>
-        <div className='flex items-center gap-14'>
+        <div className='flex items-center gap-12'>
           <NavLink to="https://github.com/onkar895" className='flex items-center gap-2'>
             <div className="backdrop-blur rounded-full p-2 bg-white text-black">
               <PiGithubLogoFill className='transition-all duration-500 hover:scale-125 text-2xl' />
@@ -31,7 +31,7 @@ const Connect = () => {
             </div>
           </NavLink>
         </div>
-        <div className='flex items-center gap-14'>
+        <div className='flex items-center gap-12'>
           <NavLink to="https://twitter.com/Onkar895" className='flex items-center gap-2'>
             <div className="backdrop-blur rounded-full p-2 bg-black text-white shadow-inner shadow-gray-400">
               <FaXTwitter className='transition-all duration-500 hover:scale-125 text-2xl' />
@@ -40,16 +40,16 @@ const Connect = () => {
               <span>Twitter</span>
             </div>
           </NavLink>
-          <NavLink to="https://discord.com/users/1141731321027231855" className='flex items-center gap-2'>
-            <div className="backdrop-blur rounded-full p-2 bg-purple-600 text-white">
-              <FaDiscord className='transition-all duration-500 hover:scale-125 text-2xl' />
+          <NavLink to="https://wa.me/9921374887" className='flex items-center gap-2'>
+            <div className="backdrop-blur rounded-full p-2 bg-green-500 text-white">
+              <FaWhatsapp className='transition-all duration-500 hover:scale-125 text-2xl' />
             </div>
             <div className='text-sm text-gray-400 hover:text-white'>
-              <span>Discord</span>
+              <span>Whatsapp</span>
             </div>
           </NavLink>
         </div>
-        <NavLink to="mailto:onkarkarale4@gmail.com" className='flex items-center gap-2'>
+        <NavLink to="mailto:onkarkarale4@gmail.com" className='flex items-center gap-2 ml-[2px]'>
           <div className="backdrop-blur rounded-full p-2 bg-red-500 text-white">
             <MdEmail className='transition-all duration-500 hover:scale-125 text-2xl' />
           </div>

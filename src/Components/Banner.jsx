@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import { FaLinkedinIn } from "react-icons/fa";
-import { FaXTwitter, FaDiscord } from "react-icons/fa6";
+import { FaXTwitter, FaWhatsapp } from "react-icons/fa6";
 import { FiDownload } from "react-icons/fi";
 import { MdEmail } from "react-icons/md";
 import { PiGithubLogoFill } from "react-icons/pi";
@@ -65,9 +65,9 @@ const Banner = () => {
                       <MdEmail className='transition-all duration-500 hover:scale-125' />
                     </a>
                   </div>
-                  <div className="bg-transparent backdrop-blur rounded-full border border-gray-600 text-white/50 p-2 hover:bg-purple-600 hover:text-white">
-                    <a href="https://discord.com/users/1141731321027231855">
-                      <FaDiscord className='transition-all duration-500 hover:scale-125' />
+                  <div className="bg-transparent backdrop-blur rounded-full border border-gray-600 text-white/50 p-2 hover:bg-green-500 hover:text-white">
+                    <a href=" https://wa.me/9921374887">
+                      <FaWhatsapp className='transition-all duration-500 hover:scale-125' />
                     </a>
                   </div>
                   <div className="bg-transparent backdrop-blur rounded-full border border-gray-600 text-white/50 p-2 hover:bg-black hover:text-white">
