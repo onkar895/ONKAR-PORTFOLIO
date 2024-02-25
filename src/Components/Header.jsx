@@ -14,8 +14,8 @@ const Header = () => {
             <img src={Logo} alt='MyLogo' className='w-10 h-10' />
           </div>
           <div>
-            <span className='text-gradient font-bold text-xl tracking-widest'>OMKAR</span> &nbsp;
-            <span className='text-xl font-bold'>KARALE</span>
+            <span className='text-gradient text-xl tracking-widest font-bold'>OMKAR</span> &nbsp;
+            <span className='text-xl tracking-widest font-bold'>KARALE</span>
           </div>
         </div>
         <div data-aos="fade-down" data-aos-duration="2000" className='max-sm:hidden btn px-4 py-2 cursor-pointer text-sm'>
