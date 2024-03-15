@@ -39,7 +39,7 @@ const Banner = () => {
                 <h1 data-aos="fade-up" data-aos-duration="2000" className='text-gray-300 max-sm:text-sm'>LET'S BUILD SOMETHING TOGETHER...</h1>
               </div>
               <div data-aos="fade-up" data-aos-duration="2000" className='flex flex-wrap justify-between max-sm:px-3 lg:w-[77.2%] max-sm:gap-y-8 md:gap-y-5 lg:gap-y-0 py-1 cursor-pointer'>
-                <NavLink to='https://drive.google.com/file/d/1dQZqPeqe5qk4hvtxpy_Oe6eW82NCdTOp/view?usp=sharing' className='flex items-center gap-2 text-sm btn px-6'>
+                <NavLink to='https://drive.google.com/file/d/1fegLt8sCezKwrJKlmZq8ObF1WqHO_XCF/view?usp=sharing' className='flex items-center gap-2 text-sm btn px-6'>
                   <span>Resume</span>
                   <FiDownload className='text-xs' />
                 </NavLink>
