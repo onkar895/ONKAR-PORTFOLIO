@@ -17,8 +17,8 @@ const Banner = () => {
       <div className='container mx-auto md:px-12'>
         <div className='flex items-center'>
           <div className='flex flex-col gap-2 max-sm:mt-10 max-sm:mx-auto items-center'>
-            <div className='max-sm:space-y-4 space-y-2 lg:w-[30vw] w-full flex flex-col items-center'>
-              <h1 data-aos="fade-up" data-aos-duration="2000" className='flex items-center gap-2 lg:text-sm text-2xl animate-pulse text-gray-400 justify-center '>Hello there ! <img src={HII} alt="" className='w-7 h-7 lg:w-5 lg:h-5 hover:scale-125 cursor-pointer' /></h1>
+            <div className='space-y-4 lg:w-[30vw] w-full flex flex-col items-center'>
+              <h1 data-aos="fade-up" data-aos-duration="2000" className='flex items-center gap-2 lg:text-sm text-2xl font-bold animate-pulse text-gray-400 justify-center '>Hello there ! <img src={HII} alt="" className='w-7 h-7 lg:w-5 lg:h-5 hover:scale-125 cursor-pointer' /></h1>
               <h1 data-aos="fade-up" data-aos-duration="2000" className='font-bold py-2 lg:text-[40px] text-[36px] tracking-widest'> I'm Omkar <span>Karale</span></h1>
               <div className='text-[20px] font-semibold uppercase'>
                 <TypeAnimation
@@ -32,8 +32,8 @@ const Banner = () => {
                 />
               </div>
             </div>
-            <div className="mt-2 flex flex-col items-center md:gap-4 gap-6 w-full mx-auto">
-              <p data-aos="fade-up" data-aos-duration="2000" className="text-[1.1rem] lg:w-[77.2%] text-gray-400 sm:text-[.95rem] text-justify">  I’m highly skilled in Frontend Development specializing in building scalable and top-notch web applications,having experience in HTML5, CSS3, Tailwind CSS, Material UI, JavaScript, React.js, Redux.js and Redux-Toolkit to create visually appealing and interactive user interfaces. Currently focusing on learning Node.js, Express.js and MongoDB.
+            <div className="mt-2 flex flex-col items-center md:gap-6 gap-8 w-full mx-auto">
+              <p data-aos="fade-up" data-aos-duration="2000" className="text-[1.1rem] lg:w-[77.2%] text-gray-400 sm:text-[.95rem] text-justify">  I’m highly skilled in Frontend Development specializing in building scalable and top-notch web applications, having experience in HTML5, CSS3, Tailwind CSS, Material UI, JavaScript, React.js, Redux.js and Redux-Toolkit to create visually appealing and interactive user interfaces. Currently focusing on learning Node.js, Express.js and MongoDB.
               </p>
               <div className="tracking-widest shadow-2x font-bold">
                 <h1 data-aos="fade-up" data-aos-duration="2000" className='text-gray-300 max-sm:text-sm'>LET'S BUILD SOMETHING TOGETHER...</h1>
@@ -50,27 +50,27 @@ const Banner = () => {
 
                 <div className="flex gap-x-8 max-sm:gap-10 max-w-max overflow-hidden text-xl max-sm:mx-auto"
                 >
-                  <div className="bg-transparent backdrop-blur rounded-full border border-gray-600 text-white/50 p-2 hover:bg-white hover:text-black ">
+                  <div className="bg-transparent backdrop-blur rounded-full border border-gray-600 text-white p-2 hover:bg-white hover:text-black ">
                     <a href="https://github.com/onkar895">
                       <PiGithubLogoFill className='transition-all duration-500 hover:scale-125' />
                     </a>
                   </div>
-                  <div className="bg-transparent backdrop-blur rounded-full border border-gray-600 text-white/50 p-2 hover:bg-blue-500 hover:text-white">
+                  <div className="bg-transparent backdrop-blur rounded-full border border-gray-600 text-white p-2 hover:bg-blue-500 hover:text-white">
                     <a href="https://www.linkedin.com/in/omkarkarale541/">
                       <FaLinkedinIn className='transition-all duration-500 hover:scale-125' />
                     </a>
                   </div>
-                  <div className="bg-transparent backdrop-blur rounded-full border border-gray-600 text-white/50 p-2 hover:bg-red-500 hover:text-white">
+                  <div className="bg-transparent backdrop-blur rounded-full border border-gray-600 text-white p-2 hover:bg-red-500 hover:text-white">
                     <a href="mailto:onkarkarale4@gmail.com">
                       <MdEmail className='transition-all duration-500 hover:scale-125' />
                     </a>
                   </div>
-                  <div className="bg-transparent backdrop-blur rounded-full border border-gray-600 text-white/50 p-2 hover:bg-green-500 hover:text-white">
+                  <div className="bg-transparent backdrop-blur rounded-full border border-gray-600 text-white p-2 hover:bg-green-500 hover:text-white">
                     <a href=" https://wa.me/9921374887">
                       <FaWhatsapp className='transition-all duration-500 hover:scale-125' />
                     </a>
                   </div>
-                  <div className="bg-transparent backdrop-blur rounded-full border border-gray-600 text-white/50 p-2 hover:bg-black hover:text-white">
+                  <div className="bg-transparent backdrop-blur rounded-full border border-gray-600 text-white p-2 hover:bg-black hover:text-white">
                     <a href="https://twitter.com/Onkar895">
                       <FaXTwitter className='transition-all duration-500 hover:scale-125' />
                     </a>

@@ -14,15 +14,19 @@ const Header = () => {
             <img src={Logo} alt='MyLogo' className='w-10 h-10' />
           </div>
           <div>
-            <span className='text-gradient text-xl tracking-widest font-bold'>OMKAR</span> &nbsp;
-            <span className='text-xl tracking-widest font-bold'>KARALE</span>
+            <span className='text-gradient text-xl tracking-widest'>OMKAR</span> &nbsp;
+            <span className='text-xl tracking-widest '>KARALE</span>
           </div>
         </div>
-        <div data-aos="fade-down" data-aos-duration="2000" className='max-sm:hidden btn px-4 py-2 cursor-pointer text-sm'>
-          WORK WITH ME
+        <div data-aos="fade-down" data-aos-duration="2000" className='max-sm:hidden btn px-4 py-2 cursor-pointer text-sm font-bold'>
+          <NavLink to="https://www.linkedin.com/in/omkarkarale541/">
+            <span>WORK WITH ME</span>
+          </NavLink>
         </div>
-        <div data-aos="fade-down" data-aos-duration="2000" className='md:hidden btn px-8 py-2 cursor-pointer text-sm'>
-          <span className='animate-pulse'>HIRE ME</span>
+        <div data-aos="fade-down" data-aos-duration="2000" className='md:hidden btn px-8 py-2 cursor-pointer text-sm font-bold'>
+          <NavLink to="https://www.linkedin.com/in/omkarkarale541/">
+            <span className='animate-pulse'>HIRE ME</span>
+          </NavLink>
         </div>
       </div>
     </header>
