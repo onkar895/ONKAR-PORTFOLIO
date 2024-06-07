@@ -20,8 +20,8 @@ const Banner = () => {
           <div className='flex flex-col lg:gap-2 gap-4 max-sm:mt-10 max-sm:mx-auto lg:w-[80%] lg:pl-8 md:px-2 lg:px-0'>
             <div className='space-y-4 lg:w-[30vw] w-full flex flex-col max-sm:items-center md:items-center lg:items-start'>
               <h1 data-aos="fade-up" data-aos-duration="2000" className='flex gap-2 lg:text-sm text-2xl font-bold animate-pulse text-gray-400'>Hello there ! <img src={HII} alt="" className='w-7 h-7 lg:w-5 lg:h-5 hover:scale-125 cursor-pointer' /></h1>
-              <h1 data-aos="fade-up" data-aos-duration="2000" className='font-bold py-2 lg:text-[40px] text-[36px] tracking-widest'> I'm Omkar <span>Karale</span></h1>
-              <div className='text-[20px] font-semibold uppercase'>
+              <h1 data-aos="fade-up" data-aos-duration="2000" className='font-bold py-2 lg:text-[40px] text-[36px] min-[320px]:text-[32px] tracking-widest'> I'm Omkar <span>Karale</span></h1>
+              <div className='text-[20px] min-[320px]:text-[18px] font-semibold uppercase'>
                 <TypeAnimation
                   sequence={["Aspiring Frontend Enthusiast", 2000, "Passionate Web Developer", 2000, "Eager Learner of Web Wizardry", 2000]}
                   speed={50}
