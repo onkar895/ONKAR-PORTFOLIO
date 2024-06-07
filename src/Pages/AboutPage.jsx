@@ -11,7 +11,7 @@ const AboutPage = () => {
         <Footer />
       </div>
       <div className='text-center pb-20'>
-        <span className='text-xs font-bold'><span className='text-gray-400'>@2024,</span> Omkar Karale 😍</span>
+        <span className='text-xs font-bold'><span className='text-gray-400'>Copyright @ 2024,</span> Designed and Developed by Omkar Karale 😍</span>
       </div>
     </div>
   )

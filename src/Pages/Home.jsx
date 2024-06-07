@@ -15,7 +15,7 @@ const Home = () => {
         <Work />
         <Footer />
         <div className='text-center'>
-          <span className='text-xs md:font-bold'><span className='text-gray-400'>@2024,</span> Omkar Karale 😍</span>
+          <span className='text-xs md:font-bold'><span className='text-gray-400'>Copyright @ 2024,</span> Designed and Developed by Omkar Karale 😍</span>
         </div>
       </div>
     </div>

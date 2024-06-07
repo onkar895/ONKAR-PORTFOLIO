@@ -3,6 +3,7 @@ import netflixPic from '../assets/Netflix.png'
 import FoodAppPic from '../assets/FOOD-ORDERING-APP.png'
 import YouTubePic from '../assets/YouTube.png'
 import PortfolioPic from '../assets/Portfolio.png'
+import ExpensePic from '../assets/ExpensePic.png'
 
 export const data = [
   {
@@ -39,6 +40,14 @@ export const data = [
   },
   {
     id: 5,
+    img: ExpensePic,
+    title: "Daily Expense Tracker",
+    desc: "Html5, CSS3, JavaScript",
+    link: "https://expense-tracker-7578a4.netlify.app/",
+    git: "https://github.com/onkar895/JavaScript-DOM-and-CSS-Media-Queries/tree/master/JavaScript-DOM%20Manipulation/Expense%20Tracker/Daily%20Expense%20Tracker",
+  },
+  {
+    id: 6,
     img: amazonPic,
     title: "Amazon Clone",
     desc: "Html5, CSS3",
