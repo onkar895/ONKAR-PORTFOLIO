@@ -8,7 +8,7 @@ import { FiDownload } from "react-icons/fi";
 const Header = () => {
 
   return (
-    <header className='py-5 lg:py-3 backdrop-blur-lg bg-black/10 shadow-2xl fixed top-0 left-0 z-40 w-full bg-gray-600'>
+    <header className='py-5 lg:py-3 backdrop-blur-lg bg-black/10 shadow-2xl fixed top-0 left-0 z-40 w-full'>
       <div className='container flex justify-between items-center mx-auto md:px-10'>
         <div data-aos="fade-down" data-aos-duration="2000" className='flex items-center gap-2'>
           <div>
@@ -19,14 +19,14 @@ const Header = () => {
             <span className='text-xl tracking-widest '>KARALE</span>
           </div>
         </div>
-        <div className='flex gap-4 max-sm:hidden'>
-          <div data-aos="fade-down" data-aos-duration="2000" className='btn px-2 py-2 cursor-pointer text-sm font-bold'>
-            <NavLink to='https://drive.google.com/file/d/14X_rdNAwv1ZD9LmFS4-pR9_T6fSay2Kd/view?usp=sharing' className='flex items-center gap-2 font-bold btn px-6 transition-all duration-500 hover:scale-95'>
+        <div className='flex items-center gap-8 max-sm:hidden'>
+          <div data-aos="fade-down" data-aos-duration="2000" className='btn cursor-pointer text-xs font-bold'>
+            <NavLink to='https://drive.google.com/file/d/14X_rdNAwv1ZD9LmFS4-pR9_T6fSay2Kd/view?usp=sharing' className='flex items-center gap-2 font-bold btn px-5 py-2 transition-all duration-500 hover:scale-95'>
               <span>RESUME</span>
               <FiDownload className='text-md' />
             </NavLink>
           </div>
-          <div data-aos="fade-down" data-aos-duration="2000" className='max-sm:hidden btn px-4 py-2 cursor-pointer text-sm font-bold'>
+          <div data-aos="fade-down" data-aos-duration="2000" className='max-sm:hidden btn cursor-pointer text-xs font-bold px-3 py-2'>
             <NavLink to="https://www.linkedin.com/in/omkarkarale541/">
               <span>WORK WITH ME</span>
             </NavLink>
