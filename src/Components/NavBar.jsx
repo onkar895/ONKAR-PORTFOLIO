@@ -18,7 +18,7 @@ const NavBar = () => {
   const IconStyle = "w-[40px] h-[40px] flex items-center justify-center flex-short rounded-full border-2 hover:bg-white/5 box-shadow border border-white/20 shadow-2xl group overflow-hidden hover:overflow-hidden cursor-pointer"
 
   return (
-    <nav className='fixed bottom-0 w-full overflow-hidden z-50'>
+    <nav className='fixed bottom-3 max:sm:bottom-2 w-full overflow-hidden z-50'>
       <div className='container mx-auto'>
         {/* nav inner */}
         <div className='w-full backdrop-blur-xl bg-black/60 shadow-2xl backdrop-contrast-125 h-[65px] rounded-full max-w-[500px] mx-auto px-5 max-sm:px-3 flex justify-between items-center text-2xl text-white/70'>

@@ -13,7 +13,7 @@ import MyResume from '../assets/Omkar_Karale_Resume.pdf'
 import Profile from '../assets/Profile.png'
 
 const Banner = () => {
-  return (
+  return (   
     <section className='flex md:mt-5'>
       <div className='container mx-auto'>
         <div className='lg:flex lg:space-y-0 space-y-14'>

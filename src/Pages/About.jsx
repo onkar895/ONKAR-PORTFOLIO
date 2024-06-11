@@ -5,7 +5,6 @@ import Skills from '../Components/Skills'
 import Connect from '../Components/Connect'
 
 const About = () => {
-
   return (
     <section data-aos="fade-up" data-aos-duration="2000">
       <div className='container mx-auto md:px-12 w-full h-full mt-16 max-sm:mt-10'>
@@ -21,5 +20,6 @@ const About = () => {
     </section>
   )
 }
-
 export default About
+
+ 
