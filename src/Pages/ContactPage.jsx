@@ -6,7 +6,7 @@ import Footer from '../Components/Footer';
 
 const ContactPage = () => {
   return (
-    <div className='space-y-5 my-16'>
+    <div className='space-y-5 my-16 hide-scrollbar'>
       <Contact />
       <Footer />
       <div className='text-center mt-5'>

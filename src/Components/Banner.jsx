@@ -13,12 +13,12 @@ import MyResume from '../assets/Omkar_Karale_Resume.pdf'
 import Profile from '../assets/Profile.png'
 
 const Banner = () => {
-  return (   
-    <section className='flex md:mt-5'>
-      <div className='container mx-auto'>
+  return (
+    <section className='flex md:mt-8 hide-scrollbar'>
+      <div className='md:px-10 max-sm:px-4'>
         <div className='lg:flex lg:space-y-0 space-y-14'>
           <div className='flex flex-col lg:gap-2 gap-4 max-sm:mt-10 max-sm:mx-auto lg:w-[80%] lg:pl-8 md:px-2 lg:px-0'>
-            <div className='space-y-4 lg:w-[30vw] w-full flex flex-col max-sm:items-center md:items-center lg:items-start'>
+            <div className='space-y-4 lg:w-[30vw] w-full flex flex-col max-sm:items-center md:items-center lg:items-start hide-scrollbar'>
               <h1 data-aos="fade-up" data-aos-duration="2000" className='flex gap-2 lg:text-sm text-2xl font-bold animate-pulse text-gray-400'>Hello there ! <img src={HII} alt="" className='w-7 h-7 lg:w-5 lg:h-5 hover:scale-125 cursor-pointer' /></h1>
               <h1 data-aos="fade-up" data-aos-duration="2000" className='font-bold py-2 lg:text-[40px] text-[36px] min-[320px]:text-[32px] min-[1024px]:text-[32px] tracking-widest'> I'm Omkar <span>Karale</span></h1>
               <div className='text-[20px] min-[320px]:text-[18px] min-[1024px]:text-[16px] font-semibold uppercase'>
@@ -33,10 +33,10 @@ const Banner = () => {
                 />
               </div>
             </div>
-            <div className="flex flex-col lg:items-start items-center md:gap-6 gap-8 w-full mx-auto">
+            <div className="flex flex-col lg:items-start items-center md:gap-6 gap-8 w-full mx-auto hide-scrollbar">
               <p data-aos="fade-up" data-aos-duration="2000" className="text-[1.1rem] lg:w-[77.2%] text-gray-400 sm:text-[.95rem] text-justify">  I’m highly skilled in Frontend Development specialized in React.js, JavaScript, and modern web development frameworks and CSS libraries. Passionate about delivering user-friendly, engaging and performance-optimized user interfaces.
               </p>
-              <div className="tracking-widest shadow-2x font-bold">
+              <div className="tracking-widest shadow-2x font-bold hide-scrollbar">
                 <h1 data-aos="fade-up" data-aos-duration="2000" className='text-gray-300 max-sm:text-sm'>LET'S BUILD SOMETHING TOGETHER...✨</h1>
               </div>
               <div data-aos="fade-up" data-aos-duration="2000" className='flex min-[1024px]:flex-nowrap min-[1024px]:gap-10 flex-wrap justify-between md:w-[70.2%] w-[100%] max-sm:gap-y-10 md:gap-y-5 lg:gap-y-0 py-1 cursor-pointer'>
@@ -45,42 +45,42 @@ const Banner = () => {
                   <FiDownload className='text-sm' />
                 </NavLink>
                 <NavLink to='/contact'
-                  className='bg-transparent border-2 border-cyan-950 rounded-full px-8 py-2 text-gradient text-sm cursor-pointer shadow-2xl transition-all duration-500 hover:scale-95'>
+                  className='bg-transparent border-2 border-cyan-950 hover:border-cyan-900 rounded-full px-8 py-2 text-gradient text-sm cursor-pointer shadow-2xl transition-all duration-500 hover:scale-95'>
                   <span className='font-bolder'>Contact</span>
                 </NavLink>
 
                 <div className="flex items-center space-x-8 max-sm:w-[100%] justify-between overflow-hidden text-xl max-sm:mx-auto"
                 >
-                  <div className="bg-transparent backdrop-blur rounded-full border-2 border-cyan-950 text-white p-2 hover:bg-white hover:text-black">
+                  <div className="bg-transparent backdrop-blur rounded-full border-2 border-cyan-950 text-white/80 hover:text-white p-2 hover:border-cyan-900">
                     <a href="https://github.com/onkar895">
-                      <PiGithubLogoFill className='transition-all duration-500 hover:scale-125' />
+                      <PiGithubLogoFill />
                     </a>
                   </div>
-                  <div className="bg-transparent backdrop-blur rounded-full border-2 border-cyan-950 text-white p-2 hover:bg-blue-500 hover:text-white">
+                  <div className="bg-transparent backdrop-blur rounded-full border-2 border-cyan-950 text-white/80 hover:text-white p-2 hover:border-cyan-900 ">
                     <a href="https://www.linkedin.com/in/omkarkarale541/">
-                      <FaLinkedinIn className='transition-all duration-500 hover:scale-125' />
+                      <FaLinkedinIn />
                     </a>
                   </div>
-                  <div className="bg-transparent backdrop-blur rounded-full border-2 border-cyan-950 text-white p-2 hover:bg-red-500 hover:text-white">
+                  <div className="bg-transparent backdrop-blur rounded-full border-2 border-cyan-950 text-white/80 hover:text-white p-2 hover:border-cyan-900 ">
                     <a href="mailto:onkarkarale4@gmail.com">
-                      <MdEmail className='transition-all duration-500 hover:scale-125' />
+                      <MdEmail />
                     </a>
                   </div>
-                  <div className="bg-transparent backdrop-blur rounded-full border-2 border-cyan-950 text-white p-2 hover:bg-green-500 hover:text-white">
+                  <div className="bg-transparent backdrop-blur rounded-full border-2 border-cyan-950 text-white/80 hover:text-white p-2 hover:border-cyan-900 ">
                     <a href=" https://wa.me/9921374887">
-                      <FaWhatsapp className='transition-all duration-500 hover:scale-125' />
+                      <FaWhatsapp />
                     </a>
                   </div>
-                  <div className="bg-transparent backdrop-blur rounded-full border-2 border-cyan-950 text-white p-2 hover:bg-black hover:text-white">
+                  <div className="bg-transparent backdrop-blur rounded-full border-2 border-cyan-950 text-white/80 hover:text-white p-2 hover:border-cyan-900 ">
                     <a href="https://twitter.com/Onkar895">
-                      <FaXTwitter className='transition-all duration-500 hover:scale-125' />
+                      <FaXTwitter />
                     </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className='lg:w-[35%]' data-aos="fade-left" data-aos-duration="2000" >
+          <div className='lg:w-[40%]' data-aos="fade-left" data-aos-duration="2000" >
             <img src={Profile} alt="Profile" />
           </div>
         </div>

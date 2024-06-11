@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header';
-import { BarLoader } from "react-spinners";
+import { BarLoader, BeatLoader } from "react-spinners";
 import Home from "./Pages/Home";
 import AboutPage from "./Pages/AboutPage";
 import ContactPage from "./Pages/ContactPage";
@@ -23,7 +23,7 @@ function App() {
     <div className={loading ? "setBackground w-full h-screen flex items-center justify-center" : "setBackground w-full flex items-center justify-center"}>
       {
         loading ? (
-          <BarLoader className="text-gradient" height={6} />
+          <BeatLoader className="text-gradient" size={50} color={"#F978B4"} />
         ) : (
           <Router>
             <Header />

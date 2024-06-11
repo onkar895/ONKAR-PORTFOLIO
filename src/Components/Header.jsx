@@ -2,16 +2,22 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import Logo from '../assets/Character.png'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 import { FiDownload } from "react-icons/fi";
 
 const Header = () => {
 
+  const navigate = useNavigate()
+
+  const handleClick = () => {
+    navigate('/')
+  }
+
   return (
     <header className='py-5 lg:py-3 backdrop-blur-lg bg-black/10 shadow-2xl fixed top-0 left-0 z-40 w-full'>
-      <div className='container flex justify-between items-center mx-auto md:px-10'>
+      <div className='flex justify-between items-center md:px-10 lg:px-16 px-2'>
         <div data-aos="fade-down" data-aos-duration="2000" className='flex items-center gap-2'>
-          <div>
+          <div onClick={handleClick}>
             <img src={Logo} alt='MyLogo' className='w-10 h-10 transition-all duration-500 hover:scale-95 cursor-pointer' />
           </div>
           <div>

@@ -6,8 +6,8 @@ import WorkData from '../Components/WorkData'
 
 const Work = () => {
   return (
-    <section data-aos="fade-up" data-aos-duration="2000" className='container mx-auto md:px-12 w-full'>
-      <div className='shadow-inner shadow-cyan-900 bg-transparent backdrop-blur rounded-xl py-8'>
+    <section data-aos="fade-up" data-aos-duration="2000" className='mx-auto md:px-12 w-full'>
+      <div className='shadow-inner shadow-cyan-900 bg-transparent backdrop-blur rounded-xl py-8 hide-scrollbar'>
         <div className='flex flex-col items-center max-sm:justify-center gap-y-3 px-3'>
           <h2 className='font-bold text-2xl min-[320px]:text-xl tracking-wide'>My Recent <span className='text-gradient tracking-wide'>Works & Projects</span></h2>
           <div className='text-center'>

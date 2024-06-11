@@ -8,11 +8,23 @@
     box-sizing: border-box;
     font-family: "Ubuntu";
     overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.hide-scrollbar {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    width: 0; /* Safari and Chrome */
+    height: 0; /* Safari and Chrome */
 }
 
 ::-webkit-scrollbar {
     width: 7px;
-    display: none;
+    /* display: none; */
+    scroll-behavior: smooth;
 }
 ::-webkit-scrollbar-track {
     background: #200d3b;

@@ -5,7 +5,7 @@ import Footer from '../Components/Footer'
 
 const WorkPage = () => {
   return (
-    <div className='my-20 space-y-5'>
+    <div className='my-20 space-y-5 hide-scrollbar'>
       <Work />
       <Footer />
       <div className='text-center mt-10'>
