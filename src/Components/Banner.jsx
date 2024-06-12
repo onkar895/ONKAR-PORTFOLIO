@@ -14,13 +14,13 @@ import Profile from '../assets/Profile.png'
 
 const Banner = () => {
   return (
-    <section className='flex md:mt-8 hide-scrollbar'>
+    <section className='flex md:mt-8 data-aos="fade-up" data-aos-duration="2000"'>
       <div className='md:px-10 max-sm:px-4'>
         <div className='lg:flex lg:space-y-0 space-y-14'>
           <div className='flex flex-col lg:gap-2 gap-4 max-sm:mt-10 max-sm:mx-auto lg:w-[80%] lg:pl-8 md:px-2 lg:px-0'>
             <div className='space-y-4 lg:w-[30vw] w-full flex flex-col max-sm:items-center md:items-center lg:items-start hide-scrollbar'>
-              <h1 data-aos="fade-up" data-aos-duration="2000" className='flex gap-2 lg:text-sm text-2xl font-bold animate-pulse text-gray-400'>Hello there ! <img src={HII} alt="" className='w-7 h-7 lg:w-5 lg:h-5 hover:scale-125 cursor-pointer' /></h1>
-              <h1 data-aos="fade-up" data-aos-duration="2000" className='font-bold py-2 lg:text-[40px] text-[36px] min-[320px]:text-[32px] min-[1024px]:text-[32px] tracking-widest'> I'm Omkar <span>Karale</span></h1>
+              <h1 className='flex gap-2 lg:text-sm text-2xl font-bold animate-pulse text-gray-400'>Hello there ! <img src={HII} alt="" className='w-7 h-7 lg:w-5 lg:h-5 hover:scale-125 cursor-pointer' /></h1>
+              <h1 className='font-bold py-2 lg:text-[40px] text-[36px] min-[320px]:text-[32px] min-[1024px]:text-[32px] tracking-widest'> I'm Omkar <span>Karale</span></h1>
               <div className='text-[20px] min-[320px]:text-[18px] min-[1024px]:text-[16px] font-semibold uppercase'>
                 <TypeAnimation
                   sequence={["Aspiring Frontend Enthusiast", 2000, "Passionate Web Developer", 2000, "Eager Learner of Web Wizardry", 2000]}
@@ -33,13 +33,13 @@ const Banner = () => {
                 />
               </div>
             </div>
-            <div className="flex flex-col lg:items-start items-center md:gap-6 gap-8 w-full mx-auto hide-scrollbar">
-              <p data-aos="fade-up" data-aos-duration="2000" className="text-[1.1rem] lg:w-[77.2%] text-gray-400 sm:text-[.95rem] text-justify">  I’m highly skilled in Frontend Development specialized in React.js, JavaScript, and modern web development frameworks and CSS libraries. Passionate about delivering user-friendly, engaging and performance-optimized user interfaces.
+            <div className="flex flex-col lg:items-start items-center md:gap-6 gap-8 w-full mx-auto">
+              <p className="text-[1.1rem] lg:w-[77.2%] text-gray-400 sm:text-[.95rem] text-justify">  I’m highly skilled in Frontend Development specialized in React.js, JavaScript, and modern web development frameworks and CSS libraries. Passionate about delivering user-friendly, engaging and performance-optimized user interfaces.
               </p>
               <div className="tracking-widest shadow-2x font-bold hide-scrollbar">
                 <h1 data-aos="fade-up" data-aos-duration="2000" className='text-gray-300 max-sm:text-sm'>LET'S BUILD SOMETHING TOGETHER...✨</h1>
               </div>
-              <div data-aos="fade-up" data-aos-duration="2000" className='flex min-[1024px]:flex-nowrap min-[1024px]:gap-10 flex-wrap justify-between md:w-[70.2%] w-[100%] max-sm:gap-y-10 md:gap-y-5 lg:gap-y-0 py-1 cursor-pointer'>
+              <div className='flex min-[1024px]:flex-nowrap min-[1024px]:gap-10 flex-wrap justify-between md:w-[70.2%] w-[100%] max-sm:gap-y-10 md:gap-y-5 lg:gap-y-0 py-1 cursor-pointer'>
                 <NavLink to='https://drive.google.com/file/d/14X_rdNAwv1ZD9LmFS4-pR9_T6fSay2Kd/view?usp=sharing' className='flex items-center gap-2 text-sm btn px-6 md:hidden'>
                   <span>Resume</span>
                   <FiDownload className='text-sm' />

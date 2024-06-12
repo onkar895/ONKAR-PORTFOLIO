@@ -8,13 +8,13 @@ import Footer from '../Components/Footer';
 
 const Home = () => {
   return (
-    <div className='md:my-28 my-20'>
-      <Banner />
-      <div className='flex flex-col gap-6 mt-8 lg:mt-4 lg:px-6 max-sm:px-4 hide-scrollbar relative'>
+    <div className='md:my-24 my-20'>
+      <div className='flex flex-col gap-6 lg:px-6 max-sm:px-4'>
+        <Banner />
         <About />
         <Work />
         <Footer />
-        <div className='text-center'>
+        <div className='text-center mt-16 max-sm:mt-12'>
           <span className='text-xs md:font-bold'><span className='text-gray-400'>Copyright @ 2024,</span> Designed and Developed by Omkar Karale 😍</span>
         </div>
       </div>
