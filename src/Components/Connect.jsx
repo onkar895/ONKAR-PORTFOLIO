@@ -11,8 +11,8 @@ import { NavLink } from 'react-router-dom';
 const Connect = () => {
   return (
     <div className="lg:w-[33.33%] w-full shadow-inner shadow-cyan-900 hover:shadow hover:shadow-cyan-300 bg-transparent backdrop-blur rounded-xl py-6 px-7 overflow-hidden cursor-pointer hover:scale-95 transition-all duration-300">
-      <h3 data-aos="fade-up" data-aos-duration="2000" className="font-bold lg:text-lg text-2xl text-gradient tracking-wide text-center">Connect & Follow</h3>
-      <div data-aos="fade-up" data-aos-duration="2000" className='flex flex-wrap gap-12 lg:py-6 py-10 mx-auto px-6'>
+      <h3 className="font-bold lg:text-lg text-2xl text-gradient tracking-wide text-center">Connect & Follow</h3>
+      <div className='flex flex-wrap gap-12 lg:py-6 py-10 mx-auto px-6'>
         <div className='flex items-center gap-12'>
           <NavLink to="https://github.com/onkar895" className='flex items-center gap-2'>
             <div className="backdrop-blur rounded-full p-2 bg-white text-black">
