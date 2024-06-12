@@ -14,7 +14,7 @@ import Profile from '../assets/Profile.png'
 
 const Banner = () => {
   return (
-    <section className='flex md:mt-8 data-aos="fade-up" data-aos-duration="2000"'>
+    <section className='flex md:mt-8' data-aos="fade-up" data-aos-duration="2000">
       <div className='md:px-10 px-1'>
         <div className='lg:flex lg:space-y-0 space-y-14'>
           <div className='flex flex-col lg:gap-2 gap-4 max-sm:mt-10 max-sm:mx-auto lg:w-[80%] lg:pl-8 md:px-2 lg:px-0'>
