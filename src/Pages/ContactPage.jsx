@@ -6,10 +6,10 @@ import Footer from '../Components/Footer';
 
 const ContactPage = () => {
   return (
-    <div className='space-y-5 my-16 hide-scrollbar'>
+    <div className='my-24'>
       <Contact />
       <Footer />
-      <div className='text-center mt-5'>
+      <div className='text-center mt-20'>
         <span className='text-xs font-bold'><span className='text-gray-400'>Copyright @ 2024,</span> Designed and Developed by Omkar Karale 😍</span>
       </div>
     </div>
