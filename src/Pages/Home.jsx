@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div className='md:my-28 my-20'>
       <Banner />
-      <div className='flex flex-col gap-6 mt-8 lg:mt-4 lg:px-6 max-sm:px-4 hide-scrollbar'>
+      <div className='flex flex-col gap-6 mt-8 lg:mt-4 lg:px-6 max-sm:px-4 hide-scrollbar relative'>
         <About />
         <Work />
         <Footer />

@@ -27,18 +27,18 @@ const Header = () => {
         </div>
         <div className='flex items-center gap-8 max-sm:hidden'>
           <div data-aos="fade-down" data-aos-duration="2000" className='btn cursor-pointer text-xs font-bold'>
-            <NavLink to='https://drive.google.com/file/d/14X_rdNAwv1ZD9LmFS4-pR9_T6fSay2Kd/view?usp=sharing' className='flex items-center gap-2 font-bold btn px-5 py-2 transition-all duration-500 hover:scale-95'>
+            <NavLink to='https://drive.google.com/file/d/14X_rdNAwv1ZD9LmFS4-pR9_T6fSay2Kd/view?usp=sharing' className='flex items-center gap-2 font-bold btn px-5 py-2 transition-all duration-500 hover:mb-2 hover:py-1'>
               <span>RESUME</span>
               <FiDownload className='text-md' />
             </NavLink>
           </div>
-          <div data-aos="fade-down" data-aos-duration="2000" className='max-sm:hidden btn cursor-pointer text-xs font-bold px-3 py-2'>
+          <div data-aos="fade-down" data-aos-duration="2000" className='max-sm:hidden btn cursor-pointer text-xs font-bold px-3 py-2 '>
             <NavLink to="https://www.linkedin.com/in/omkarkarale541/">
               <span>WORK WITH ME</span>
             </NavLink>
           </div>
         </div>
-        <div data-aos="fade-down" data-aos-duration="2000" className='md:hidden btn px-8 py-2 cursor-pointer text-sm font-bold min-[320px]:px-5 min-[320px]:text-xs'>
+        <div data-aos="fade-down" data-aos-duration="2000" className='md:hidden btn px-8 py-2 cursor-pointer text-sm font-bold min-[320px]:px-5 min-[320px]:text-xs '>
           <NavLink to="https://www.linkedin.com/in/omkarkarale541/">
             <span className='animate-pulse'>HIRE ME</span>
           </NavLink>
