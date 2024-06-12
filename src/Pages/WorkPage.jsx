@@ -5,7 +5,7 @@ import Footer from '../Components/Footer'
 
 const WorkPage = () => {
   return (
-    <div className='my-24'>
+    <div className='my-24 flex flex-col gap-y-8 md:mx-0 mx-2 '>
       <Work />
       <Footer />
       <div className='text-center mt-20 '>
