@@ -27,7 +27,7 @@ const Header = () => {
         </div>
         <div className='flex items-center gap-8 max-sm:hidden'>
           <div data-aos="fade-down" data-aos-duration="2000" className='btn cursor-pointer text-xs font-bold'>
-            <NavLink to='https://drive.google.com/file/d/14X_rdNAwv1ZD9LmFS4-pR9_T6fSay2Kd/view?usp=sharing' className='flex items-center gap-2 font-bold btn px-5 py-2 transition-all duration-500 hover:mb-2 hover:py-1'>
+            <NavLink to='https://drive.google.com/file/d/1uEIzuxscBos8kT0VX7lyIjEAlZ05xBcU/view?usp=sharing' className='flex items-center gap-2 font-bold btn px-5 py-2 transition-all duration-500 hover:mb-2 hover:py-1'>
               <span>RESUME</span>
               <FiDownload className='text-md' />
             </NavLink>

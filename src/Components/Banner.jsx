@@ -40,7 +40,7 @@ const Banner = () => {
                 <h1 data-aos="fade-up" data-aos-duration="2000" className='text-gray-300 max-sm:text-sm'>LET'S BUILD SOMETHING TOGETHER...✨</h1>
               </div>
               <div className='flex min-[1024px]:flex-nowrap min-[1024px]:gap-10 flex-wrap justify-between md:w-[70.2%] w-[100%] max-sm:gap-y-10 md:gap-y-5 lg:gap-y-0 py-1 cursor-pointer'>
-                <NavLink to='https://drive.google.com/file/d/14X_rdNAwv1ZD9LmFS4-pR9_T6fSay2Kd/view?usp=sharing' className='flex items-center gap-2 text-sm btn px-6 md:hidden'>
+                <NavLink to='https://drive.google.com/file/d/1uEIzuxscBos8kT0VX7lyIjEAlZ05xBcU/view?usp=sharing' className='flex items-center gap-2 text-sm btn px-6 md:hidden'>
                   <span>Resume</span>
                   <FiDownload className='text-sm' />
                 </NavLink>
