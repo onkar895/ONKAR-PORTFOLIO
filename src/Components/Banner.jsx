@@ -51,27 +51,27 @@ const Banner = () => {
 
                 <div className="flex items-center space-x-8 max-sm:w-[100%] justify-between overflow-hidden text-xl max-sm:mx-auto"
                 >
-                  <div className="bg-transparent backdrop-blur rounded-full border-2 border-cyan-950 text-white/80 hover:text-white p-2 hover:border-cyan-900">
+                  <div className="bg-transparent backdrop-blur rounded-full border-2 border-cyan-950 text-white/80 hover:text-white p-2 hover:border-cyan-900 transition-all duration-500">
                     <a href="https://github.com/onkar895">
                       <PiGithubLogoFill />
                     </a>
                   </div>
-                  <div className="bg-transparent backdrop-blur rounded-full border-2 border-cyan-950 text-white/80 hover:text-white p-2 hover:border-cyan-900 ">
+                  <div className="bg-transparent backdrop-blur rounded-full border-2 border-cyan-950 text-white/80 hover:text-white p-2 hover:border-cyan-900 transition-all duration-500">
                     <a href="https://www.linkedin.com/in/omkarkarale541/">
                       <FaLinkedinIn />
                     </a>
                   </div>
-                  <div className="bg-transparent backdrop-blur rounded-full border-2 border-cyan-950 text-white/80 hover:text-white p-2 hover:border-cyan-900 ">
+                  <div className="bg-transparent backdrop-blur rounded-full border-2 border-cyan-950 text-white/80 hover:text-white p-2 hover:border-cyan-900 transition-all duration-500">
                     <a href="mailto:onkarkarale4@gmail.com">
                       <MdEmail />
                     </a>
                   </div>
-                  <div className="bg-transparent backdrop-blur rounded-full border-2 border-cyan-950 text-white/80 hover:text-white p-2 hover:border-cyan-900 ">
+                  <div className="bg-transparent backdrop-blur rounded-full border-2 border-cyan-950 text-white/80 hover:text-white p-2 hover:border-cyan-900 transition-all duration-500">
                     <a href=" https://wa.me/9921374887">
                       <FaWhatsapp />
                     </a>
                   </div>
-                  <div className="bg-transparent backdrop-blur rounded-full border-2 border-cyan-950 text-white/80 hover:text-white p-2 hover:border-cyan-900 ">
+                  <div className="bg-transparent backdrop-blur rounded-full border-2 border-cyan-950 text-white/80 hover:text-white p-2 hover:border-cyan-900 transition-all duration-500">
                     <a href="https://twitter.com/Onkar895">
                       <FaXTwitter />
                     </a>
