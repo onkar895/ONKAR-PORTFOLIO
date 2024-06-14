@@ -36,7 +36,7 @@ const NavBar = () => {
     };
   }, [lastScrollY]);
 
-  const IconStyle = "w-[40px] h-[40px] flex items-center justify-center flex-short rounded-full border-2 box-shadow border border-white/20 hover:border-white/40 shadow-2xl group overflow-hidden hover:overflow-hidden cursor-pointer"
+  const IconStyle = "w-[40px] h-[40px] flex items-center justify-center flex-short rounded-full border-2 box-shadow border border-white/20 hover:border-white/40 transition-all duration-500 shadow-2xl group overflow-hidden hover:overflow-hidden cursor-pointer"
 
   return (
     <nav className={`fixed bottom-2 max:sm:bottom-1 w-full overflow-hidden z-50 transition-transform duration-500 ${showNavBar ? 'translate-y-0' : 'translate-y-full'}`}>
