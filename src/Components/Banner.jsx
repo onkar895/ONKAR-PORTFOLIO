@@ -13,6 +13,9 @@ import MyResume from '../assets/Omkar_Karale_Resume.pdf'
 import Profile from '../assets/Profile.png'
 
 const Banner = () => {
+
+  const Icons = "bg-transparent backdrop-blur rounded-full border-2 border-cyan-950 text-white/80 hover:text-white p-2 transition-all duration-300 hover:brightness-200 hover:shadow-inner hover:shadow-purple-500"
+
   return (
     <section className='flex md:mt-8' data-aos="fade-up" data-aos-duration="2000">
       <div className='md:px-4 px-1'>
@@ -45,33 +48,33 @@ const Banner = () => {
                   <FiDownload className='text-sm' />
                 </NavLink>
                 <NavLink to='/contact'
-                  className='bg-transparent border-2 border-cyan-950 hover:border-cyan-900 rounded-full px-8 py-2 text-gradient text-sm cursor-pointer shadow-2xl hover:shadow-[0_2px_0_-2px_#B855F9,0_5px_0_-4px_#F8829E,0_6px_10px_-3px_#42A6E3] transition-all duration-500'>
+                  className='bg-transparent border-2 border-cyan-950 hover:border-purple-500 rounded-full px-8 py-2 text-gradient text-sm cursor-pointer hover:brightness-200 shadow-inner hover:shadow-[0_2px_0_-2px_#B855F9,0_5px_0_-4px_#F8829E,0_6px_10px_-3px_#42A6E3] transition-all duration-500'>
                   <span className='font-bolder'>Contact</span>
                 </NavLink>
 
                 <div className="flex items-center space-x-8 max-sm:w-[100%] justify-between overflow-hidden text-xl max-sm:mx-auto"
                 >
-                  <div className="bg-transparent backdrop-blur rounded-full border-2 border-cyan-950 text-white/80 hover:text-white p-2 transition-all duration-300 hover:shadow-inner hover:shadow-blue-300">
+                  <div className={Icons}>
                     <a href="https://github.com/onkar895">
                       <PiGithubLogoFill />
                     </a>
                   </div>
-                  <div className="bg-transparent backdrop-blur rounded-full border-2 border-cyan-950 text-white/80 hover:text-white p-2 transition-all duration-300 hover:shadow-blue-300 hover:shadow-inner">
+                  <div className={Icons}>
                     <a href="https://www.linkedin.com/in/omkarkarale541/">
                       <FaLinkedinIn />
                     </a>
                   </div>
-                  <div className="bg-transparent backdrop-blur rounded-full border-2 border-cyan-950 text-white/80 hover:text-white p-2 transition-all duration-300 hover:shadow-blue-300 hover:shadow-inner">
+                  <div className={Icons}>
                     <a href="mailto:onkarkarale4@gmail.com">
                       <MdEmail />
                     </a>
                   </div>
-                  <div className="bg-transparent backdrop-blur rounded-full border-2 border-cyan-950 text-white/80 hover:text-white p-2 transition-all duration-300 hover:shadow-blue-300 hover:shadow-inner">
+                  <div className={Icons}>
                     <a href=" https://wa.me/9921374887">
                       <FaWhatsapp />
                     </a>
                   </div>
-                  <div className="bg-transparent backdrop-blur rounded-full border-2 border-cyan-950 text-white/80 hover:text-white p-2 transition-all duration-300 hover:shadow-blue-300 hover:shadow-inner">
+                  <div className={Icons}>
                     <a href="https://twitter.com/Onkar895">
                       <FaXTwitter />
                     </a>
