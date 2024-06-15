@@ -52,7 +52,7 @@ const Education = () => {
               12th Science
             </h6>
             <p className="text-gray-400">
-              Jayashree Thorat College , Karad, MH, India
+              Jayshree Thorat College , Karad, MH, India
               <span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
             </p>
             <p className="text-gray-400">

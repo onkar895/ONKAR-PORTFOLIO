@@ -23,7 +23,7 @@ const Footer = () => {
               Open for freelance projects, full-time or part-time positions, and conversations on the latest frontend innovations. Let's connect, whether it's for a job, project or simply to exchange ideas !
             </span>
           </div>
-          <NavLink to="mailto:onkarkarale4@gmail.com" className='btn text-[16px] font-bold py-1 mt-1 text-center'>
+          <NavLink to="mailto:onkarkarale4@gmail.com" className='btn text-[16px] font-bold py-1 mt-1 text-center tracking-wider'>
             Let's Communicate 😉
           </NavLink>
         </div>
