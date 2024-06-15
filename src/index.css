@@ -91,4 +91,7 @@
     .text-gradient {
         @apply bg-gradient-to-r text-transparent bg-clip-text from-[#47A3FA] via-[#B855F9] to-[#F8829E] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
     }
+    /* .btn {
+        @apply w-[130px] h-10 text-[1.1em] cursor-pointer bg-neutral-900 text-white transition-all duration-[0.4s] rounded-[5px] border-[none] hover:-translate-y-2.5 hover:shadow-[0_7px_0_-2px_#f85959,0_15px_0_-4px_#39a2db,0_16px_10px_-3px_#39a2db] hover:rounded-[5px] active:transition-all active:duration-[0.2s] active:translate-y-[-5px] active:shadow-[0_2px_0_-2px_#f85959,0_8px_0_-4px_#39a2db,0_12px_10px_-3px_#39a2db];
+    } */
 }

@@ -26,21 +26,21 @@ const Header = () => {
           </div>
         </div>
         <div className='flex items-center gap-8 max-sm:hidden'>
-          <div data-aos="fade-down" data-aos-duration="2000" className='btn cursor-pointer text-xs font-bold'>
-            <NavLink to='https://drive.google.com/file/d/1uEIzuxscBos8kT0VX7lyIjEAlZ05xBcU/view?usp=sharing' className='flex items-center gap-2 font-bold btn px-5 py-2 transition-all duration-500 hover:mb-2 hover:py-1'>
+          <div data-aos="fade-down" data-aos-duration="2000" className='cursor-pointer btn text-xs font-bold '>
+            <NavLink to='https://drive.google.com/file/d/1uEIzuxscBos8kT0VX7lyIjEAlZ05xBcU/view?usp=sharing' className='flex items-center gap-2 font-bold px-5 py-2 hover:-translate-y-1.5 transition-all duration-500'>
               <span>RESUME</span>
               <FiDownload className='text-md' />
             </NavLink>
           </div>
-          <div data-aos="fade-down" data-aos-duration="2000" className='max-sm:hidden btn cursor-pointer text-xs font-bold px-3 py-2 '>
-            <NavLink to="https://www.linkedin.com/in/omkarkarale541/">
+          <div data-aos="fade-down" data-aos-duration="2000" className='max-sm:hidden btn cursor-pointer text-xs font-bold px-3 py-2'>
+            <NavLink to="https://www.linkedin.com/in/omkarkarale541/" className="">
               <span>WORK WITH ME</span>
             </NavLink>
           </div>
         </div>
-        <div data-aos="fade-down" data-aos-duration="2000" className='md:hidden btn px-8 py-2 cursor-pointer text-sm font-bold min-[320px]:px-5 min-[320px]:text-xs '>
-          <NavLink to="https://www.linkedin.com/in/omkarkarale541/">
-            <span className='animate-pulse'>HIRE ME</span>
+        <div data-aos="fade-down" data-aos-duration="2000" className='md:hidden btn px-8 py-2 cursor-pointer text-sm font-bold min-[320px]:px-5 min-[320px]:text-xs'>
+          <NavLink to="https://www.linkedin.com/in/omkarkarale541/" className='hover:-translate-y-1.5 transition-all duration-500'>
+            <span className='hover:-translate-y-1.5 transition-all duration-500 animate-pulse'>HIRE ME</span>
           </NavLink>
         </div>
       </div>
