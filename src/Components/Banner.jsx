@@ -14,7 +14,9 @@ import Profile from '../assets/Profile.png'
 
 const Banner = () => {
 
-  const Icons = "bg-transparent backdrop-blur rounded-full border-2 border-cyan-950 text-white/80 hover:text-white p-2 transition-all duration-300 hover:brightness-200 hover:shadow-inner hover:shadow-purple-500"
+  const Icons = "bg-transparent rounded-full border border-gray-600 text-white/80 hover:text-white p-2 transition-all ease-in-out duration-300 hover:shadow-inner hover:shadow-cyan-500 hover:brightness-200 hover:scale-95"
+
+  const Contact = 'bg-transparent border border-gray-600 hover:border-cyan-900 rounded-full px-8 flex items-center text-gradient text-sm cursor-pointer hover:brightness-200 shadow-[0_2px_0_-2px_#B855F9,0_5px_0_-4px_#F8829E,0_8px_16px_-3px_#42A6E3] transition-all ease-in-out duration-500'
 
   return (
     <section className='flex md:mt-8' data-aos="fade-up" data-aos-duration="2000">
@@ -42,18 +44,17 @@ const Banner = () => {
               <div className="tracking-widest shadow-2x font-bold hide-scrollbar">
                 <h1 data-aos="fade-up" data-aos-duration="2000" className='text-gray-300 max-sm:text-sm'>LET'S BUILD SOMETHING TOGETHER...✨</h1>
               </div>
-              <div className='flex min-[1024px]:flex-nowrap min-[1024px]:gap-10 flex-wrap justify-between md:w-[70.2%] w-[100%] max-sm:gap-y-10 md:gap-y-5 lg:gap-y-0 py-1 cursor-pointer'>
+              <div className='flex min-[1024px]:flex-nowrap min-[1024px]:gap-10 flex-wrap justify-between md:w-[70.2%] w-[100%] max-sm:gap-y-10 md:gap-y-5 lg:gap-y-0 py-2 cursor-pointer'>
                 <NavLink to='https://drive.google.com/file/d/1uEIzuxscBos8kT0VX7lyIjEAlZ05xBcU/view?usp=sharing' className='flex items-center gap-2 text-sm btn px-6 md:hidden hover:-translate-y-1.2 transition-all duration-500'>
                   <span>Resume</span>
                   <FiDownload className='text-sm' />
                 </NavLink>
                 <NavLink to='/contact'
-                  className='bg-transparent border-2 border-cyan-950 hover:border-purple-500 rounded-full px-8 py-2 text-gradient text-sm cursor-pointer hover:brightness-200 shadow-inner hover:shadow-[0_2px_0_-2px_#B855F9,0_5px_0_-4px_#F8829E,0_6px_10px_-3px_#42A6E3] transition-all duration-500'>
+                  className={Contact}>
                   <span className='font-bolder'>Contact</span>
                 </NavLink>
 
-                <div className="flex items-center space-x-8 max-sm:w-[100%] justify-between overflow-hidden text-xl max-sm:mx-auto"
-                >
+                <div className="flex items-center space-x-6 max-sm:w-[100%] justify-between overflow-hidden text-xl max-sm:mx-auto">
                   <div className={Icons}>
                     <a href="https://github.com/onkar895">
                       <PiGithubLogoFill />
@@ -70,7 +71,7 @@ const Banner = () => {
                     </a>
                   </div>
                   <div className={Icons}>
-                    <a href=" https://wa.me/9921374887">
+                    <a href="https://wa.me/9921374887">
                       <FaWhatsapp />
                     </a>
                   </div>

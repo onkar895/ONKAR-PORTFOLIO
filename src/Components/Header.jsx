@@ -26,13 +26,13 @@ const Header = () => {
           </div>
         </div>
         <div className='flex items-center gap-8 max-sm:hidden'>
-          <div data-aos="fade-down" data-aos-duration="2000" className='cursor-pointer btn text-xs font-bold '>
-            <NavLink to='https://drive.google.com/file/d/1uEIzuxscBos8kT0VX7lyIjEAlZ05xBcU/view?usp=sharing' className='flex items-center gap-2 font-bold px-5 py-2 hover:-translate-y-1.5 transition-all duration-500'>
+          <div data-aos="fade-down" data-aos-duration="2000" className='cursor-pointer text-xs font-bold relative inline-flex items-center justify-center transition-all ease-in-out duration-700 rounded-full btn'>
+            <NavLink to='https://drive.google.com/file/d/1uEIzuxscBos8kT0VX7lyIjEAlZ05xBcU/view?usp=sharing' className='flex items-center gap-2 font-bold px-5 py-2 hover:-translate-y-1.5 transition-all ease-in duration-300 bg-transparent'>
               <span>RESUME</span>
               <FiDownload className='text-md' />
             </NavLink>
           </div>
-          <div data-aos="fade-down" data-aos-duration="2000" className='max-sm:hidden btn cursor-pointer text-xs font-bold px-3 py-2'>
+          <div data-aos="fade-down" data-aos-duration="2000" className='max-sm:hidden btn cursor-pointer text-xs font-bold px-3 py-2 rounded-full'>
             <NavLink to="https://www.linkedin.com/in/omkarkarale541/" className="">
               <span>WORK WITH ME</span>
             </NavLink>
