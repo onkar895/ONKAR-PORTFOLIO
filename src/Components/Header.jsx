@@ -38,7 +38,7 @@ const Header = () => {
             </NavLink>
           </div>
         </div>
-        <div data-aos="fade-down" data-aos-duration="2000" className='md:hidden btn px-8 py-2 cursor-pointer text-sm font-bold min-[320px]:px-5 min-[320px]:text-xs'>
+        <div data-aos="fade-down" data-aos-duration="2000" className='md:hidden btn px-8 py-2 cursor-pointer text-sm font-bold min-[320px]:px-8 min-[320px]:text-xs'>
           <NavLink to="https://www.linkedin.com/in/omkarkarale541/" className='hover:-translate-y-1.5 transition-all duration-500'>
             <span className='hover:-translate-y-1.5 transition-all duration-500 animate-pulse'>HIRE ME</span>
           </NavLink>
