@@ -16,7 +16,7 @@ const Banner = () => {
 
   const Icons = "bg-transparent rounded-full border border-gray-600 text-white/80 hover:text-white p-2 transition-all ease-in-out duration-300 hover:shadow-inner hover:shadow-cyan-500 hover:brightness-200 hover:scale-95"
 
-  const Contact = 'bg-transparent border border-gray-600 hover:border-cyan-900 rounded-full max-sm:px-9 px-8 py-2 flex items-center text-gradient text-sm cursor-pointer hover:brightness-200 md:brightness-100 brightness-150 md:shadow-[0_2px_0_-2px_#B855F9,0_5px_0_-4px_#F8829E,0_8px_16px_-3px_#42A6E3] transition-all ease-in-out duration-500'
+  const Contact = 'bg-transparent border border-gray-600 hover:border-cyan-900 rounded-full px-8 py-2 flex items-center text-gradient text-sm cursor-pointer hover:brightness-200 md:brightness-100 brightness-150 md:shadow-[0_2px_0_-2px_#B855F9,0_5px_0_-4px_#F8829E,0_8px_16px_-3px_#42A6E3] transition-all ease-in-out duration-500'
 
   return (
     <section className='flex md:mt-8' data-aos="fade-up" data-aos-duration="2000">
