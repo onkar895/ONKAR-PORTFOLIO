@@ -11,7 +11,7 @@ const Education = () => {
             <div className="w-[6px] h-[6px] bg-cyan-200 bg-opacity-60 rounded-full shadow-md"></div>
             <div className="h-20 w-[1px] ml-[2px] bg-cyan-800 bg-opacity-30"></div>
           </div>
-          <div className="flex flex-col gap-3 text-sm">
+          <div className="flex flex-col gap-3 text-sm lg:text-sm md:text-lg">
             <h6 className="text-white">
               Specialization in Full Stack Web
               Developement
@@ -29,7 +29,7 @@ const Education = () => {
             <div className="w-[6px] h-[6px] bg-cyan-200 bg-opacity-60 rounded-full"></div>
             <div className="h-20 w-[1px] ml-[2px] bg-cyan-800 bg-opacity-30"></div>
           </div>
-          <div className="flex flex-col gap-3 text-sm">
+          <div className="flex flex-col gap-3 text-sm lg:text-sm md:text-lg">
             <h6 className="text-white">
               Bachelor of Engineering (Information Tech.)
               <span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
@@ -47,13 +47,13 @@ const Education = () => {
             <div className="w-[6px] h-[6px] bg-cyan-200 bg-opacity-60 rounded-full"></div>
             <div className="h-20 w-[1px] ml-[2px] bg-cyan-800 bg-opacity-30"></div>
           </div>
-          <div className="flex flex-col gap-3 text-sm">
+          <div className="flex flex-col gap-3 text-sm lg:text-sm md:text-lg">
             <h6 className="text-white">
               12th Science
             </h6>
             <p className="text-gray-400">
               Jayshree Thorat College , Karad, MH, India
-              <span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+              <span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
             </p>
             <p className="text-gray-400">
               June 2015 - July 2016
