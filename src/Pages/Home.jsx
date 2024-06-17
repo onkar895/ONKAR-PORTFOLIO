@@ -14,8 +14,9 @@ const Home = () => {
         <About />
         <Work />
         <Footer />
-        <div className='text-center mt-16 max-sm:mt-12'>
-          <span className='text-xs md:font-bold'><span className='text-gray-400'>Copyright @ 2024,</span> Designed and Developed by Omkar Karale 😍</span>
+        <div className='text-center mt-16 max-sm:mt-12 text-xs font-bold'>
+          <span className='text-gray-400'>Copyright @ 2024,</span>
+          <span className='animate-pulse'> Designed and Developed by Omkar Karale 😍</span>
         </div>
       </div>
     </div>

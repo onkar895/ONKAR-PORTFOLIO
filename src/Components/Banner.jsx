@@ -83,7 +83,7 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div className='lg:w-[40%]' data-aos="fade-left" data-aos-duration="2000" >
+          <div className='lg:w-[40%] hover:animate-pulse' data-aos="fade-left" data-aos-duration="2000" >
             <img src={Profile} alt="Profile" />
           </div>
         </div>
