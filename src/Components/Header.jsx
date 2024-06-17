@@ -1,20 +1,39 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
-import React from 'react'
-import Logo from '../assets/Character.png'
-import { NavLink, useNavigate } from 'react-router-dom'
+import React, { useState, useEffect } from 'react';
+import { NavLink, useNavigate } from 'react-router-dom';
 import { FiDownload } from "react-icons/fi";
+import { debounce } from 'lodash';
+import Logo from '../assets/Character.png';
 
 const Header = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+  const navigate = useNavigate();
 
-  const navigate = useNavigate()
+  useEffect(() => {
+    // Debounced scroll handler
+    const handleScroll = debounce(() => {
+      const position = window.scrollY;
+      // Update state if scrolled past 100 pixels
+      setIsScrolled(position > 100);
+    }, 100); // 100ms debounce delay
+
+    // Attach the scroll event listener
+    window.addEventListener('scroll', handleScroll);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      handleScroll.cancel(); // Cancel the debounced function if component unmounts
+    };
+  }, []); // Empty dependency array means this effect runs only once after the initial render
 
   const handleClick = () => {
-    navigate('/')
-  }
+    navigate('/');
+  };
 
   return (
-    <header className='py-5 lg:py-3 backdrop-blur-lg bg-black/10 shadow-2xl fixed top-0 left-0 z-40 w-full'>
+    <header className={`py-5 lg:py-4 backdrop-blur-3xl shadow-2xl fixed top-0 left-0 z-40 w-full transition-all duration-500 ${isScrolled ? 'bg-black/20' : 'bg-transparent'}`}>
       <div className='flex justify-between items-center md:px-10 lg:px-16 px-2'>
         <div data-aos="fade-down" data-aos-duration="2000" className='flex items-center gap-2'>
           <div onClick={handleClick}>
@@ -22,7 +41,7 @@ const Header = () => {
           </div>
           <div>
             <span className='text-gradient text-xl tracking-widest'>OMKAR</span> &nbsp;
-            <span className='text-xl tracking-widest '>KARALE</span>
+            <span className='text-xl tracking-widest'>KARALE</span>
           </div>
         </div>
         <div className='flex items-center gap-8 max-sm:hidden'>
@@ -45,7 +64,7 @@ const Header = () => {
         </div>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

@@ -8,6 +8,9 @@
     box-sizing: border-box;
     font-family: "Ubuntu";
     overflow-x: hidden;
+}
+
+html {
     scroll-behavior: smooth;
 }
 
