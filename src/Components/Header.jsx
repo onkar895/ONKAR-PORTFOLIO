@@ -11,31 +11,27 @@ const Header = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Debounced scroll handler
     const handleScroll = debounce(() => {
       const position = window.scrollY;
-      // Update state if scrolled past 100 pixels
       setIsScrolled(position > 100);
     }, 100); // 100ms debounce delay
 
-    // Attach the scroll event listener
     window.addEventListener('scroll', handleScroll);
 
-    // Clean up the event listener on component unmount
     return () => {
       window.removeEventListener('scroll', handleScroll);
       handleScroll.cancel(); // Cancel the debounced function if component unmounts
     };
-  }, []); // Empty dependency array means this effect runs only once after the initial render
+  }, []);
 
   const handleClick = () => {
     navigate('/');
   };
 
   return (
-    <header className={`py-5 lg:py-4 backdrop-blur-3xl shadow-2xl fixed top-0 left-0 z-40 w-full transition-all duration-500 ${isScrolled ? 'bg-black/20' : 'bg-transparent'}`}>
+    <header className={`py-5 lg:py-4 fixed top-0 left-0 z-40 w-full transition-all duration-500 ${isScrolled ? 'bg-black/20 backdrop-blur-3xl shadow-2xl' : ''}`}>
       <div className='flex justify-between items-center md:px-10 lg:px-16 px-2'>
-        <div data-aos="fade-down" data-aos-duration="2000" className='flex items-center gap-2'>
+        <div className='flex items-center gap-2'>
           <div onClick={handleClick}>
             <img src={Logo} alt='MyLogo' className='w-10 h-10 transition-all duration-500 hover:scale-95 cursor-pointer' />
           </div>
@@ -45,19 +41,19 @@ const Header = () => {
           </div>
         </div>
         <div className='flex items-center gap-8 max-sm:hidden'>
-          <div data-aos="fade-down" data-aos-duration="2000" className='cursor-pointer text-xs font-bold relative inline-flex items-center justify-center transition-all ease-in-out duration-700 rounded-full btn'>
+          <div className='cursor-pointer text-xs font-bold relative inline-flex items-center justify-center transition-all ease-in-out duration-700 rounded-full btn'>
             <NavLink to='https://drive.google.com/file/d/1lLnkVydJ7WPQkeLZA1XSIYkY1XHdnAUQ/view?usp=sharing' className='flex items-center gap-2 font-bold px-5 py-2 hover:-translate-y-1.5 transition-all ease-in duration-300 bg-transparent'>
               <span>RESUME</span>
               <FiDownload className='text-md' />
             </NavLink>
           </div>
-          <div data-aos="fade-down" data-aos-duration="2000" className='max-sm:hidden btn cursor-pointer text-xs font-bold px-3 py-2 rounded-full'>
+          <div className='max-sm:hidden btn cursor-pointer text-xs font-bold px-3 py-2 rounded-full'>
             <NavLink to="https://www.linkedin.com/in/omkarkarale541/" className="">
               <span>WORK WITH ME</span>
             </NavLink>
           </div>
         </div>
-        <div data-aos="fade-down" data-aos-duration="2000" className='md:hidden btn px-7 py-2 cursor-pointer text-sm font-bold min-[320px]:px-8 min-[320px]:text-xs'>
+        <div className='md:hidden btn px-7 py-2 cursor-pointer text-sm font-bold min-[320px]:px-8 min-[320px]:text-xs'>
           <NavLink to="https://www.linkedin.com/in/omkarkarale541/" className='hover:-translate-y-1.5 transition-all duration-500'>
             <span className='hover:-translate-y-1.5 transition-all duration-500 animate-pulse'>HIRE ME</span>
           </NavLink>

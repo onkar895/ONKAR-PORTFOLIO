@@ -20,7 +20,7 @@ const Banner = () => {
 
   return (
     <section className='flex md:mt-8' data-aos="fade-up" data-aos-duration="2000">
-      <div className='md:px-4 px-1'>
+      <div className='md:px-20 lg:px-4 px-1'>
         <div className='lg:flex lg:space-y-0 space-y-14'>
           <div className='flex flex-col lg:gap-2 gap-4 max-sm:mt-10 max-sm:mx-auto lg:w-[80%] lg:pl-8 md:px-2 lg:px-0'>
             <div className='space-y-4 lg:w-[30vw] w-full flex flex-col max-sm:items-center md:items-center lg:items-start hide-scrollbar'>

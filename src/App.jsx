@@ -8,6 +8,7 @@ import AboutPage from "./Pages/AboutPage";
 import ContactPage from "./Pages/ContactPage";
 import WorkPage from "./Pages/WorkPage";
 import NavBar from "./Components/NavBar";
+import Video from './assets/VideoP.mp4'
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -20,9 +21,9 @@ function App() {
   }, []);
 
   return (
-    <div className={loading ? "setBackground w-full h-screen flex items-center justify-center" : "setBackground w-full flex items-center justify-center"}>
-      {
-        loading ? (
+    <div className="app-container">
+      <div className={loading ? "loader-container" : "main-content"}>
+        {loading ? (
           <BeatLoader className="text-gradient" size={50} color={"#F978B4"} />
         ) : (
           <Router>
@@ -35,8 +36,11 @@ function App() {
               <Route exact path="/contact" element={<ContactPage />} />
             </Routes>
           </Router>
-        )
-      }
+        )}
+      </div>
+      <video autoPlay muted loop id="background-video">
+        <source src={Video} type="video/mp4" />
+      </video>
     </div>
   );
 }
