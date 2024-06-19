@@ -28,6 +28,7 @@ const Header = () => {
     navigate('/');
   };
 
+  // Header
   return (
     <header className={`py-5 lg:py-4 fixed top-0 left-0 z-40 w-full transition-all duration-500 ${isScrolled ? 'bg-black/20 backdrop-blur-3xl shadow-2xl' : ''}`}>
       <div className='flex justify-between items-center md:px-10 lg:px-16 px-2'>

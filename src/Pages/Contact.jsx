@@ -42,7 +42,7 @@ const Contact = () => {
         }
       );
   };
-
+  // Contact
   return (
     <section data-aos="fade-up" data-aos-duration="2000">
       <div className='flex flex-col items-center mx-auto md:px-24 w-full h-full hide-scrollbar'>
