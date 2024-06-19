@@ -8,7 +8,6 @@ import AboutPage from "./Pages/AboutPage";
 import ContactPage from "./Pages/ContactPage";
 import WorkPage from "./Pages/WorkPage";
 import NavBar from "./Components/NavBar";
-import Video from './assets/VideoP.mp4'
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -39,7 +38,7 @@ function App() {
         )}
       </div>
       <video autoPlay muted loop id="background-video">
-        <source src={Video} type="video/mp4" />
+        <source src="./assets/VideoP.mp4" type="video/mp4" />
       </video>
     </div>
   );
