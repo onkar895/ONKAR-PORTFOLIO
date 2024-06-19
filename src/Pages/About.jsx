@@ -7,7 +7,7 @@ import Connect from '../Components/Connect'
 const About = () => {
   return (
     <section data-aos="fade-up" data-aos-duration="2000">
-      <div className='mx-auto lg:px-12 md:px-24 w-full h-full mt-16 max-sm:mt-10 hide-scrollbar'>
+      <div className='mx-auto md:px-12 w-full h-full mt-16 max-sm:mt-10 hide-scrollbar'>
         <div className='pb-6 mx-auto text-center font-bold lg:text-xl text-2xl'>
           <h2>About Me</h2>
         </div>

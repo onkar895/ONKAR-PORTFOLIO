@@ -3,7 +3,7 @@ import React from "react";
 
 const Education = () => {
   return (
-    <div className="lg:w-[33.33%] w-full shadow-inner shadow-cyan-900 hover:shadow hover:shadow-cyan-300  bg-transparent backdrop-blur-3xl rounded-xl py-6 px-5 overflow-hidden cursor-pointer hover:scale-95 transition-all duration-300">
+    <div className="lg:w-[33.33%] w-full shadow-inner shadow-cyan-900 hover:shadow hover:shadow-cyan-300  bg-transparent backdrop-blur rounded-xl py-6 px-5 overflow-hidden cursor-pointer hover:scale-95 transition-all duration-300">
       <h3 data-aos="fade-up" data-aos-duration="2000" className="font-bold lg:text-lg text-2xl text-center text-gradient tracking-wide">Education</h3>
       <div data-aos="fade-up" data-aos-duration="2000" className="flex flex-col lg:gap-y-8 gap-y-4">
         <div className="flex space-x-4 lg:mt-5 mt-7 lg:mx-0 mx-auto">

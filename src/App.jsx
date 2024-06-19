@@ -20,26 +20,21 @@ function App() {
   }, []);
 
   return (
-    <div className="app-container">
-      <div className={loading ? "loader-container" : "main-content"}>
-        {loading ? (
-          <BeatLoader className="text-gradient" size={50} color={"#F978B4"} />
-        ) : (
-          <Router>
-            <Header />
-            <NavBar />
-            <Routes>
-              <Route exact path="/" element={<Home />} />
-              <Route exact path="/about" element={<AboutPage />} />
-              <Route exact path="/work" element={<WorkPage />} />
-              <Route exact path="/contact" element={<ContactPage />} />
-            </Routes>
-          </Router>
-        )}
-      </div>
-      <video autoPlay muted loop id="background-video">
-        <source src="./assets/VideoP.mp4" type="video/mp4" />
-      </video>
+    <div className={loading ? "setBackground w-full h-screen flex items-center justify-center" : "setBackground w-full flex items-center justify-center"}>
+      {loading ? (
+        <BeatLoader className="text-gradient" size={50} color={"#F978B4"} />
+      ) : (
+        <Router>
+          <Header />
+          <NavBar />
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/about" element={<AboutPage />} />
+            <Route exact path="/work" element={<WorkPage />} />
+            <Route exact path="/contact" element={<ContactPage />} />
+          </Routes>
+        </Router>
+      )}
     </div>
   );
 }
