@@ -17,6 +17,21 @@ export default {
       xl: '1200px'
     },
     extend: {
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'translateX(0)' },
+          '50%': { transform: 'translateX(100%)' }
+        },
+        slideFade: {
+          '0%': { transform: 'translateX(-100%)', opacity: 0.2 },
+          '50%': { opacity: 0.5 },
+          '100%': { transform: 'translateX(0)', opacity: 1 }
+        }
+      },
+      animation: {
+        wiggle: 'wiggle 3s ease-in-out infinite',
+        slideFade: 'slideFade 4s ease-in-out'
+      },
       colors: {
         primary: '#0a0a0a',
         accent: '#B809C3',

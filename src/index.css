@@ -132,7 +132,7 @@ body,
 }
 
 .btn:hover {
-    background-image: linear-gradient(to bottom right, #ec4899, #9333ea);
+    background: linear-gradient(to left, #954bef, #36a1ee);
     color: #ffffff;
 }
 
