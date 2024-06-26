@@ -13,21 +13,21 @@ const WorkData = ({ info }) => {
         <img
           src={info.img}
           alt={info.title}
-          className="lg:w-[21vw] lg:h-[26vh] w-[72vw] h-[21vh] md:w-[40vw] md:h-[20vh] scale-[1.1] object-fit group-hover:scale-[1.4] rounded-xl transition-all shadow-lg shadow-cyan-600"
+          className="lg:w-[21vw] lg:h-[26vh] w-[72vw] h-[21vh] md:w-[40vw] md:h-[20vh] scale-[1.1] object-fit group-hover:scale-[1.4] rounded-xl transition-all ease-in-out duration-1000 shadow-lg shadow-cyan-600"
         />
         <div className="absolute top-0 left-0 w-full h-full">
-          <div className="bg-black/70 w-full h-full flex justify-center gap-6 items-center opacity-0 hover:opacity-100 transition-all duration-500">
+          <div className="bg-black/70 w-full h-full flex justify-center gap-6 items-center opacity-0 hover:opacity-100 transition-all ease-in-out duration-1000">
             <Link
               to={info.git}
-              className="btn px-6 py-[6px] rounded-full cursor-pointer text-white text-sm text-bold"
+              className="px-8 py-[6px] border-2 hover:scale-110 hover:brightness-200 transition-all ease-in-out duration-1000 rounded-full cursor-pointer text-white text-sm text-bold"
             >
-              Github
+              GitHub
             </Link>
             <Link
               to={info.link}
-              className="btn px-7 py-[6px] rounded-full cursor-pointer text-white text-sm text-bold"
+              className="px-6 py-[6px] border-2 hover:scale-110 hover:brightness-200 rounded-full transition-all ease-in-out duration-1000 cursor-pointer text-white text-sm text-bold"
             >
-              Demo
+              Live Demo
             </Link>
           </div>
         </div>

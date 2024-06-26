@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { FiDownload } from "react-icons/fi";
+import { FaArrowDown } from "react-icons/fa6";
 import { debounce } from 'lodash';
 import Logo from '../assets/Character.png';
 
@@ -43,14 +44,14 @@ const Header = () => {
         </div>
         <div data-aos="fade-down" data-aos-duration="2000" className='flex items-center gap-8 max-sm:hidden'>
           <div className='cursor-pointer text-xs font-bold relative inline-flex items-center justify-center transition-all ease-in-out duration-700 rounded-full btn'>
-            <NavLink to='https://drive.google.com/file/d/12c7P3RFzzo-7xWmmPeDOFt5JIkaebgQG/view?usp=sharing' className='flex items-center gap-2 font-bold px-5 py-2 hover:-translate-y-1.5 transition-all ease-in duration-300 bg-transparent'>
-              <span>RESUME</span>
-              <FiDownload className='text-md' />
+            <NavLink to='https://drive.google.com/file/d/12c7P3RFzzo-7xWmmPeDOFt5JIkaebgQG/view?usp=sharing' className='flex items-center gap-1 font-extrabold px-6 py-2 hover:-translate-y-1.5 transition-all ease-in duration-300'>
+              <span>Resume</span>
+              <FaArrowDown className='text-md animate-bounce' />
             </NavLink>
           </div>
           <div className='max-sm:hidden btn cursor-pointer text-xs font-bold px-3 py-2 rounded-full'>
             <NavLink to="https://www.linkedin.com/in/omkarkarale541/" className="">
-              <span>WORK WITH ME</span>
+              <span>📄 Available for work</span>
             </NavLink>
           </div>
         </div>

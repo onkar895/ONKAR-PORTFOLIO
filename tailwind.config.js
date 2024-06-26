@@ -28,6 +28,7 @@ export default {
           '100%': { transform: 'translateX(0)', opacity: 1 }
         }
       },
+
       animation: {
         wiggle: 'wiggle 3s ease-in-out infinite',
         slideFade: 'slideFade 4s ease-in-out'
