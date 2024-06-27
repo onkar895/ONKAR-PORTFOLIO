@@ -8,6 +8,9 @@ import { PiLinkedinLogoBold } from "react-icons/pi";
 import { IoLogoLinkedin } from "react-icons/io5";
 import { FiDownload, FiGithub } from "react-icons/fi";
 import { MdEmail } from "react-icons/md";
+import { LuMail } from "react-icons/lu";
+import { ImWhatsapp } from "react-icons/im";
+import { BsWhatsapp } from "react-icons/bs";
 import { PiGithubLogoFill } from "react-icons/pi";
 import { TypeAnimation } from "react-type-animation";
 import HII from '../assets/HII.gif'
@@ -76,12 +79,12 @@ const Banner = () => {
                   </div>
                   <div className={Icons}>
                     <a href="mailto:onkarkarale4@gmail.com">
-                      <MdOutlineMailOutline />
+                      <LuMail />
                     </a>
                   </div>
                   <div className={Icons}>
                     <a href="https://wa.me/9921374887">
-                      <FaWhatsapp />
+                      <ImWhatsapp />
                     </a>
                   </div>
                   <div className={Icons}>
