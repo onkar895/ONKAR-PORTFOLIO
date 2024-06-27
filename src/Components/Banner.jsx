@@ -26,7 +26,7 @@ const Banner = () => {
             <div className='space-y-4 lg:w-[31vw] w-full flex flex-col max-sm:items-center md:items-center lg:items-start hide-scrollbar'>
               <h1 className='flex gap-2 lg:text-md text-2xl font-bold animate-pulse text-gray-400 cursor-pointer hover:-translate-y-1 transition-all duration-500'>Hello there ! <img src={HII} alt="" className='w-7 h-7 lg:w-5 lg:h-5' /></h1>
               <h1 className='font-extrabold py-2 lg:text-[40px] text-[36px] min-[320px]:text-[32px] min-[1024px]:text-[42px] tracking-widest img'> I'm Omkar Karale</h1>
-              <div className='w-full h-1 bg-gradient-to-l from-purple-400 to-blue-500 animate-slideFade'></div>
+              <div className='w-full max-sm:w-[82%] h-1 bg-gradient-to-l from-purple-400 to-blue-500 animate-slideFade'></div>
               <div className='text-[20px] min-[320px]:text-[18px] min-[1024px]:text-[16px] font-semibold uppercase'>
                 <TypeAnimation
                   sequence={["Aspiring Frontend Enthusiast", 2000, "Passionate Web Developer", 2000, "Eager Learner of Web Wizardry", 2000]}
