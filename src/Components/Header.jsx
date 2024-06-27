@@ -44,12 +44,12 @@ const Header = () => {
         </div>
         <div data-aos="fade-down" data-aos-duration="2000" className='flex items-center gap-8 max-sm:hidden'>
           <div className='cursor-pointer text-xs font-bold relative inline-flex items-center justify-center transition-all ease-in-out duration-700 rounded-full btn'>
-            <NavLink to='https://drive.google.com/file/d/12c7P3RFzzo-7xWmmPeDOFt5JIkaebgQG/view?usp=sharing' className='flex items-center gap-1 font-extrabold px-6 py-2 hover:-translate-y-1.5 transition-all ease-in duration-300'>
+            <NavLink to='https://drive.google.com/file/d/12c7P3RFzzo-7xWmmPeDOFt5JIkaebgQG/view?usp=sharing' className='flex items-center gap-1 font-extrabold px-6 py-2 hover:-translate-y-1.5 transition-all ease-in-out duration-500'>
               <span>Resume</span>
               <FaArrowDown className='text-md animate-bounce' />
             </NavLink>
           </div>
-          <div className='max-sm:hidden btn cursor-pointer text-xs font-bold px-3 py-2 rounded-full'>
+          <div className='max-sm:hidden btn cursor-pointer transition-all ease-in-out duration-700 text-xs font-bold px-3 py-2 rounded-full'>
             <NavLink to="https://www.linkedin.com/in/omkarkarale541/" className="">
               <span>📄 Available for work</span>
             </NavLink>

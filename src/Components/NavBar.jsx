@@ -81,7 +81,7 @@ const NavBar = () => {
               <LuContact />
             </NavLink>
           </div>
-          <NavLink to="https://www.linkedin.com/in/omkarkarale541/" className='btn text-sm cursor-pointer px-4 py-2 max-sm:hidden font-bold'>
+          <NavLink to="https://www.linkedin.com/in/omkarkarale541/" className='btn text-sm cursor-pointer px-4 py-[7px] max-sm:hidden font-bold'>
             <span className='animate-pulse'>Hire Me ✨</span>
           </NavLink>
         </div>

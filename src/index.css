@@ -130,14 +130,15 @@ body,
         object-fit: cover;
     }
 }
+
 .btn:hover {
-    background-image: linear-gradient(to bottom right, #a564e1, #ed64a8);
+    background-image: linear-gradient(to bottom right, #840ff2, #ed4498);
     color: #ffffff;
     transition: color 0.3s ease-in-out;
 }
 
 .btn {
-    background: linear-gradient(to left, #954bef, #36a1ee);
+    background: linear-gradient(to left, #8124f2, #36a1ee);
     color: #ffffff;
 }
 
@@ -164,7 +165,7 @@ body,
         @apply text-base;
     }
     .text-gradient {
-        @apply bg-gradient-to-r text-transparent bg-clip-text from-[#954bef] via-[#c989f4] to-[#36a1ee] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
+        @apply bg-gradient-to-r text-transparent bg-clip-text from-[#FF56F6] to-[#42A6E3] font-bold font-primary hover:from-[#f238f8] hover:to-[#359ee0];
     }
     /* .btn {
         @apply relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800;

@@ -1,21 +1,15 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import { FaLinkedinIn } from "react-icons/fa";
-import { FaXTwitter, FaWhatsapp } from "react-icons/fa6";
-import { MdOutlineMailOutline } from "react-icons/md";
+
+import { FaXTwitter } from "react-icons/fa6";
 import { PiLinkedinLogoBold } from "react-icons/pi";
-import { IoLogoLinkedin } from "react-icons/io5";
 import { FiDownload, FiGithub } from "react-icons/fi";
-import { MdEmail } from "react-icons/md";
 import { LuMail } from "react-icons/lu";
 import { ImWhatsapp } from "react-icons/im";
-import { BsWhatsapp } from "react-icons/bs";
-import { PiGithubLogoFill } from "react-icons/pi";
 import { TypeAnimation } from "react-type-animation";
 import HII from '../assets/HII.gif'
 import { NavLink } from 'react-router-dom';
-import MyResume from '../assets/Omkar_Karale_Resume.pdf'
 import Profile from '../assets/Profile.png'
 
 const Banner = () => {
