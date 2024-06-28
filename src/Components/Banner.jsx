@@ -52,12 +52,12 @@ const Banner = () => {
                 </NavLink>
 
                 <NavLink to='/contact'>
-                  <button class="border-2 text-gray-50  duration-300 relative group cursor-pointer overflow-hidden h-10 w-32 rounded-full bg-neutral-800 p-2  font-extrabold hover:bg-black/90">
-                    <div class="absolute group-hover:-top-1 group-hover:-right-2 z-10 w-16 h-16 rounded-full group-hover:scale-150  duration-700 right-12 top-12 bg-purple-500"></div>
-                    <div class="absolute group-hover:-top-1 group-hover:-right-2 z-10 w-12 h-12 rounded-full group-hover:scale-150  duration-700 right-20 -top-6 bg-gradient-to-l from-purple-400 to-blue-500"></div>
-                    <div class="absolute group-hover:-top-1 group-hover:-right-2 z-10 w-8 h-8   rounded-full group-hover:scale-150  duration-700 right-32 bottom-6 bg-orange-300"></div>
-                    <div class="absolute group-hover:-top-1 group-hover:-right-2 z-10 w-8 h-8   rounded-full group-hover:scale-150  duration-700 right-0 top-6 bg-pink-400"></div>
-                    <p class="z-10 absolute bottom-2 left-9 text-sm"><span className=''>Contact</span></p>
+                  <button className="border-2 text-gray-50  duration-300 relative group cursor-pointer overflow-hidden h-10 w-32 rounded-full bg-neutral-800 p-2  font-extrabold hover:bg-black/90">
+                    <div className="absolute group-hover:-top-1 group-hover:-right-2 z-10 w-16 h-16 rounded-full group-hover:scale-150  duration-700 right-12 top-12 bg-purple-500"></div>
+                    <div className="absolute group-hover:-top-1 group-hover:-right-2 z-10 w-12 h-12 rounded-full group-hover:scale-150  duration-700 right-20 -top-6 bg-gradient-to-l from-purple-400 to-blue-500"></div>
+                    <div className="absolute group-hover:-top-1 group-hover:-right-2 z-10 w-8 h-8   rounded-full group-hover:scale-150  duration-700 right-32 bottom-6 bg-orange-300"></div>
+                    <div className="absolute group-hover:-top-1 group-hover:-right-2 z-10 w-8 h-8   rounded-full group-hover:scale-150  duration-700 right-0 top-6 bg-pink-400"></div>
+                    <p className="z-10 absolute bottom-2 left-9 text-sm"><span>Contact</span></p>
                   </button>
                 </NavLink>
                 <div className="flex items-center space-x-6 w-[65%] max-sm:justify-between max-sm:w-[100%] justify-evenly overflow-hidden max-sm:mx-auto">
