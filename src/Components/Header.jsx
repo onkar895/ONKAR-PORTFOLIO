@@ -44,7 +44,7 @@ const Header = () => {
         </div>
         <div data-aos="fade-down" data-aos-duration="2000" className='flex items-center gap-8 max-sm:hidden'>
           <div className='cursor-pointer text-xs font-bold relative inline-flex items-center justify-center transition-all ease-in-out duration-700 rounded-full btn'>
-            <NavLink to='https://drive.google.com/file/d/12c7P3RFzzo-7xWmmPeDOFt5JIkaebgQG/view?usp=sharing' className='flex items-center gap-1 font-extrabold px-6 py-2 hover:-translate-y-1.5 transition-all ease-in-out duration-500'>
+            <NavLink to='https://drive.google.com/file/d/1sJ6ehg9bItwwTcvBQmLRxHxGVMasL2Pz/view?usp=sharing' className='flex items-center gap-1 font-extrabold px-6 py-2 hover:-translate-y-1.5 transition-all ease-in-out duration-500'>
               <span>Resume</span>
               <FaArrowDown className='text-md animate-bounce' />
             </NavLink>
