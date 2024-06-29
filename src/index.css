@@ -67,9 +67,11 @@ body,
 }
 
 .setBackground {
-    background: linear-gradient(to right, #080808, #161f2b, #080808);
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #080808, rgb(19, 40, 63));
     background-size: 200% 200%;
-    animation: gradientAnimation 5s ease infinite;
+    animation: gradientAnimation 5s ease-in-out infinite;
 }
 
 @keyframes gradientAnimation {
@@ -84,20 +86,44 @@ body,
     }
 }
 
+.setBackground::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(to right, transparent, #1e252d 20%, transparent);
+    background-size: 50% 100%;
+    animation: lightReflection 20s ease-in-out infinite;
+}
+
+@keyframes lightReflection {
+    0% {
+        transform: translateY(-100%) translateX(-50%);
+    }
+    50% {
+        transform: translateY(100%) translateX(100%);
+    }
+    100% {
+        transform: translateY(-50%) translateX(-100%);
+    }
+}
+
 .particle {
     position: absolute;
     width: 2px;
     height: 2px;
     border-radius: 50%;
-    opacity: 0.7;
+    opacity: 0.8;
     background-color: var(--color, white);
     animation: float var(--duration, 5s) infinite ease-in-out;
 }
 
 .particle1 {
     position: absolute;
-    width: 4px;
-    height: 4px;
+    width: 2px;
+    height: 2px;
     border-radius: 50%;
     opacity: 0.5;
     background-color: var(--color, cyan);
@@ -106,8 +132,8 @@ body,
 
 .particle2 {
     position: absolute;
-    width: 4px;
-    height: 4px;
+    width: 2px;
+    height: 2px;
     border-radius: 50%;
     opacity: 0.5;
     background-color: var(--color, pink);
@@ -119,7 +145,7 @@ body,
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-80px);
+        transform: translateY(-80px) translateX(-50px);
     }
     100% {
         transform: translateY(0);
