@@ -21,7 +21,7 @@ const WorkData = ({ info }) => {
           <div className="bg-black/80 w-full h-full flex justify-center gap-6 items-center opacity-0 hover:opacity-100 transition-all ease-in-out duration-1000">
             <Link
               to={info.git}
-              className="btn px-5 py-[6px] border-2  hover:brightness-200 transition-all ease-in-out duration-500 hover:font-extrabold hover:text-black rounded-full cursor-pointer text-white text-sm"
+              className="btn px-5 py-[6px]   hover:brightness-200 transition-all ease-in-out duration-500 hover:font-extrabold hover:text-black rounded-full cursor-pointer text-white text-sm"
             >
               <span className='flex items-center font-extrabold gap-x-1 hover:brightness-200 hover:scale-110 transition-all ease-in-out duration-500'>
                 <FiGithub />
@@ -30,7 +30,7 @@ const WorkData = ({ info }) => {
             </Link>
             <Link
               to={info.link}
-              className="btn px-6 py-[6px] border-2 hover:brightness-200 hover:font-extrabold hover:text-black rounded-full transition-all ease-in-out duration-1000 cursor-pointer text-white text-sm"
+              className="btn px-6 py-[6px] hover:brightness-200 hover:font-extrabold hover:text-black rounded-full transition-all ease-in-out duration-1000 cursor-pointer text-white text-sm"
             >
               <span className='flex items-center font-extrabold gap-x-1 hover:brightness-200 hover:scale-110 transition-all ease-in-out duration-500'>
                 Live

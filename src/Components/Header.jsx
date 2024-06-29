@@ -31,7 +31,7 @@ const Header = () => {
 
   // Header
   return (
-    <header className={`py-5 lg:py-4 fixed top-0 left-0 z-40 w-full transition-all duration-500 ${isScrolled ? 'bg-black/20 backdrop-blur shadow-2xl' : 'bg-transparent'}`}>
+    <header className={`py-5 lg:py-4 fixed top-0 left-0 z-40 w-full transition-all duration-500 ${isScrolled ? 'bg-black/30 backdrop-blur shadow-2xl' : 'bg-transparent'}`}>
       <div className='flex justify-between items-center md:px-10 lg:px-16 px-2'>
         <div data-aos="fade-down" data-aos-duration="2000" className='flex items-center gap-2'>
           <div onClick={handleClick}>

@@ -1,7 +1,4 @@
-/* eslint-disable react/no-unescaped-entities */
-/* eslint-disable no-unused-vars */
 import React from 'react'
-
 import { FaXTwitter } from "react-icons/fa6";
 import { PiLinkedinLogoBold } from "react-icons/pi";
 import { FiDownload, FiGithub } from "react-icons/fi";
@@ -16,10 +13,8 @@ const Banner = () => {
 
   const Icons = "text-white/80 font-extrabold p-2 transition-all ease-in-out duration-300 hover:text-white hover:brightness-200 hover:scale-110 text-3xl";
 
-  // const Contact = 'bg-transparent border border-gray-600 hover:border-cyan-900 rounded-full px-8 py-2 flex items-center text-gradient text-sm cursor-pointer hover:brightness-200 md:brightness-100 brightness-150 md:shadow-[0_2px_0_-2px_#B855F9,0_5px_0_-4px_#F8829E,0_8px_16px_-3px_#42A6E3] transition-all ease-in-out duration-500'
-
   return (
-    <section className='flex md:mt-8' data-aos="fade-up" data-aos-duration="2000">
+    <section className='relative flex md:mt-8' data-aos="fade-up" data-aos-duration="2000">
       <div className='md:px-4 px-1'>
         <div className='lg:flex lg:space-y-0 space-y-14'>
           <div className='flex flex-col lg:gap-2 gap-4 max-sm:mt-10 max-sm:mx-auto lg:w-[80%] lg:pl-8 md:px-2 lg:px-0'>

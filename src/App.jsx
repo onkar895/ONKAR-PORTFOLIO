@@ -8,6 +8,7 @@ import AboutPage from "./Pages/AboutPage";
 import ContactPage from "./Pages/ContactPage";
 import WorkPage from "./Pages/WorkPage";
 import NavBar from "./Components/NavBar";
+import ParticleBackground from './Components/ParticleBackground';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -21,8 +22,9 @@ function App() {
 
   return (
     <div className={loading ? "setBackground w-full h-screen flex items-center justify-center" : "setBackground w-full flex items-center justify-center"}>
+      <ParticleBackground />
       {loading ? (
-        <BeatLoader className="text-gradient" size={50} color={"#F978B4"} />
+        <BeatLoader className="text-gradient" size={50} color={"#36a1ee"} />
       ) : (
         <Router>
           <Header />
