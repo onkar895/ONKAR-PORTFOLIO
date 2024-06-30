@@ -71,7 +71,7 @@ body,
     overflow: hidden;
     background: linear-gradient(to right, #080808, rgb(19, 40, 63));
     background-size: 200% 200%;
-    animation: gradientAnimation 5s ease-in-out infinite;
+    animation: gradientAnimation 10s ease-in-out infinite;
 }
 
 @keyframes gradientAnimation {
@@ -115,7 +115,7 @@ body,
     width: 2px;
     height: 2px;
     border-radius: 50%;
-    opacity: 0.8;
+    opacity: 1;
     background-color: var(--color, white);
     animation: float var(--duration, 5s) infinite ease-in-out;
 }
@@ -125,7 +125,7 @@ body,
     width: 2px;
     height: 2px;
     border-radius: 50%;
-    opacity: 0.5;
+    opacity: 0.8;
     background-color: var(--color, cyan);
     animation: float1 var(--duration, 7s) infinite ease-in-out;
 }
@@ -135,7 +135,7 @@ body,
     width: 2px;
     height: 2px;
     border-radius: 50%;
-    opacity: 0.5;
+    opacity: 0.8;
     background-color: var(--color, pink);
     animation: float2 var(--duration, 10s) infinite ease-in-out;
 }
