@@ -1,14 +1,14 @@
-import amazonPic from '../assets/Amazon.png'
-import netflixPic from '../assets/Netflix.png'
-import FoodAppPic from '../assets/FoodApp.png'
-import YouTubePic from '../assets/Youtube.png'
-import PortfolioPic from '../assets/Portfolio.png'
-import ExpensePic from '../assets/Expense.png'
+import amazonPic from '../assets/Amazon.png';
+import netflixPic from '../assets/Netflix.png';
+import foodAppPic from '../assets/FoodApp.png';
+import youTubePic from '../assets/Youtube.png';
+import portfolioPic from '../assets/Portfolio.png';
+import expensePic from '../assets/Expense.png';
 
 export const data = [
   {
     id: 1,
-    img: YouTubePic,
+    img: youTubePic,
     title: "YouTube UI",
     desc: "React.js, Redux-Toolkit, Tailwind CSS, YouTube Live API",
     link: "https://you-tube-ui-six.vercel.app/",
@@ -16,7 +16,7 @@ export const data = [
   },
   {
     id: 2,
-    img: FoodAppPic,
+    img: foodAppPic,
     title: "Food Ordering App",
     desc: "React.js, Redux-Toolkit, Material UI, Firebase, Swiggy API",
     link: "https://food-ordering-app-gilt.vercel.app/",
@@ -32,7 +32,7 @@ export const data = [
   },
   {
     id: 4,
-    img: PortfolioPic,
+    img: portfolioPic,
     title: "Portfolio",
     desc: "React.js, Tailwind CSS, Aos Library",
     link: "https://onkar-portfolio-one.vercel.app/",
@@ -40,7 +40,7 @@ export const data = [
   },
   {
     id: 5,
-    img: ExpensePic,
+    img: expensePic,
     title: "Daily Expense Tracker",
     desc: "Html5, CSS3, JavaScript",
     link: "https://expense-tracker-7578a4.netlify.app/",
