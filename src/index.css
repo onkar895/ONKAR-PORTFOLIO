@@ -10,8 +10,12 @@
     overflow-x: hidden;
 }
 
-html,
-body,
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+}
+
 .app-container {
     scroll-behavior: smooth;
 }
@@ -39,21 +43,17 @@ body,
     border-radius: 10px;
 }
 
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to left, #0693f7, #7003f5, #fa04ee);
+    border-radius: 10px;
+}
+
 /* Media query to hide scrollbar for screens smaller than 768px */
 @media (max-width: 767px) {
     ::-webkit-scrollbar {
         display: none;
     }
 }
-
-/* .btn:hover {
-    background: linear-gradient(57.4deg, rgb(247, 156, 106) 6%, rgb(249, 120, 180) 26%, rgb(188, 82, 249) 49.1%, #9488f8 86.5%);
-}
-
-.btn {
-    background: linear-gradient(57.4deg, rgb(70, 163, 250) 6%, rgb(188, 82, 249) 26%, rgb(249, 120, 180) 49.1%, rgb(247, 156, 106) 86.5%);
-    box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
-} */
 
 .gradient,
 .active {
@@ -69,7 +69,7 @@ body,
 .setBackground {
     position: relative;
     overflow: hidden;
-    background: linear-gradient(to right, #080808, rgb(19, 40, 63));
+    background-image: linear-gradient(to right, #14141b, rgb(24, 18, 42));
     background-size: 200% 200%;
     animation: gradientAnimation 10s ease-in-out infinite;
 }
@@ -86,48 +86,13 @@ body,
     }
 }
 
-.setBackground::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 200%;
-    height: 100%;
-    background: linear-gradient(to right, transparent, #1e252d 20%, transparent);
-    background-size: 50% 100%;
-    animation: lightReflection 20s ease-in-out infinite;
-}
-
-@keyframes lightReflection {
-    0% {
-        transform: translateY(-100%) translateX(-50%);
-    }
-    50% {
-        transform: translateY(100%) translateX(100%);
-    }
-    100% {
-        transform: translateY(-50%) translateX(-100%);
-    }
-}
-
 .particle {
     position: absolute;
-    width: 2px;
-    height: 2px;
-    border-radius: 50%;
-    opacity: 1;
-    background-color: var(--color, white);
-    animation: float var(--duration, 5s) infinite ease-in-out;
-}
-
-.particle1 {
-    position: absolute;
-    width: 2px;
-    height: 2px;
+    width: 3px;
+    height: 3px;
     border-radius: 50%;
     opacity: 0.8;
-    background-color: var(--color, cyan);
-    animation: float1 var(--duration, 7s) infinite ease-in-out;
+    background-color: var(--color, white);
 }
 
 .particle2 {
@@ -138,30 +103,6 @@ body,
     opacity: 0.8;
     background-color: var(--color, pink);
     animation: float2 var(--duration, 10s) infinite ease-in-out;
-}
-
-@keyframes float {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-80px) translateX(-50px);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
-
-@keyframes float1 {
-    0% {
-        transform: translateY(0) translateX(0);
-    }
-    50% {
-        transform: translateY(-50px) translateX(-30px);
-    }
-    100% {
-        transform: translateY(0) translateX(0);
-    }
 }
 
 @keyframes float2 {
@@ -178,63 +119,12 @@ body,
 
 .img {
     cursor: pointer;
-    filter: drop-shadow(8px 8px 8px #954bef);
+    filter: drop-shadow(3px 3px 3px #954bef);
 }
 
-/* #background-video {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-    transform: translate(-50%, -50%);
-    filter: blur(2px);
-}
-
-.loader-container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5);  optional: add a background color to loader
-} */
-
-/* .main-content {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    z-index: 1;
-} */
-
-/* Media Queries for different screen sizes */
-@media (max-width: 1200px) {
-    #background-video {
-        object-fit: cover;
-    }
-}
-
-@media (max-width: 992px) {
-    #background-video {
-        object-fit: cover;
-    }
-}
-
-@media (max-width: 768px) {
-    #background-video {
-        object-fit: cover;
-    }
-}
-
-@media (max-width: 576px) {
-    #background-video {
-        object-fit: cover;
-    }
+.img1 {
+    cursor: pointer;
+    filter: drop-shadow(5px 0px 5px #09606f);
 }
 
 .btn:hover {
@@ -273,7 +163,4 @@ body,
     .text-gradient {
         @apply bg-gradient-to-r text-transparent bg-clip-text from-[#36a1ee] to-[#f238f8] font-bold font-primary hover:from-[#f238f8] hover:to-[#359ee0];
     }
-    /* .btn {
-        @apply relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800;
-    } */
 }

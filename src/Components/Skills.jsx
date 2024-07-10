@@ -7,7 +7,7 @@ import { FaReact, FaBootstrap, FaGithub, FaGitAlt } from "react-icons/fa";
 
 const Skills = () => {
   return (
-    <div className="lg:w-[33.33%] w-full shadow-inner shadow-cyan-600 hover:shadow-lg hover:shadow-cyan-300 bg-gradient-to-br from-transparent to-black/50 backdrop-blur rounded-xl py-6 md:px-7 overflow-hidden cursor-pointer hover:scale-95 transition-transform duration-300">
+    <div className="w-full shadow-inner shadow-cyan-600 hover:shadow-lg hover:shadow-cyan-300 bg-gradient-to-b from-[#14141b] to-white/10 backdrop-blur rounded-xl py-6 md:px-7 overflow-hidden cursor-pointer hover:scale-95 transition-transform duration-300">
       <h3 data-aos="fade-up" data-aos-duration="2000" className="font-bold lg:text-lg text-2xl text-center text-gradient tracking-wide">Skills</h3>
       <div data-aos="fade-up" data-aos-duration="2000" className="flex md:gap-x-10 gap-x-6 gap-y-10 flex-wrap lg:py-6 py-10 justify-center">
         {[

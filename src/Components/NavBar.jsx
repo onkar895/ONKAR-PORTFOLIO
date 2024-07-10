@@ -42,7 +42,7 @@ const NavBar = () => {
     <nav className={`fixed bottom-2 max:sm:bottom-1 w-full overflow-hidden z-50 transition-transform duration-500 ${showNavBar ? 'translate-y-0' : 'translate-y-full'}`}>
       <div className='container mx-auto'>
         {/* nav inner */}
-        <div className='w-full backdrop-blur-xl bg-black/60 shadow-2xl backdrop-contrast-125 h-[65px] rounded-full max-w-[500px] mx-auto px-5 max-sm:px-3 flex justify-between items-center text-2xl text-white/70'>
+        <div className='w-full bg-[rgba(30,23,53,0.4)] backdrop-blur-xl shadow-2xl backdrop-contrast-125 h-[65px] rounded-full max-w-[500px] mx-auto px-5 max-sm:px-3 flex justify-between items-center text-2xl text-white/70'>
           <div className="w-[40px] h-[40px] flex items-center justify-center flex-short rounded-full custom-border box-shadow bg-white group overflow-hidden hover:overflow-hidden cursor-pointer">
             <div
               className="scale-[1.3] transition group-hover:scale-[1.6] w-[32px]">

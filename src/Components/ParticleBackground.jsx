@@ -2,11 +2,11 @@ import React from 'react';
 
 const ParticleBackground = () => {
   return (
-    <div className="fixed inset-0 overflow-hidden pointer-events-none">
-      {Array.from({ length: 160 }).map((_, i) => {
-        const type = i % 3 === 0 ? 'particle1' : i % 5 === 0 ? 'particle2' : 'particle';
-        const color = i % 3 === 0 ? 'cyan' : i % 5 === 0 ? 'pink' : 'white';
-        const duration = 3 + Math.random() * 10;
+    <div className="fixed inset-0 overflow-hidden pointer-events-none animate-pulse">
+      {Array.from({ length: 80 }).map((_, i) => {
+        const type = i % 2 === 0 ? 'particle2' : 'particle';
+        const color = i % 2 === 0 ? 'pink' : 'white';
+        const duration = 4 + Math.random() * 10;
         return (
           <div
             key={i}

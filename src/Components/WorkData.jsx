@@ -9,38 +9,36 @@ const WorkData = ({ info }) => {
 
   return (
     <div data-aos="fade-up" data-aos-duration="2000"
-      className="lg:w-[26.8vw] lg:h-[55vh] w-[85vw] h-[42vh] md:w-[50vw] md:h-[40vh] cursor-pointer relative overflow-hidden group"
+      className="relative lg:w-[26.8vw] lg:h-[60vh] w-[85vw] h-[42vh] md:w-[50vw] md:h-[40vh] cursor-pointer shadow-inner shadow-cyan-900  bg-gradient-to-b from-[#14141b] to-white/10 overflow-hidden backdrop-blur rounded-xl group"
     >
-      <div className='lg:w-[26.8vw] lg:h-[38vh] w-[85vw] h-[28vh] md:w-[50vw] md:h-[28vh] flex items-center justify-center bg-gradient-to-br from-transparent to-white/30 shadow-inner shadow-cyan-700 backdrop-blur-3xl rounded-t-xl overflow-hidden hover:overflow-hidden cursor-pointer relative group'>
+      <div className='relative lg:w-[26.8vw] lg:h-[42vh] w-[85vw] h-[28vh] md:w-[50vw] md:h-[28vh] flex items-center justify-center overflow-hidden hover:overflow-hidden cursor-pointer group'>
         <img
           src={info.img}
           alt={info.title}
-          className="lg:w-[20vw] lg:h-[25vh] w-[72vw] h-[22vh] md:w-[40vw] md:h-[20vh] scale-[1.1] object-fit group-hover:scale-[1.4] rounded-xl transition-all ease-in-out duration-500 shadow-lg shadow-cyan-600"
+          className="lg:h-[42vh] h-[32vh] md:h-[30vh] object-contain group-hover:scale-[2] rounded-xl transition-transform ease-in-out duration-300 img1"
         />
-        <div className="absolute top-0 left-0 w-full h-full">
-          <div className="bg-black/80 w-full h-full flex justify-center gap-6 items-center opacity-0 hover:opacity-100 transition-all ease-in-out duration-1000">
-            <Link
-              to={info.git}
-              className="btn px-5 py-[6px]   hover:brightness-200 transition-all ease-in-out duration-500 hover:font-extrabold hover:text-black rounded-full cursor-pointer text-white text-sm"
-            >
-              <span className='flex items-center font-extrabold gap-x-1 hover:brightness-200 hover:scale-110 transition-all ease-in-out duration-500'>
-                <FiGithub />
-                GitHub
-              </span>
-            </Link>
-            <Link
-              to={info.link}
-              className="btn px-6 py-[6px] hover:brightness-200 hover:font-extrabold hover:text-black rounded-full transition-all ease-in-out duration-1000 cursor-pointer text-white text-sm"
-            >
-              <span className='flex items-center font-extrabold gap-x-1 hover:brightness-200 hover:scale-110 transition-all ease-in-out duration-500'>
-                Live
-                <FiArrowUpRight className='text-lg' />
-              </span>
-            </Link>
-          </div>
+        <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center gap-4 bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+          <Link
+            to={info.git}
+            className="px-5 py-[6px] bg-white/20 hover:bg-white/30 rounded-full text-white text-sm font-extrabold flex items-center gap-1 hover:brightness-200 transition-all duration-500"
+          >
+            <span className='flex items-center gap-x-1 hover:scale-105 transition-all ease-in-out duration-500'>
+              <FiGithub />
+              GitHub
+            </span>
+          </Link>
+          <Link
+            to={info.link}
+            className="px-6 py-[6px] bg-white/20 hover:bg-white/30 rounded-full text-white text-sm font-extrabold flex items-center gap-1 hover:brightness-200 transition-all duration-500"
+          >
+            <span className='flex items-center gap-x-1 hover:scale-105 transition-all ease-in-out duration-500'>
+              Live
+              <FiArrowUpRight className='text-lg' />
+            </span>
+          </Link>
         </div>
       </div>
-      <div className='flex flex-col rounded-b-xl py-2 text-center max-sm:gap-1 backdrop-blur shadow-inner shadow-cyan-900'>
+      <div className='flex flex-col py-2 text-center max-sm:gap-1 shadow-inner shadow-white/10'>
         <p className='font-bold text-gray-300 max-sm:text-xl'>{info.title}</p>
         <p className='text-xs md:font-bold text-gray-400'>{info.desc}</p>
         <div className='text-xs md:font-bold text-gray-400 md:mt-1'>

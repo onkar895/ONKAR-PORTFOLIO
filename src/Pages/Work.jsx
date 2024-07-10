@@ -15,7 +15,7 @@ const Work = () => {
             <p className='text-sm text-gray-400'>each one perfectly captures the heart and soul I've put into each and every detail.</p>
           </div>
         </div>
-        <div className='flex justify-center relative flex-wrap items-center overflow-hidden lg:gap-[1rem] gap-[2rem] mx-auto pt-8 px-3'>
+        <div className='flex justify-center relative flex-wrap items-center overflow-hidden lg:gap-x-[1rem] lg:gap-y-[3rem] gap-[2rem] mx-auto pt-8 px-3'>
           {
             data.map((info) => {
               return (

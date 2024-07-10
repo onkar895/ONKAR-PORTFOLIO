@@ -1,9 +1,9 @@
 import amazonPic from '../assets/Amazon.png'
 import netflixPic from '../assets/Netflix.png'
-import FoodAppPic from '../assets/FOOD-ORDERING-APP.png'
-import YouTubePic from '../assets/YouTube.png'
+import FoodAppPic from '../assets/FoodApp.png'
+import YouTubePic from '../assets/Youtube.png'
 import PortfolioPic from '../assets/Portfolio.png'
-import ExpensePic from '../assets/ExpensePic.png'
+import ExpensePic from '../assets/Expense.png'
 
 export const data = [
   {

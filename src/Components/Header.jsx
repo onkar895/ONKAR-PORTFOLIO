@@ -6,6 +6,7 @@ import { FiDownload } from "react-icons/fi";
 import { FaArrowDown } from "react-icons/fa6";
 import { debounce } from 'lodash';
 import Logo from '../assets/Character.png';
+import NavBar from './NavBar';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,7 +32,7 @@ const Header = () => {
 
   // Header
   return (
-    <header className={`py-5 lg:py-4 fixed top-0 left-0 z-40 w-full transition-all duration-500 ${isScrolled ? 'bg-black/30 backdrop-blur shadow-2xl' : 'bg-transparent'}`}>
+    <nav className={`py-5 lg:py-4 fixed top-0 left-0 z-40 w-full transition-all ease-in-out duration-300 ${isScrolled ? 'bg-[rgba(30,23,53,0.4)] backdrop-blur-xl' : 'bg-transparent'}`}>
       <div className='flex justify-between items-center md:px-10 lg:px-16 px-2'>
         <div data-aos="fade-down" data-aos-duration="2000" className='flex items-center gap-2'>
           <div onClick={handleClick}>
@@ -61,7 +62,7 @@ const Header = () => {
           </NavLink>
         </div>
       </div>
-    </header>
+    </nav>
   );
 };
 
