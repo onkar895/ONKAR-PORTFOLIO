@@ -1,7 +1,7 @@
 import amazonPic from '../assets/Amazon.png';
 import netflixPic from '../assets/Netflix.png';
 import foodAppPic from '../assets/FoodApp.png';
-import youTubePic from '../assets/Youtube.png';
+import youTubePic from '../assets/YouTubePic.png';
 import portfolioPic from '../assets/Portfolio.png';
 import expensePic from '../assets/Expense.png';
 
