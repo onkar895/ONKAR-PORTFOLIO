@@ -6,13 +6,13 @@ import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <section data-aos="fade-up" data-aos-duration="2000" className='mx-auto md:px-12 w-full lg:h-[60vh] h-[55vh]'>
-      <div className='flex max-sm:flex-col lg:justify-start justify-center items-center shadow-inner shadow-cyan-600 bg-gradient-to-br from-transparent to-black/50 backdrop-blur rounded-xl h-full'>
+    <section data-aos="fade-up" data-aos-duration="2000" className='mx-auto md:px-4 lg:px-12 w-full lg:h-[60vh] h-[55vh]'>
+      <div className='flex flex-col lg:flex-row lg:justify-start justify-center items-center shadow-inner shadow-cyan-600 bg-gradient-to-br from-transparent to-black/50 backdrop-blur rounded-xl h-full'>
         <div data-aos="fade-right" data-aos-duration="2000">
           <img src={Image} alt="GIF" className='w-full lg:h-[45vh] h-[22vh] cursor-pointer' />
         </div>
-        <div className='flex flex-col gap-4 lg:w-2/4 md:w-[100vw] max-sm:w-[85vw] text-justify'>
-          <div className='lg:text-3xl text-xl font-semibold'>
+        <div className='flex flex-col gap-4 lg:w-2/4 md:w-[70vw] max-sm:w-[85vw] text-justify'>
+          <div className='lg:text-3xl text-xl font-semibold lg:text-justify text-center'>
             <h1>Ready to ignite your project with a sprinkle of magic?</h1>
           </div>
           <div className='flex text-justify'>

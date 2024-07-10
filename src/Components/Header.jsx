@@ -38,9 +38,9 @@ const Header = () => {
           <div onClick={handleClick}>
             <img src={Logo} alt='MyLogo' className='w-10 h-10 transition-all duration-500 hover:scale-95 cursor-pointer' />
           </div>
-          <div>
-            <span className='text-gradient text-xl tracking-widest'>OMKAR</span> &nbsp;
-            <span className='text-xl tracking-widest'>KARALE</span>
+          <div className='flex gap-x-2 text-2xl tracking-widest font-extrabold'>
+            <span className='text-gradient'>Omkar</span>
+            <span>Karale</span>
           </div>
         </div>
         <div data-aos="fade-down" data-aos-duration="2000" className='flex items-center gap-8 max-sm:hidden'>

@@ -45,7 +45,7 @@ const Contact = () => {
   // Contact
   return (
     <section data-aos="fade-up" data-aos-duration="2000">
-      <div className='flex flex-col items-center mx-auto md:px-12 w-full h-full hide-scrollbar'>
+      <div className='flex flex-col items-center mx-auto lg:px-12 md:px-4 w-full h-full hide-scrollbar'>
         <div data-aos="fade-up" data-aos-duration="2000" className='py-6 mx-auto text-center font-bold lg:text-xl text-2xl hide-scrollbar'>
           <h2>Contact Me</h2>
           <span className='flex text-sm text-gray-400 mt-3'>Appreciate you taking the time to browse my portfolio! If you have any inquiries or opportunities, feel free to reach out. I'm always up for collaboration and embracing new challenges.</span>
