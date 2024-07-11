@@ -9,7 +9,7 @@ const Work = () => {
     <section data-aos="fade-up" data-aos-duration="2000" className='mx-auto lg:px-12 md:px-4 w-full h-full'>
       <div className='shadow-inner shadow-cyan-600 bg-gradient-to-br from-[#14141b] to-[#1c132e] backdrop-blur rounded-xl py-8 hide-scrollbar'>
         <div className='flex flex-col items-center max-sm:justify-center gap-y-3 px-3'>
-          <h2 className='font-bold text-2xl min-[320px]:text-xl tracking-wide'>My Recent <span className='text-gradient tracking-wide'>Works & Projects</span></h2>
+          <h2 className='font-bold text-2xl min-[320px]:text-xl tracking-wider'>My Recent <span className='text-gradient brightness-125 hover:text-gradient hover:brightness-200 tracking-wider'>Works & Projects</span></h2>
           <div className='text-center'>
             <p className='text-sm text-gray-400'>See the results of my work: passionately created designs that are loaded with passion and commitment;</p>
             <p className='text-sm text-gray-400'>each one perfectly captures the heart and soul I've put into each and every detail.</p>

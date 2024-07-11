@@ -15,8 +15,8 @@ const Home = () => {
         <Work />
         <Footer />
         <div className='text-center mt-16 text-xs font-bold'>
-          <span className='text-gray-400'>Copyright @ 2024,</span>
-          <span className='animate-pulse'> Designed and Developed by Omkar Karale 😍</span>
+          <span className='text-gray-400 font-bold'>Copyright @ 2024,</span>
+          <span className='animate-pulse text-gradient brightness-150 hover:text-gradient hover:brightness-200'> Designed and Developed by Omkar Karale</span>  😍
         </div>
       </div>
     </div>

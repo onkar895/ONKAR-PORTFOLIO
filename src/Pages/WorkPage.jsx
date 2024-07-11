@@ -8,8 +8,9 @@ const WorkPage = () => {
     <div className='my-24 flex flex-col gap-y-8 md:mx-0 mx-2 '>
       <Work />
       <Footer />
-      <div className='text-center mt-20 '>
-        <span className='text-xs font-bold'><span className='text-gray-400'>Copyright @ 2024,</span> Designed and Developed by Omkar Karale 😍</span>
+      <div className='text-center mt-20 text-xs'>
+        <span className='text-gray-400 font-bold'>Copyright @ 2024,</span>
+        <span className='animate-pulse text-gradient brightness-150 hover:text-gradient hover:brightness-200'> Designed and Developed by Omkar Karale</span>  😍
       </div>
     </div>
   )

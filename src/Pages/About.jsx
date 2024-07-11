@@ -8,9 +8,9 @@ const About = () => {
     <section data-aos="fade-up" data-aos-duration="2000">
       <div className="mx-auto lg:px-12 md:px-4 w-full h-full mt-16 hide-scrollbar">
         <div className="pb-6 mx-auto text-center font-extrabold lg:text-xl text-2xl">
-          <h2>About Me</h2>
+          <span className='text-gradient brightness-125 hover:brightness-200 hover:text-gradient tracking-wider'>About Me</span>
         </div>
-        <div data-aos="fade-up" data-aos-duration="2000" className="flex flex-wrap lg:flex-nowrap lg:gap-3 gap-6 w-full">
+        <div data-aos="fade-up" data-aos-duration="2000" className="flex flex-wrap lg:flex-nowrap lg:gap-3 gap-6 w-full mt-2">
           <Education />
           <Skills />
           <Connect />

@@ -30,7 +30,6 @@ const Header = () => {
     navigate('/');
   };
 
-
   const work = "text-sm space-y-1 transition-all ease-in-out duration-700 cursor-pointer font-extrabold text-gradient brightness-125 hover:brightness-200 hover:text-gradient tracking-widest hover:-translate-y-1"
 
   const Hline = "w-full h-1 bg-gradient-to-r from-cyan-400 to-[#8124f2] animate-slideFade"
@@ -66,7 +65,7 @@ const Header = () => {
         </div>
         <div data-aos="fade-down" data-aos-duration="2000" className={`${work} md:hidden px-7 cursor-pointer text-sm font-bold min-[320px]:px-8 min-[320px]:text-xs`}>
           <NavLink to="https://www.linkedin.com/in/omkarkarale541/" className="">
-            <span className='tracking-widest max-sm:px-2'>Hire Me</span>
+            <span className='tracking-widest max-sm:px-2 min-[320px]:px-0'>Hire Me</span>
           </NavLink>
           <div className={Hline}></div>
         </div>
