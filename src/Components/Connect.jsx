@@ -1,9 +1,14 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import React from 'react';
+import {
+  AiFillGithub,
+  AiOutlineTwitter,
+  AiFillInstagram,
+} from "react-icons/ai";
+import { SiGmail } from "react-icons/si";
+import { RiWhatsappFill } from "react-icons/ri";
 import { FaLinkedinIn } from 'react-icons/fa';
-import { FaXTwitter, FaWhatsapp, FaInstagram } from 'react-icons/fa6';
-import { MdEmail } from 'react-icons/md';
 import { PiGithubLogoFill } from 'react-icons/pi';
 import Character from '../assets/Character.png';
 import { NavLink } from 'react-router-dom';
@@ -12,7 +17,7 @@ const Connect = () => {
   const links = [
     {
       href: 'https://github.com/onkar895',
-      icon: <PiGithubLogoFill className='transition-all duration-500 hover:scale-125 md:text-2xl text-3xl' />,
+      icon: <AiFillGithub className='transition-all duration-500 hover:scale-125 md:text-2xl text-3xl' />,
       label: 'GitHub',
       bgClass: 'bg-white text-black',
     },
@@ -24,25 +29,25 @@ const Connect = () => {
     },
     {
       href: 'https://twitter.com/Onkar895',
-      icon: <FaXTwitter className='transition-all duration-500 hover:scale-125 md:text-2xl text-3xl' />,
+      icon: <AiOutlineTwitter className='transition-all duration-500 hover:scale-125 md:text-2xl text-3xl' />,
       label: 'Twitter',
       bgClass: 'bg-black text-white',
     },
     {
       href: 'https://wa.me/9921374887',
-      icon: <FaWhatsapp className='transition-all duration-500 hover:scale-125 md:text-2xl text-3xl' />,
+      icon: <RiWhatsappFill className='transition-all duration-500 hover:scale-125 md:text-2xl text-3xl' />,
       label: 'Whatsapp',
       bgClass: 'bg-gradient-to-r from-[#25D366] to-[#128C7E] text-white',
     },
     {
       href: 'mailto:onkarkarale4@gmail.com',
-      icon: <MdEmail className='transition-all duration-500 hover:scale-125 md:text-2xl text-3xl' />,
+      icon: <SiGmail className='transition-all duration-500 hover:scale-125 md:text-2xl text-3xl' />,
       label: 'Email',
       bgClass: 'bg-gradient-to-r from-[#ea4335] to-[#fbbc05] text-white',
     },
     {
       href: 'https://www.instagram.com/i_m_o_n_k_a_r_895/',
-      icon: <FaInstagram className='transition-all duration-500 hover:scale-125 md:text-2xl text-3xl' />,
+      icon: <AiFillInstagram className='transition-all duration-500 hover:scale-125 md:text-2xl text-3xl' />,
       label: 'Instagram',
       bgClass: 'bg-gradient-to-t from-[#fcb045] via-[#fd1d1d] to-[#833ab4] text-white',
     },
