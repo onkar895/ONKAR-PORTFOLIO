@@ -36,8 +36,8 @@ const Header = () => {
 
   // Header
   return (
-    <nav className={`py-5 lg:py-4 fixed top-0 left-0 z-40 w-full transition-all ease-in-out duration-300 ${isScrolled ? 'bg-[rgba(30,23,53,0.4)] backdrop-blur-xl' : 'bg-transparent'}`}>
-      <div className='flex justify-between items-center md:px-10 lg:px-16 px-2'>
+    <nav className={`py-5 lg:py-3 fixed top-0 left-0 z-40 w-full transition-all ease-in-out duration-300 ${isScrolled ? 'bg-[rgba(30,23,53,0.4)] backdrop-blur-xl' : 'bg-transparent'}`}>
+      <div className='flex justify-between items-center md:px-6 px-3 sm:px-6 lg:px-[4.7rem]'>
         <div data-aos="fade-down" data-aos-duration="2000" className='flex items-center gap-2'>
           <div onClick={handleClick}>
             <img src={Logo} alt='MyLogo' className='w-10 h-10 transition-all duration-500 hover:scale-95 cursor-pointer' />
@@ -47,7 +47,7 @@ const Header = () => {
             <span>Karale</span>
           </div>
         </div>
-        <div data-aos="fade-down" data-aos-duration="2000" className='flex items-center gap-8 max-sm:hidden py-2'>
+        <div data-aos="fade-down" data-aos-duration="2000" className='flex items-center sm:ml-28 gap-8 max-sm:hidden py-2'>
           <div className={work}>
             <NavLink to="https://drive.google.com/file/d/1sJ6ehg9bItwwTcvBQmLRxHxGVMasL2Pz/view?usp=sharing" className="">
               <span>Resume🔻</span>
@@ -63,9 +63,9 @@ const Header = () => {
             <div className={Hline}></div>
           </div>
         </div>
-        <div data-aos="fade-down" data-aos-duration="2000" className={`${work} md:hidden px-7 cursor-pointer text-sm font-bold min-[320px]:px-8 min-[320px]:text-xs`}>
+        <div data-aos="fade-down" data-aos-duration="2000" className={`${work} md:hidden cursor-pointer text-sm font-bold min-[320px]:px-3 min-[320px]:text-sm`}>
           <NavLink to="https://www.linkedin.com/in/omkarkarale541/" className="">
-            <span className='tracking-widest max-sm:px-2 min-[320px]:px-0'>Hire Me</span>
+            <span className='tracking-widest sm:hidden max-sm:px-2'>Hire Me</span>
           </NavLink>
           <div className={Hline}></div>
         </div>

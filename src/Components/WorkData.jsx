@@ -44,7 +44,7 @@ const WorkData = ({ info }) => {
         </div>
       </div>
       <div className='flex flex-col py-2 text-center max-sm:gap-1 shadow-inner shadow-white/10 w-full'>
-        <span className='font-bold max-sm:text-xl brightness-200 tracking-wider'>{info.title}</span>
+        <span className='font-bold max-sm:text-xl text-gradient brightness-200 hover:text-gradient hover:brightness-200 tracking-wider'>{info.title}</span>
         <p className='text-xs md:font-bold text-gray-400'>{info.desc}</p>
         <div className='text-xs md:font-bold text-gray-400 md:mt-1'>
           <span>Note : Please hover on the Image to get the project links</span>

@@ -11,6 +11,7 @@ export default {
       tertiary: 'Aldrich'
     },
     screens: {
+      xs: '400px',
       sm: '640px',
       md: '768px',
       lg: '960px',
@@ -32,8 +33,8 @@ export default {
       },
 
       animation: {
-        wiggle: 'wiggle 5s ease-in-out infinite',
-        slideFade: 'slideFade 8s ease-in-out'
+        wiggle: 'wiggle 3s ease-in-out infinite',
+        slideFade: 'slideFade 5s ease-in-out'
       },
       colors: {
         primary: '#0a0a0a',
