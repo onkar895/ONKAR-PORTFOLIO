@@ -22,7 +22,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="w-full lg:w-1/3 shadow-inner shadow-cyan-600 hover:shadow-lg hover:shadow-cyan-300 bg-gradient-to-b from-[#14141b] to-white/10 backdrop-blur rounded-xl py-6 md:px-7 overflow-hidden cursor-pointer hover:scale-95 transition-transform duration-300">
+    <div className="w-full lg:w-1/3 shadow-inner shadow-cyan-600 hover:shadow-lg hover:shadow-cyan-300 bg-gradient-to-b from-[#14141b] to-[#1c132e] backdrop-blur rounded-xl py-6 md:px-7 overflow-hidden cursor-pointer hover:scale-95 transition-transform duration-300">
       <h3 data-aos="fade-up" data-aos-duration="2000" className="font-bold lg:text-lg text-2xl text-center text-gradient tracking-wide">Skills</h3>
       <div data-aos="fade-up" data-aos-duration="2000" className="flex flex-wrap justify-center lg:gap-x-10 md:gap-x-24 gap-x-16 gap-y-10 py-10">
         {

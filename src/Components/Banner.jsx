@@ -11,12 +11,16 @@ import Profile from '../assets/Profile.png'
 
 const Banner = () => {
 
-  const Icons = "text-white/80 font-extrabold p-2 transition-all ease-in-out duration-300 hover:text-white hover:brightness-200 hover:scale-110 text-3xl";
+  const Icons = "text-white/80 font-extrabold transition-all ease-in-out duration-300 hover:text-white hover:brightness-200 hover:scale-110 text-2xl";
+
+  const contact = "border-2 text-gray-50  duration-300 relative group cursor-pointer overflow-hidden h-9 w-32 rounded-full bg-neutral-800 p-2 font-extrabold hover:bg-black/90"
+
+  const circle = "absolute group-hover:-top-1 group-hover:-right-2 z-10 rounded-full group-hover:scale-150  duration-700"
 
   return (
     <section className='relative flex md:mt-8' data-aos="fade-up" data-aos-duration="2000">
       <div className='md:px-4 px-1'>
-        <div className='lg:flex lg:space-y-0 space-y-14'>
+        <div className='lg:flex items-center justify-center lg:space-y-0 space-y-14'>
           <div className='flex flex-col lg:gap-2 gap-4 max-sm:mt-10 max-sm:mx-auto lg:w-[80%] lg:pl-8 md:px-2 lg:px-0'>
             <div className='space-y-4 lg:w-[31vw] w-full flex flex-col max-sm:items-center md:items-center lg:items-start hide-scrollbar'>
               <h1 className='flex gap-2 lg:text-md text-2xl font-bold animate-pulse text-gray-400 cursor-pointer hover:-translate-y-1 transition-all duration-500'>Hello there ! <img src={HII} alt="" className='w-7 h-7 lg:w-5 lg:h-5' /></h1>
@@ -47,12 +51,12 @@ const Banner = () => {
                 </NavLink>
 
                 <NavLink to='/contact'>
-                  <button className="border-2 text-gray-50  duration-300 relative group cursor-pointer overflow-hidden h-10 w-32 rounded-full bg-neutral-800 p-2  font-extrabold hover:bg-black/90">
-                    <div className="absolute group-hover:-top-1 group-hover:-right-2 z-10 w-16 h-16 rounded-full group-hover:scale-150  duration-700 right-12 top-12 bg-purple-500"></div>
-                    <div className="absolute group-hover:-top-1 group-hover:-right-2 z-10 w-12 h-12 rounded-full group-hover:scale-150  duration-700 right-20 -top-6 bg-gradient-to-l from-purple-400 to-blue-500"></div>
-                    <div className="absolute group-hover:-top-1 group-hover:-right-2 z-10 w-8 h-8   rounded-full group-hover:scale-150  duration-700 right-32 bottom-6 bg-orange-300"></div>
-                    <div className="absolute group-hover:-top-1 group-hover:-right-2 z-10 w-8 h-8   rounded-full group-hover:scale-150  duration-700 right-0 top-6 bg-pink-400"></div>
-                    <p className="z-10 absolute bottom-2 left-9 text-sm"><span>Contact</span></p>
+                  <button className={contact}>
+                    <div className={`${circle} w-16 h-16 right-12 top-12 bg-purple-500`}></div>
+                    <div className={`${circle} w-12 h-12 right-20 -top-6 bg-gradient-to-l from-purple-400 to-blue-500`}></div>
+                    <div className={`${circle} w-8 h-8  right-32 bottom-6 bg-orange-300`}></div>
+                    <div className={`${circle} w-8 h-8  right-0 top-6 bg-pink-400`}></div>
+                    <p className="z-10 absolute top-[15%] left-[30%] text-sm"><span>Contact</span></p>
                   </button>
                 </NavLink>
                 <div className="flex items-center space-x-6 w-[65%] max-sm:justify-between max-sm:w-[100%] justify-evenly overflow-hidden max-sm:mx-auto">
@@ -85,7 +89,7 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div className='lg:w-[40%] hover:animate-pulse' data-aos="fade-left" data-aos-duration="2000" >
+          <div className='lg:w-[35%] md:w-[60%] w-[100%] hover:animate-pulse lg:mx-0 md:mx-[20%]' data-aos="fade-left" data-aos-duration="2000" >
             <img src={Profile} alt="Profile" className='img' />
           </div>
         </div>

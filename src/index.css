@@ -36,7 +36,7 @@ body {
     scroll-behavior: smooth;
 }
 ::-webkit-scrollbar-track {
-    background: #200d3b;
+    background: #2c1151;
 }
 ::-webkit-scrollbar-thumb {
     background: linear-gradient(to left, #8124f2, #36a1ee, #ff56f6);
@@ -69,51 +69,28 @@ body {
 .setBackground {
     position: relative;
     overflow: hidden;
-    background-image: linear-gradient(to right, #14141b, rgb(24, 18, 42));
-    background-size: 200% 200%;
-    animation: gradientAnimation 10s ease-in-out infinite;
-}
-
-@keyframes gradientAnimation {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
-.particle {
-    position: absolute;
-    width: 3px;
-    height: 3px;
-    border-radius: 50%;
-    opacity: 0.8;
-    background-color: var(--color, white);
+    background-image: linear-gradient(to left, #1c132e, #14141b);
 }
 
 .img {
     cursor: pointer;
-    filter: drop-shadow(3px 3px 3px #954bef);
+    filter: drop-shadow(0px 0px 3px #740ef1);
 }
 
 .img1 {
     cursor: pointer;
-    filter: drop-shadow(0px 10px 4px #09606f);
+    filter: drop-shadow(0px 8px 6px #09606f);
+}
+
+.btn {
+    background: linear-gradient(to left, #8124f2, #36a1ee);
+    color: #ffffff;
 }
 
 .btn:hover {
     background-image: linear-gradient(to bottom right, #840ff2, #ed4498);
     color: #ffffff;
     transition: color 0.3s ease-in-out;
-}
-
-.btn {
-    background: linear-gradient(to left, #8124f2, #36a1ee);
-    color: #ffffff;
 }
 
 @layer base {

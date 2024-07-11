@@ -9,7 +9,7 @@ const WorkData = ({ info }) => {
 
   return (
     <div data-aos="fade-up" data-aos-duration="2000"
-      className="relative lg:w-[26.8vw] lg:h-[60vh] w-[85vw] h-[42vh] md:w-[65vw] md:h-[50vh] flex flex-col items-center justify-center cursor-pointer shadow-inner shadow-cyan-900 bg-gradient-to-b from-[#14141b] to-white/10 overflow-hidden backdrop-blur rounded-xl group"
+      className="relative lg:w-[26.8vw] lg:h-[60vh] w-[85vw] h-[42vh] md:w-[65vw] md:h-[50vh] flex flex-col items-center justify-center cursor-pointer shadow-inner shadow-cyan-900 bg-gradient-to-r from-[#14141b] to-[#1c132e] overflow-hidden backdrop-blur rounded-xl group"
     >
       <div className='relative lg:w-[26.8vw] lg:h-[40vh] w-[85vw] h-[28vh] md:w-[62vw] md:h-[40vh] flex items-center justify-center overflow-hidden hover:overflow-hidden cursor-pointer group'>
         <img
