@@ -30,6 +30,11 @@ const Header = () => {
     navigate('/');
   };
 
+
+  const work = "text-sm space-y-1 transition-all ease-in-out duration-700 cursor-pointer font-extrabold text-gradient brightness-125 hover:brightness-200 hover:text-gradient tracking-widest hover:-translate-y-1"
+
+  const Hline = "w-full h-1 bg-gradient-to-r from-cyan-400 to-[#8124f2] animate-slideFade"
+
   // Header
   return (
     <nav className={`py-5 lg:py-4 fixed top-0 left-0 z-40 w-full transition-all ease-in-out duration-300 ${isScrolled ? 'bg-[rgba(30,23,53,0.4)] backdrop-blur-xl' : 'bg-transparent'}`}>
@@ -38,28 +43,32 @@ const Header = () => {
           <div onClick={handleClick}>
             <img src={Logo} alt='MyLogo' className='w-10 h-10 transition-all duration-500 hover:scale-95 cursor-pointer' />
           </div>
-          <div className='flex gap-x-2 text-2xl tracking-widest font-extrabold'>
-            <span className='text-gradient'>Omkar</span>
+          <div className='flex gap-x-2 text-2xl tracking-widest font-extrabold cursor-pointer'>
+            <span className='text-gradient brightness-125 hover:text-gradient hover:brightness-150'>Omkar</span>
             <span>Karale</span>
           </div>
         </div>
-        <div data-aos="fade-down" data-aos-duration="2000" className='flex items-center gap-8 max-sm:hidden'>
-          <div className='cursor-pointer text-xs font-bold relative inline-flex items-center justify-center transition-all ease-in-out duration-700 rounded-full btn'>
-            <NavLink to='https://drive.google.com/file/d/1sJ6ehg9bItwwTcvBQmLRxHxGVMasL2Pz/view?usp=sharing' className='flex items-center gap-1 font-extrabold px-6 py-2 hover:-translate-y-1.5 transition-all ease-in-out duration-500'>
-              <span>Resume</span>
-              <FaArrowDown className='text-md animate-bounce' />
+        <div data-aos="fade-down" data-aos-duration="2000" className='flex items-center gap-8 max-sm:hidden py-2'>
+          <div className={work}>
+            <NavLink to="https://drive.google.com/file/d/1sJ6ehg9bItwwTcvBQmLRxHxGVMasL2Pz/view?usp=sharing" className="">
+              <span>Resume🔻</span>
+              {/* <FaArrowDown className='animate-bounce' /> */}
             </NavLink>
+            <div className={Hline}></div>
           </div>
-          <div className='max-sm:hidden btn cursor-pointer transition-all ease-in-out duration-700 text-xs font-bold px-3 py-2 rounded-full'>
+
+          <div className={work}>
             <NavLink to="https://www.linkedin.com/in/omkarkarale541/" className="">
               <span>📄 Available for work</span>
             </NavLink>
+            <div className={Hline}></div>
           </div>
         </div>
-        <div data-aos="fade-down" data-aos-duration="2000" className='md:hidden btn px-7 py-2 cursor-pointer text-sm font-bold min-[320px]:px-8 min-[320px]:text-xs'>
-          <NavLink to="https://www.linkedin.com/in/omkarkarale541/" className='hover:-translate-y-1.5 transition-all duration-500'>
-            <span className='hover:-translate-y-1.5 transition-all duration-500 animate-pulse'>HIRE ME</span>
+        <div data-aos="fade-down" data-aos-duration="2000" className={`${work} md:hidden px-7 cursor-pointer text-sm font-bold min-[320px]:px-8 min-[320px]:text-xs`}>
+          <NavLink to="https://www.linkedin.com/in/omkarkarale541/" className="">
+            <span className='tracking-widest max-sm:px-2'>Hire Me</span>
           </NavLink>
+          <div className={Hline}></div>
         </div>
       </div>
     </nav>

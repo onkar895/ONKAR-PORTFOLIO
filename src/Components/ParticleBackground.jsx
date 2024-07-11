@@ -8,7 +8,7 @@ const ParticleBackground = () => {
         return (
           <div
             key={i}
-            className="absolute w-[2.5px] h-[2.5px] opacity-5 bg-white rounded-full animate-pulse"
+            className="absolute w-[2.5px] h-[2.5px] opacity-10 bg-white rounded-full animate-pulse"
             style={{
               top: `${Math.random() * 100}%`,
               left: `${Math.random() * 100}%`,

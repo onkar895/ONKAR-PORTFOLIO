@@ -24,14 +24,16 @@ export default {
         },
         slideFade: {
           '0%': { transform: 'translateX(-100%)', opacity: 0.2 },
-          '50%': { opacity: 0.5 },
+          '25%': {opacity: 0.4},
+          '50%': { opacity: 0.6 },
+          '75%': { opacity: 0.8 },
           '100%': { transform: 'translateX(0)', opacity: 1 }
         }
       },
 
       animation: {
-        wiggle: 'wiggle 3s ease-in-out infinite',
-        slideFade: 'slideFade 4s ease-in-out'
+        wiggle: 'wiggle 5s ease-in-out infinite',
+        slideFade: 'slideFade 8s ease-in-out'
       },
       colors: {
         primary: '#0a0a0a',
