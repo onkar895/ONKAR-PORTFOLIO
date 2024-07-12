@@ -28,7 +28,7 @@ const Banner = () => {
           <div className='flex flex-col sm:mt-12 lg:gap-2 gap-4 max-sm:mt-10 max-sm:mx-auto lg:w-[100%]'>
             <div className='space-y-4 lg:w-[31vw] w-full flex flex-col max-sm:items-center sm:items-center md:items-center lg:items-start hide-scrollbar'>
               <h1 className='flex gap-2 items-center lg:text-md text-xl font-bold animate-pulse text-gray-400 cursor-pointer hover:-translate-y-1 transition-all duration-500'>Hello there ! <img src={HII} alt="" className='w-7 h-7 lg:w-5 lg:h-5' /></h1>
-              <h1 className='font-extrabold py-2 lg:text-[40px] text-[36px] min-[320px]:text-[32px] min-[1024px]:text-[42px] tracking-widest img'> I'm Omkar Karale</h1>
+              <h1 className='font-extrabold py-2 lg:text-[2.5rem] text-[2.25rem] min-[320px]:text-[2rem] min-[1024px]:text-[2.625rem] tracking-widest img'> I'm Omkar Karale</h1>
               <div className='lg:w-full max-sm:w-[82%] md:w-[60%] h-1 bg-gradient-to-r from-cyan-400 to-[#8124f2] animate-slideFade brightness-125'></div>
               <div className='text-xl font-semibold text-gradient brightness-125 hover:brightness-150 hover:text-gradient'>
                 <TypeAnimation
