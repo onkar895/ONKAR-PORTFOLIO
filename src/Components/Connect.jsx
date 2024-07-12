@@ -9,7 +9,6 @@ import {
 import { SiGmail } from "react-icons/si";
 import { RiWhatsappFill } from "react-icons/ri";
 import { FaLinkedinIn } from 'react-icons/fa';
-import { PiGithubLogoFill } from 'react-icons/pi';
 import Character from '../assets/Character.png';
 import { NavLink } from 'react-router-dom';
 
@@ -60,12 +59,12 @@ const Connect = () => {
         {
           links.map((link, index) => (
             <div key={index} className='flex items-center justify-center gap-3 mb-10 w-1/2'>
-              <NavLink to={link.href} className={`flex items-center gap-2 backdrop-blur rounded-full p-2 ${link.bgClass}`}>
+              <div className={`flex items-center gap-2 backdrop-blur rounded-full p-2 ${link.bgClass}`}>
                 {link.icon}
-              </NavLink>
-              <div className='text-sm text-gray-400 hover:text-white hover:font-extrabold'>
-                <span>{link.label}</span>
               </div>
+              <NavLink to={link.href} className={`text-sm text-gray-400 hover:text-white hover:font-extrabold`}>
+                <span>{link.label}</span>
+              </NavLink>
             </div>
           ))
         }

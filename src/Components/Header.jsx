@@ -37,7 +37,7 @@ const Header = () => {
   // Header
   return (
     <nav className={`py-5 lg:py-3 fixed top-0 left-0 z-40 w-full transition-all ease-in-out duration-300 ${isScrolled ? 'bg-[rgba(30,23,53,0.4)] backdrop-blur-xl' : 'bg-transparent'}`}>
-      <div className='flex justify-between items-center md:px-6 px-3 sm:px-6 lg:px-[4.7rem]'>
+      <div className='flex justify-between items-center md:px-6 px-2 sm:px-6 lg:px-[4.7rem]'>
         <div data-aos="fade-down" data-aos-duration="2000" className='flex items-center gap-2'>
           <div onClick={handleClick}>
             <img src={Logo} alt='MyLogo' className='w-10 h-10 transition-all duration-500 hover:scale-95 cursor-pointer' />
