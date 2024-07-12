@@ -54,7 +54,7 @@ const Connect = () => {
 
   return (
     <div className="w-full lg:w-1/3 shadow-inner shadow-cyan-600 hover:shadow-lg hover:shadow-cyan-300 bg-gradient-to-b from-[#14141b] to-[#1c132e] backdrop-blur rounded-xl py-6 md:px-7 overflow-hidden cursor-pointer hover:scale-95 transition-all duration-300">
-      <h3 className="font-extrabold lg:text-lg text-2xl text-center text-gradient brightness-125 hover:text-gradient hover:brightness-150 tracking-wider">Connect & Follow</h3>
+      <h3 className="font-extrabold lg:text-lg text-xl text-center text-gradient brightness-125 hover:text-gradient hover:brightness-150 tracking-wider">Connect & Follow</h3>
       <div className='flex flex-wrap justify-center items-center py-10 mx-auto'>
         {
           links.map((link, index) => (
