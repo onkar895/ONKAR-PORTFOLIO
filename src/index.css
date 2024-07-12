@@ -13,6 +13,7 @@ body,
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
+    /* scrollbar-width: thin;  For Firefox  */
 }
 
 .hide-scrollbar {
