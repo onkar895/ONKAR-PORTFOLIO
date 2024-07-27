@@ -9,17 +9,18 @@ import { SiGmail } from "react-icons/si";
 import { TypeAnimation } from "react-type-animation";
 import HII from '../assets/HII.gif'
 import { NavLink } from 'react-router-dom';
-import Profile from '../assets/Profile.png'
-import about from '../assets/about.png'
 import PIC from '../assets/PIC.png'
+import { FaPhone } from "react-icons/fa";
+import { TiArrowSortedDown } from "react-icons/ti";
+
 
 const Banner = () => {
 
   const Icons = "text-white/80 font-extrabold transition-all ease-in-out duration-300 hover:text-white hover:brightness-200 hover:scale-110 text-2xl";
 
-  const work = "text-sm space-y-1 transition-all ease-in-out duration-700 cursor-pointer font-extrabold text-gradient brightness-150 hover:brightness-200 hover:text-gradient hover:-translate-y-1"
+  // const work = "text-sm space-y-1 transition-all ease-in-out duration-700 cursor-pointer font-extrabold text-gradient brightness-150 hover:brightness-200 hover:text-gradient hover:-translate-y-1"
 
-  const Hline = "w-full h-1 mt-1 bg-gradient-to-r from-cyan-400 to-[#8124f2] animate-slideFade"
+  // const Hline = "w-full h-1 mt-1 bg-gradient-to-r from-cyan-400 to-[#8124f2] animate-slideFade"
 
   return (
     <section className='relative flex' data-aos="fade-up" data-aos-duration="2000">
@@ -48,20 +49,22 @@ const Banner = () => {
                 <h1 data-aos="fade-up" data-aos-duration="2000" className='text-gray-300 lg:text-xl md:text-2xl max-xs:text-[18px] sm:text-2xl max-sm:text-xl '>Let's Build Something Together...✨</h1>
               </div>
               <div className='flex min-[1024px]:flex-nowrap min-[1024px]:gap-10 flex-wrap justify-between md:w-[100%] lg:w-[80%] w-[100%] sm:gap-y-12 max-sm:gap-y-12 md:gap-y-5 lg:gap-y-0 lg:py-2 py-3 cursor-pointer'>
-                <div className={`${work} md:hidden min-[1024px]:hidden sm:hidden`}>
+                <div className={`md:hidden min-[1024px]:hidden sm:hidden content`}>
                   <NavLink to='https://drive.google.com/file/d/1sJ6ehg9bItwwTcvBQmLRxHxGVMasL2Pz/view?usp=sharing'>
-                    <span className="px-4 max-sm:px-2 tracking-widest">
-                      Resume🔻
+                    <span className="flex items-center gap-2 px-4 tracking-widest text-gradient hover:-translate-y-1 transition-all ease-in-out duration-700">
+                      <strong> Resume🔻</strong>
+                      {/* <TiArrowSortedDown /> */}
                     </span>
-                    <div className={Hline}></div>
+                    {/* <div className={Hline}></div> */}
                   </NavLink>
                 </div>
-                <div className={work}>
+                <div className='content'>
                   <NavLink to='/contact'>
-                    <span className="px-4 tracking-widest max-sm:px-2">
-                      Contact 📞
+                    <span className="flex items-center gap-2 px-4 tracking-widest text-gradient hover:-translate-y-1 transition-all ease-in-out duration-700 image">
+                      Contact📞
+                      {/* <FaPhone /> */}
                     </span>
-                    <div className={Hline}></div>
+                    {/* <div className={Hline}></div> */}
                   </NavLink>
                 </div>
                 <div className="flex items-center space-x-6 w-[65%] max-sm:justify-between max-sm:w-[100%] justify-evenly overflow-hidden max-sm:mx-auto">
