@@ -49,7 +49,7 @@ const Header = () => {
         </div>
         <div data-aos="fade-down" data-aos-duration="2000" className='flex items-center sm:ml-28 gap-8 max-sm:hidden py-2'>
           <div className={work}>
-            <NavLink to="https://drive.google.com/file/d/1sJ6ehg9bItwwTcvBQmLRxHxGVMasL2Pz/view?usp=sharing" className="">
+            <NavLink to="https://drive.google.com/file/d/1Js06L8A4urNTbmadxAYNxLY76gxCu9HL/view?usp=sharing" className="">
               <span>Resume🔻</span>
               {/* <FaArrowDown className='animate-bounce' /> */}
             </NavLink>
