@@ -1,11 +1,11 @@
-/* eslint-disable react/no-unescaped-entities */
-/* eslint-disable no-unused-vars */
 import React, { useRef, useState, useEffect } from 'react';
 import Connect from '../Components/Connect';
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const [messageSent, setMessageSent] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
   const formRef = useRef();
 
   useEffect(() => {
@@ -13,7 +13,7 @@ const Contact = () => {
     if (messageSent) {
       timeout = setTimeout(() => {
         setMessageSent(false);
-      }, 3000); // Message disappears after 5 seconds
+      }, 3000); // Message disappears after 3 seconds
     }
 
     return () => {
@@ -23,13 +23,15 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    setLoading(true);  // Set loading to true when sending starts
+    setError('');  // Clear any previous error messages
 
     emailjs
       .sendForm(
-        "service_qdphp8g",
-        "template_e3zu3dp",
+        "service_zfnu9rj",
+        "template_gkienm2",
         formRef.current,
-        "m3_cXcrmA8tRDUV6B"
+        "zVUcPAe7d32vL9H0p"
       )
       .then(
         (result) => {
@@ -39,10 +41,14 @@ const Contact = () => {
         },
         (error) => {
           console.log(error.text);
+          setError('Failed to send message. Please try again.');  // Set error message
         }
-      );
+      )
+      .finally(() => {
+        setLoading(false);  // Set loading to false once the request is complete
+      });
   };
-  // Contact
+
   return (
     <section data-aos="fade-up" data-aos-duration="2000">
       <div className='flex flex-col items-center mx-auto w-full h-full hide-scrollbar'>
@@ -61,28 +67,37 @@ const Contact = () => {
                 name="from_name"
                 placeholder="Your Name"
                 className="lg:p-2 p-3 px-4 text-[14px] rounded-lg custom-shadow outline-none bg-cyan-200 bg-opacity-5"
+                required
               />
               <input
                 type="email"
                 name="from_email"
                 placeholder="Your Email"
                 className="lg:p-2 p-3 px-4 text-[14px] rounded-lg custom-shadow outline-none bg-cyan-200 bg-opacity-5"
+                required
               />
               <textarea
                 rows={5}
                 name="message"
                 placeholder="Your Message"
                 className="p-2 lg:px-2 px-4 text-[14px] rounded-lg custom-shadow outline-none bg-cyan-200 bg-opacity-5"
+                required
               ></textarea>
               <input
                 type="submit"
-                value="Send"
-                className="text-base custom-border px-4 lg:py-3 py-4 rounded-lg flex-short gap-2 bg-cyan-400 bg-opacity-5 transition-all group shadow-2xl hover:bg-black/20 cursor-pointer"
+                value={loading ? "Sending..." : "Send"}
+                className="text-base custom-border px-4 lg:py-3 py-4 rounded-lg flex-short gap-2 bg-cyan-400 bg-opacity-5 transition-all group shadow-2xl hover:bg-cyan-800 cursor-pointer"
+                disabled={loading}  // Disable the button while sending
               />
             </form>
             {
               messageSent && (
                 <p className="text-sm text-center text-gradient brightness-125 tracking-wider mt-2 mx-2">Thank you! The message has been sent successfully.</p>
+              )
+            }
+            {
+              error && (
+                <p className="text-sm text-center text-red-500 tracking-wider mt-2 mx-2">{error}</p>
               )
             }
           </div>
