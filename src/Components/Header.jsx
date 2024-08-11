@@ -2,11 +2,8 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
-import { FiDownload } from "react-icons/fi";
-import { FaArrowDown } from "react-icons/fa6";
 import { debounce } from 'lodash';
 import Logo from '../assets/Character.png';
-import NavBar from './NavBar';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -15,8 +12,8 @@ const Header = () => {
   useEffect(() => {
     const handleScroll = debounce(() => {
       const position = window.scrollY;
-      setIsScrolled(position > 50);
-    }, 50); // 100ms debounce delay
+      setIsScrolled(position > 100);
+    }, 50); // 50ms debounce delay
 
     window.addEventListener('scroll', handleScroll);
 
