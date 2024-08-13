@@ -10,17 +10,11 @@ import { TypeAnimation } from "react-type-animation";
 import HII from '../assets/HII.gif'
 import { NavLink } from 'react-router-dom';
 import PIC from '../assets/BestPic.png'
-import { FaPhone } from "react-icons/fa";
-import { TiArrowSortedDown } from "react-icons/ti";
 
 
 const Banner = () => {
 
   const Icons = "text-white/80 font-extrabold transition-all ease-in-out duration-300 hover:text-white hover:brightness-200 hover:scale-110 text-2xl";
-
-  // const work = "text-sm space-y-1 transition-all ease-in-out duration-700 cursor-pointer font-extrabold text-gradient brightness-150 hover:brightness-200 hover:text-gradient hover:-translate-y-1"
-
-  // const Hline = "w-full h-1 mt-1 bg-gradient-to-r from-cyan-400 to-[#8124f2] animate-slideFade"
 
   return (
     <section className='relative flex' data-aos="fade-up" data-aos-duration="2000">
@@ -43,7 +37,7 @@ const Banner = () => {
               </div>
             </div>
             <div className="flex flex-col lg:items-start items-center md:gap-6 gap-8 w-full mx-auto">
-              <p className="text-[1.1rem] lg:w-[77.2%] text-gray-400 sm:text-[.95rem] text-justify">  I’m highly skilled in Frontend Development specialized in React.js, JavaScript, modern web development and variety of UI frameworks & libraries. Passionate about delivering user-friendly, engaging and performance-optimized user interfaces.
+              <p className="text-[1.2rem] lg:w-[77.2%] text-gray-400 sm:text-[.95rem] text-justify">  I’m highly skilled in Frontend Development specialized in React.js, JavaScript, modern web development and variety of UI frameworks & libraries. Passionate about delivering user-friendly, engaging and performance-optimized user interfaces.
               </p>
               <div className="tracking-widest shadow-2x font-bold hide-scrollbar">
                 <h1 data-aos="fade-up" data-aos-duration="2000" className='text-gray-300 lg:text-xl md:text-2xl max-xs:text-[18px] sm:text-2xl max-sm:text-xl '>Let's Build Something Together...✨</h1>
@@ -97,8 +91,8 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div className='lg:w-[45%] md:w-[60%] w-[100%] hover:animate-pulse lg:mx-0 md:mx-[20%]' data-aos="fade-left" data-aos-duration="2000">
-            <img src={PIC} alt="Profile" className='lg:mt-10 rounded-full img' />
+          <div className='block m-auto w-[100%] md:w-[50%] hover:animate-pulse lg:mx-0' data-aos="fade-left" data-aos-duration="2000">
+            <img src={PIC} alt="Profile" className='lg:mt-10 rounded-full img m-auto' />
           </div>
         </div>
       </div>
