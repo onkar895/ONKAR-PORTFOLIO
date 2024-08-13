@@ -9,7 +9,7 @@ import { SiGmail } from "react-icons/si";
 import { TypeAnimation } from "react-type-animation";
 import HII from '../assets/HII.gif'
 import { NavLink } from 'react-router-dom';
-import PIC from '../assets/PIC.png'
+import PIC from '../assets/BestPic.png'
 import { FaPhone } from "react-icons/fa";
 import { TiArrowSortedDown } from "react-icons/ti";
 
@@ -43,7 +43,7 @@ const Banner = () => {
               </div>
             </div>
             <div className="flex flex-col lg:items-start items-center md:gap-6 gap-8 w-full mx-auto">
-              <p className="text-[1.1rem] lg:w-[77.2%] text-gray-400 sm:text-[.95rem] text-justify">  I’m highly skilled in Frontend Development specialized in React.js, JavaScript, and modern web development frameworks and CSS libraries. Passionate about delivering user-friendly, engaging and performance-optimized user interfaces.
+              <p className="text-[1.1rem] lg:w-[77.2%] text-gray-400 sm:text-[.95rem] text-justify">  I’m highly skilled in Frontend Development specialized in React.js, JavaScript, modern web development and variety of UI frameworks & libraries. Passionate about delivering user-friendly, engaging and performance-optimized user interfaces.
               </p>
               <div className="tracking-widest shadow-2x font-bold hide-scrollbar">
                 <h1 data-aos="fade-up" data-aos-duration="2000" className='text-gray-300 lg:text-xl md:text-2xl max-xs:text-[18px] sm:text-2xl max-sm:text-xl '>Let's Build Something Together...✨</h1>
@@ -97,8 +97,8 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div className='lg:w-[50%] md:w-[60%] w-[100%] hover:animate-pulse lg:mx-0 md:mx-[20%]' data-aos="fade-left" data-aos-duration="2000" >
-            <img src={PIC} alt="Profile" className='img lg:mt-6' />
+          <div className='lg:w-[45%] md:w-[60%] w-[100%] hover:animate-pulse lg:mx-0 md:mx-[20%]' data-aos="fade-left" data-aos-duration="2000">
+            <img src={PIC} alt="Profile" className='lg:mt-10 rounded-full img' />
           </div>
         </div>
       </div>

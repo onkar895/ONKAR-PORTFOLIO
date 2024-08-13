@@ -39,7 +39,7 @@ const Education = () => {
               LetsUpgrade.in, Remote, MH, India
             </p>
             <p className="text-gray-400">
-              Oct 2022 - Oct 2023
+              Oct 2022 - Dec 2023
             </p>
           </div>
         </div>
