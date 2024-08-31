@@ -17,6 +17,13 @@ export default {
       lg: '960px',
       xl: '1200px'
     },
+    listStyleType: {
+      none: 'none',
+      disc: 'disc',
+      decimal: 'decimal',
+      square: 'square',
+      roman: 'upper-roman'
+    },
     extend: {
       keyframes: {
         wiggle: {
