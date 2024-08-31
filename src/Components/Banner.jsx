@@ -44,7 +44,7 @@ const Banner = () => {
               </div>
               <div className='flex min-[1024px]:flex-nowrap min-[1024px]:gap-10 flex-wrap justify-between md:w-[100%] lg:w-[80%] w-[100%] sm:gap-y-12 max-sm:gap-y-12 md:gap-y-5 lg:gap-y-0 lg:py-2 py-3 cursor-pointer'>
                 <div className={`md:hidden min-[1024px]:hidden sm:hidden content`}>
-                  <NavLink to='https://drive.google.com/file/d/183G6ne7M3jHyYJgtHW0A9-aeUCmxgyJ3/view?usp=sharing'>
+                  <NavLink to='https://drive.google.com/file/d/1rd5hOJNFTWpUasmsJAt4Wlr007IrZB6r/view?usp=sharing'>
                     <span className="flex items-center gap-2 px-4 tracking-widest text-gradient hover:-translate-y-1 transition-all ease-in-out duration-700">
                       <strong> Resume🔻</strong>
                       {/* <TiArrowSortedDown /> */}
