@@ -22,10 +22,10 @@ const Education = () => {
   // ];
 
   return (
-    <div className="w-full lg:w-1/3 shadow-inner shadow-cyan-600 hover:shadow-lg hover:shadow-cyan-300  bg-gradient-to-b from-[#14141b] to-[#1c132e] backdrop-blur rounded-xl py-6 px-5 overflow-hidden cursor-pointer hover:scale-95 transition-all duration-300">
+    <div className="w-full h-auto shadow-inner shadow-cyan-600 hover:shadow-lg hover:shadow-cyan-300  bg-gradient-to-b from-[#14141b] to-[#1c132e] backdrop-blur rounded-xl py-6 px-5 overflow-hidden cursor-pointer hover:scale-95 transition-all duration-300 grow">
       <h3 data-aos="fade-up" data-aos-duration="2000" className="font-bold lg:text-lg text-xl text-center text-gradient brightness-125 hover:text-gradient hover:brightness-150 tracking-wider">Education</h3>
       <div data-aos="fade-up" data-aos-duration="2000" className="flex flex-col lg:gap-y-8 gap-y-4">
-        <div className="flex space-x-4 mt-10 lg:mx-0 mx-auto">
+        <div className="flex space-x-3 mt-10 lg:mx-0 mx-auto">
           <div className="mt-[5px]">
             <div className="w-[6px] h-[6px] bg-cyan-200 bg-opacity-60 rounded-full shadow-md"></div>
             <div className="h-20 w-[1px] ml-[2px] bg-cyan-800 bg-opacity-30"></div>
@@ -43,7 +43,7 @@ const Education = () => {
             </p>
           </div>
         </div>
-        <div className="flex space-x-4 mx-auto lg:mx-0">
+        <div className="flex space-x-3 mx-auto lg:mx-0">
           <div className="mt-[5px]">
             <div className="w-[6px] h-[6px] bg-cyan-200 bg-opacity-60 rounded-full"></div>
             <div className="h-20 w-[1px] ml-[2px] bg-cyan-800 bg-opacity-30"></div>
@@ -61,7 +61,7 @@ const Education = () => {
             </p>
           </div>
         </div>
-        <div className="flex space-x-4 mx-auto lg:mx-0">
+        <div className="flex space-x-3 mx-auto lg:mx-0">
           <div className="mt-[5px]">
             <div className="w-[6px] h-[6px] bg-cyan-200 bg-opacity-60 rounded-full"></div>
             <div className="h-20 w-[1px] ml-[2px] bg-cyan-800 bg-opacity-30"></div>

@@ -20,7 +20,7 @@ const WorkData = ({ info }) => {
         <img
           src={info.img}
           alt={info.title}
-          className="lg:h-[44vh] h-[36vh] object-contain group-hover:scale-[2] rounded-xl transition-transform ease-in-out duration-300 img1"
+          className="lg:h-[44vh] h-[36vh] object-contain group-hover:scale-[2] rounded-xl transition-transform ease-in-out duration-500 img1"
         />
         <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center gap-4 bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
           <Link
