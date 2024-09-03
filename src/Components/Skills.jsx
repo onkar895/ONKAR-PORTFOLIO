@@ -22,8 +22,8 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="w-full h-auto shadow-inner shadow-[#789fef] hover:shadow-lg hover:shadow-[#789fef] bg-[#1E1F20] hover:bg-black rounded-xl py-6 md:px-7 overflow-hidden cursor-pointer hover:scale-95 transition-transform duration-300 grow">
-      <h3 className="lg:text-lg text-xl text-center text-gradient brightness-125 hover:brightness-150 hover:text-gradient tracking-wider">Skills</h3>
+    <div className="w-full h-auto shadow-inner shadow-[#789fef] hover:shadow-lg hover:shadow-[#789fef] bg-[#17191b]  hover:bg-black rounded-xl py-6 md:px-7 overflow-hidden cursor-pointer hover:scale-95 transition-transform duration-300 grow">
+      <h3 className="lg:text-lg text-xl text-center text-gradient hover:text-gradient tracking-wider">Skills</h3>
       <div className="flex flex-wrap justify-center lg:gap-x-10 md:gap-x-24 gap-x-16 gap-y-10 py-10">
         {
           skills.map(({ icon, bg }, index) => (

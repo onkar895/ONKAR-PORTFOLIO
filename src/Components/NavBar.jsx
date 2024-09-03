@@ -2,14 +2,21 @@
 import React, { useState, useEffect } from 'react';
 import { BiSolidUser } from "react-icons/bi";
 import { BsBriefcaseFill, BsFillPersonVcardFill } from 'react-icons/bs';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { MdHomeFilled } from 'react-icons/md';
 import { NavLink } from 'react-router-dom';
 import Character from '../assets/Character.png';
+import { TiArrowForward } from "react-icons/ti";
 
 const NavBar = () => {
   const [showNavBar, setShowNavBar] = useState(false);
   const location = useLocation();
+
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/');
+  };
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -34,7 +41,7 @@ const NavBar = () => {
       <div className="container mx-auto">
         <div className="w-full bg-[rgba(30,23,53,0.4)] backdrop-blur-xl shadow-2xl backdrop-contrast-125 h-16 rounded-full max-w-[500px] mx-auto px-5 max-sm:px-3 flex justify-between items-center text-2xl text-white/70">
           <div className="w-10 h-10 flex items-center justify-center rounded-full custom-border box-shadow bg-white group overflow-hidden hover:overflow-hidden cursor-pointer">
-            <div className="scale-[1.3] transition group-hover:scale-[1.6]">
+            <div className="scale-[1.3] transition group-hover:scale-[1.6]" onClick={handleClick}>
               <img src={Character} alt="logo" className="rounded-full" />
             </div>
           </div>
@@ -58,8 +65,9 @@ const NavBar = () => {
               <BsFillPersonVcardFill />
             </NavLink>
           </div>
-          <NavLink to="https://www.linkedin.com/in/omkarkarale541/" className='btn text-sm cursor-pointer px-4 py-[7px] max-sm:hidden font-extrabold'>
-            <span className='animate-pulse'>Hire Me ✨</span>
+          <NavLink to="https://www.linkedin.com/in/omkarkarale541/" className='btn flex items-center gap-1 text-sm cursor-pointer px-4 py-[7px] max-sm:hidden font-extrabold'>
+            <span className='animate-pulse'>Hire Me </span>
+            <TiArrowForward className='text-lg' />
           </NavLink>
         </div>
       </div>

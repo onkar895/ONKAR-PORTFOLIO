@@ -35,12 +35,12 @@ html {
   background: #0f4a63;
 }
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(to left, #5082ee, #a071c4);
+  background: linear-gradient(to right, #48b5f0, #a071c4);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(to left, #a071c4, #5082ee);
+  background: linear-gradient(to right, #a071c4, #48b5f0);
   border-radius: 10px;
 }
 
@@ -69,14 +69,14 @@ html {
   background-color: #131314;
 }
 
-.img {
+/* .img {
   cursor: pointer;
-  filter: drop-shadow(0px 0px 3px #5082ee);
-}
+  filter: drop-shadow(0px 0px 3px #2e86de);
+} */
 
 .img1 {
   cursor: pointer;
-  filter: drop-shadow(0px 8px 6px #5082ee);
+  filter: drop-shadow(0px 8px 6px #2e86de);
 }
 
 .content {
@@ -96,8 +96,8 @@ html {
   left: -2px;
   right: -2px;
   bottom: -2px;
-  background: conic-gradient(from var(--angle), transparent 10%, #487df0, #995ec6, #d65a67);
-  border-radius: 3px;
+  background: conic-gradient(from var(--angle), transparent 60%, #48b5f0, #995ec6, #d76571);
+  border-radius: 8px;
   z-index: -1;
   filter: blur(2px);
   opacity: 1;
@@ -131,7 +131,7 @@ html {
     @apply font-primary font-semibold text-[26px] mb-6 leading-[46px];
   }
   .btn {
-    @apply rounded-full text-white hover:text-black tracking-widest font-extrabold bg-gradient-to-r transition-all ease-in-out duration-500 brightness-110 hover:font-extrabold from-[#5082EE] via-[#A071C4] to-[#D76571] hover:from-[#D76571] hover:via-[#A071C4] hover:to-[#5082EE] hover:brightness-110;
+    @apply rounded-full text-white hover:text-black tracking-widest font-extrabold bg-gradient-to-r transition-all ease-in-out duration-500 brightness-110 hover:font-extrabold from-[#2e86de] via-[#A071C4] to-[#D76571] hover:from-[#D76571] hover:via-[#A071C4] hover:to-[#2e86de] hover:brightness-110;
   }
   .btn-sm {
     @apply h-[48px] px-6 text-sm;
@@ -146,6 +146,6 @@ html {
     @apply bg-gradient-to-r text-transparent bg-clip-text brightness-150 hover:brightness-200 from-[#5082EE] to-[#a868f6] font-extrabold hover:from-[#f238f8] hover:to-[#359ee0];
   } */
   .text-gradient {
-    @apply bg-gradient-to-r text-transparent bg-clip-text brightness-150 hover:brightness-150 from-[#5082EE] via-[#A071C4] to-[#D76571] font-extrabold hover:from-[#D76571] hover:via-[#A071C4] hover:to-[#5082EE];
+    @apply bg-gradient-to-r text-transparent bg-clip-text brightness-150 hover:brightness-150 from-[#2e86de] via-[#A071C4] to-[#D76571] font-extrabold hover:from-[#D76571] hover:via-[#A071C4] hover:to-[#2e86de];
   }
 }

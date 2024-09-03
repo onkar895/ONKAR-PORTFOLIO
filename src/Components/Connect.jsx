@@ -53,8 +53,8 @@ const Connect = () => {
   ];
 
   return (
-    <div className="w-full h-auto  shadow-inner shadow-[#789fef] hover:shadow-lg hover:shadow-[#789fef] bg-[#1E1F20] hover:bg-black rounded-xl py-6 md:px-7 overflow-hidden cursor-pointer hover:scale-95 transition-all duration-300  grow">
-      <h3 className="font-extrabold lg:text-lg text-xl text-center text-gradient brightness-125 hover:text-gradient hover:brightness-150 tracking-wider">Connect & Follow</h3>
+    <div className="w-full h-auto  shadow-inner shadow-[#789fef] hover:shadow-lg hover:shadow-[#789fef] bg-[#17191b]  hover:bg-black rounded-xl py-6 md:px-7 overflow-hidden cursor-pointer hover:scale-95 transition-all duration-300  grow">
+      <h3 className="font-extrabold lg:text-lg text-xl text-center text-gradient hover:text-gradient tracking-wider">Connect & Follow</h3>
       <div className='flex flex-wrap justify-center items-center py-10 mx-auto'>
         {
           links.map((link, index) => (
@@ -62,7 +62,7 @@ const Connect = () => {
               <div className={`flex items-center gap-2 backdrop-blur rounded-full p-2 ${link.bgClass}`}>
                 {link.icon}
               </div>
-              <NavLink to={link.href} className={`text-sm text-gray-400 hover:text-white hover:font-extrabold`}>
+              <NavLink to={link.href} className={`text-sm text-white/60 font-semibold hover:text-white hover:font-extrabold`}>
                 <span>{link.label}</span>
               </NavLink>
             </div>
@@ -76,7 +76,7 @@ const Connect = () => {
             <img src={Character} alt="logo" className='rounded-full' />
           </div>
         </div>
-        <div className='text-xs flex flex-col gap-1 text-gray-400 font-bold'>
+        <div className='text-xs flex flex-col gap-1 text-white/60 font-semibold'>
           <span>Let's Build Something Together!</span>
           <p><span className='text-white'>Send Email to :</span> onkarkarale4@gmail.com</p>
         </div>

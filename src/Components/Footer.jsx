@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom'
 const Footer = () => {
   return (
     <section data-aos="fade-up" data-aos-duration="2000" className='mx-auto w-full lg:h-[60vh] h-[55vh]'>
-      <div className='flex flex-col lg:flex-row lg:justify-start justify-center items-center shadow-inner shadow-[#789fef] hover:shadow-lg hover:shadow-[#789fef] bg-[#1E1F20] hover:bg-black rounded-xl h-full'>
+      <div className='flex flex-col lg:flex-row lg:justify-start justify-center items-center shadow-inner shadow-[#789fef] hover:shadow-lg hover:shadow-[#789fef] bg-[#17191b]  hover:bg-black rounded-xl h-full'>
         <div data-aos="fade-right" data-aos-duration="2000">
           <img src={Image} alt="GIF" className='w-full lg:h-[45vh] h-[22vh] cursor-pointer' />
         </div>
@@ -16,14 +16,14 @@ const Footer = () => {
             <h1>Ready to ignite your project with a sprinkle of magic?</h1>
           </div>
           <div className='flex text-justify'>
-            <span className='text-xs font-bold text-gray-400'>
-              <span className='text-xs text-gradient brightness-150 hover:text-gradient hover:brightness-150'>
+            <span className='text-xs font-bold text-white/70'>
+              <span className='text-xs text-gradient hover:text-gradient font-semibold'>
                 Reach out to collaborate and make things happen ✨
               </span>
               Open for freelance projects, full-time or part-time positions, and conversations on the latest frontend innovations. Let's connect, whether it's for a job, project or simply to exchange ideas !
             </span>
           </div>
-          <NavLink to="mailto:onkarkarale4@gmail.com" className='btn text-[16px] py-1 mt-1 text-center'>
+          <NavLink to="mailto:onkarkarale4@gmail.com" className='btn text-[14px] py-1 mt-1 text-center'>
             Let's Communicate 😉
           </NavLink>
         </div>

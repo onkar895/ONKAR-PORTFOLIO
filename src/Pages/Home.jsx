@@ -8,7 +8,7 @@ import Footer from '../Components/Footer';
 
 const Home = () => {
   return (
-    <div className='md:my-24 my-20'>
+    <div className='md:my-20 my-20'>
       <div className='flex flex-col gap-6 md:px-6 px-2 sm:px-8 lg:px-20'>
         <Banner />
         <About />

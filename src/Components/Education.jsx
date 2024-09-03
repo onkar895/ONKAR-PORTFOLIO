@@ -22,59 +22,59 @@ const Education = () => {
   // ];
 
   return (
-    <div className="w-full h-auto shadow-inner shadow-[#789fef] hover:shadow-lg hover:shadow-[#789fef] bg-[#1E1F20] hover:bg-black rounded-xl py-6 px-5 overflow-hidden cursor-pointer hover:scale-95 transition-all duration-300 grow">
-      <h3 data-aos="fade-up" data-aos-duration="2000" className="font-bold lg:text-lg text-xl text-center text-gradient brightness-125 hover:text-gradient hover:brightness-150 tracking-wider">Education</h3>
-      <div data-aos="fade-up" data-aos-duration="2000" className="flex flex-col lg:gap-y-8 gap-y-4">
+    <div className="w-full h-auto shadow-inner shadow-[#789fef] hover:shadow-lg hover:shadow-[#789fef] bg-[#17191b]  hover:bg-black rounded-xl py-6 px-5 overflow-hidden cursor-pointer hover:scale-95 transition-all duration-300 grow">
+      <h3 className="font-bold lg:text-lg text-xl text-center text-gradient hover:text-gradient tracking-wider">Education</h3>
+      <div className="flex flex-col lg:gap-y-8 gap-y-4">
         <div className="flex space-x-3 mt-10 lg:mx-0 mx-auto">
           <div className="mt-[5px]">
-            <div className="w-[6px] h-[6px] bg-cyan-200 bg-opacity-60 rounded-full shadow-md"></div>
-            <div className="h-20 w-[1px] ml-[2px] bg-cyan-800 bg-opacity-30"></div>
+            <div className="w-[6px] h-[6px] bg-[#ddbdf6] bg-opacity-60 rounded-full shadow-md"></div>
+            <div className="h-20 w-[1px] ml-[2px] bg-white bg-opacity-10"></div>
           </div>
           <div className="flex flex-col gap-3 text-sm lg:text-sm md:text-lg">
             <h6 className="text-white">
               Specialization in Full Stack Web
               Developement
             </h6>
-            <p className="text-gray-400">
+            <p className="text-white/60">
               LetsUpgrade.in, Remote, MH, India
             </p>
-            <p className="text-gray-400">
+            <p className="text-white/60">
               Oct 2022 - Dec 2023
             </p>
           </div>
         </div>
         <div className="flex space-x-3 mx-auto lg:mx-0">
           <div className="mt-[5px]">
-            <div className="w-[6px] h-[6px] bg-cyan-200 bg-opacity-60 rounded-full"></div>
-            <div className="h-20 w-[1px] ml-[2px] bg-cyan-800 bg-opacity-30"></div>
+            <div className="w-[6px] h-[6px] bg-[#ddbdf6] bg-opacity-60 rounded-full"></div>
+            <div className="h-20 w-[1px] ml-[2px] bg-white bg-opacity-10"></div>
           </div>
           <div className="flex flex-col gap-3 text-sm lg:text-sm md:text-lg">
             <h6 className="text-white">
               Bachelor of Engineering (Information Tech.)
               <span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
             </h6>
-            <p className="text-gray-400">
+            <p className="text-white/60">
               AISSMS IOIT, University of Pune, MH, India
             </p>
-            <p className="text-gray-400">
+            <p className="text-white/60">
               Aug 2016 - July 2021
             </p>
           </div>
         </div>
         <div className="flex space-x-3 mx-auto lg:mx-0">
           <div className="mt-[5px]">
-            <div className="w-[6px] h-[6px] bg-cyan-200 bg-opacity-60 rounded-full"></div>
-            <div className="h-20 w-[1px] ml-[2px] bg-cyan-800 bg-opacity-30"></div>
+            <div className="w-[6px] h-[6px] bg-[#ddbdf6] bg-opacity-60 rounded-full"></div>
+            <div className="h-20 w-[1px] ml-[2px] bg-white bg-opacity-10"></div>
           </div>
           <div className="flex flex-col gap-3 text-sm lg:text-sm md:text-lg">
             <h6 className="text-white">
               12th Science
             </h6>
-            <p className="text-gray-400">
+            <p className="text-white/60">
               Jayshree Thorat College , Karad, MH, India
               <span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
             </p>
-            <p className="text-gray-400">
+            <p className="text-white/60">
               June 2015 - July 2016
             </p>
           </div>

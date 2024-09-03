@@ -53,12 +53,12 @@ const Contact = () => {
     <section data-aos="fade-up" data-aos-duration="2000">
       <div className='flex flex-col items-center mx-auto w-full h-full hide-scrollbar'>
         <div data-aos="fade-up" data-aos-duration="2000" className='py-6 mx-auto text-center font-bold lg:text-xl text-2xl hide-scrollbar'>
-          <span className='tracking-wider text-gradient brightness-125 hover:brightness-200 hover:text-gradient'>Contact Me</span>
+          <span className='tracking-wider text-gradient hover:text-gradient'>Contact Me</span>
           <span className='flex text-sm text-gray-400 mt-3'>Appreciate you taking the time to browse my portfolio! If you have any inquiries or opportunities, feel free to reach out. I'm always up for collaboration and embracing new challenges.</span>
         </div>
         <div data-aos="fade-up" data-aos-duration="2000" className='lg:flex lg:gap-x-8 hide-scrollbar w-full'>
-          <div data-aos="fade-up" data-aos-duration="2000" className='shadow-inner shadow-cyan-900 bg-transparent backdrop-blur rounded-xl py-6 lg:mt-0 mt-5'>
-            <div className='font-bold md:text-lg text-xl text-gradient brightness-125 hover:text-gradient hover:brightness-150 tracking-wider text-center'>
+          <div data-aos="fade-up" data-aos-duration="2000" className='shadow-inner hover:shadow-inner shadow-[#789fef] hover:shadow-[#789fef] bg-[#17191b] bg-transparent backdrop-blur rounded-xl py-6 lg:mt-0 mt-5'>
+            <div className='font-bold md:text-lg text-xl text-gradient hover:text-gradient tracking-wider text-center'>
               <h2>Let's build something together...</h2>
             </div>
             <form ref={formRef} onSubmit={sendEmail} className="flex flex-col gap-3 my-5 lg:w-[56.2vw] px-5">

@@ -7,7 +7,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 
 const WorkData = ({ info }) => {
 
-  const background = "relative lg:w-[26.8vw] lg:h-[60vh] w-[85vw] h-[42vh] md:w-[65vw] md:h-[50vh] flex flex-col items-center justify-center cursor-pointer shadow-inner shadow-[#384b76] bg-[#1E1F20] hover:bg-black overflow-hidden backdrop-blur rounded-xl group"
+  const background = "relative lg:w-[26.8vw] lg:h-[60vh] w-[85vw] h-[42vh] md:w-[65vw] md:h-[50vh] flex flex-col items-center justify-center cursor-pointer shadow-inner shadow-[#384b76] bg-[#17191b]  hover:bg-black overflow-hidden backdrop-blur rounded-xl group"
 
   const ImageContainer = "relative lg:w-[26.8vw] lg:h-[40vh] w-[85vw] h-[28vh] md:w-[62vw] md:h-[40vh] flex items-center justify-center overflow-hidden hover:overflow-hidden cursor-pointer group"
 
@@ -44,9 +44,9 @@ const WorkData = ({ info }) => {
         </div>
       </div>
       <div className='flex flex-col py-2 text-center max-sm:gap-1 shadow-inner shadow-white/10 w-full'>
-        <span className='font-bold max-sm:text-xl text-gradient brightness-200 hover:text-gradient hover:brightness-200 tracking-wider'>{info.title}</span>
-        <p className='text-xs md:font-bold text-gray-400'>{info.desc}</p>
-        <div className='text-xs md:font-bold text-gray-400 md:mt-1'>
+        <span className='font-extrabold max-sm:text-xl text-gradient hover:text-gradient tracking-wider'>{info.title}</span>
+        <p className='text-xs md:font-bold text-white/70'>{info.desc}</p>
+        <div className='text-xs md:font-bold text-white/70 md:mt-1'>
           <span>Note : Please hover on the Image to get the project links</span>
         </div>
       </div>
