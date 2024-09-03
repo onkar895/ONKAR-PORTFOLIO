@@ -86,7 +86,7 @@ const Contact = () => {
               <input
                 type="submit"
                 value={loading ? "Sending..." : "Send"}
-                className="text-base custom-border px-4 lg:py-3 py-4 rounded-lg flex-short gap-2 bg-cyan-400 bg-opacity-5 transition-all group shadow-2xl hover:bg-cyan-800 cursor-pointer"
+                className="text-base custom-border px-4 lg:py-3 py-4 rounded-lg flex-short gap-2 bg-cyan-400 bg-opacity-5 transition-all group shadow-2xl hover:bg-[#708fd3] cursor-pointer"
                 disabled={loading}  // Disable the button while sending
               />
             </form>

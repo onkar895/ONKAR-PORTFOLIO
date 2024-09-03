@@ -14,7 +14,7 @@ const About = () => {
         <div className='w-full my-6' data-aos="fade-up" data-aos-duration="2000" >
           <Experience />
         </div>
-        <div data-aos="fade-up" data-aos-duration="2000" className="flex flex-wrap lg:flex-nowrap lg:gap-3 gap-6 w-full mt-2">
+        <div data-aos="fade-up" data-aos-duration="2000" className="grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 lg:gap-3 gap-6 w-full mt-2 col">
           <Education />
           <Skills />
           <Connect />

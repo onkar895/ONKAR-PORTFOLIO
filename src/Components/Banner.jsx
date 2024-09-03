@@ -19,13 +19,13 @@ const Banner = () => {
   return (
     <section className='relative flex' data-aos="fade-up" data-aos-duration="2000">
       <div className=''>
-        <div className='lg:flex items-center justify-center lg:space-y-0 space-y-20 '>
+        <div className='lg:flex items-center justify-center lg:space-y-0 space-y-20 lg:space-x-40'>
           <div className='flex flex-col sm:mt-12 lg:gap-2 gap-4 max-sm:mt-10 max-sm:mx-auto lg:w-[100%]'>
             <div className='space-y-4 lg:w-[31vw] w-full flex flex-col max-sm:items-center sm:items-center md:items-center lg:items-start hide-scrollbar'>
               <h1 className='flex gap-2 items-center lg:text-md text-xl font-bold animate-pulse text-gray-400 cursor-pointer hover:-translate-y-1 transition-all duration-500'>Hello there ! <img src={HII} alt="" className='w-7 h-7 lg:w-5 lg:h-5' /></h1>
               <h1 className='font-extrabold py-2 lg:text-[2.5rem] text-[2.25rem] min-[320px]:text-[2rem] min-[1024px]:text-[2.625rem] tracking-widest img'> I'm Omkar Karale</h1>
-              <div className='lg:w-full max-sm:w-[82%] md:w-[60%] h-1 bg-gradient-to-r from-cyan-400 to-[#8124f2] animate-slideFade brightness-125'></div>
-              <div className='text-xl font-semibold text-gradient brightness-125 hover:brightness-150 hover:text-gradient'>
+              <div className='lg:w-full max-sm:w-[82%] md:w-[60%] h-1 bg-gradient-to-r from-[#5082EE] via-[#A071C4] to-[#D76571] animate-slideFade'></div>
+              <div className='text-xl font-semibold text-gradient hover:text-gradient'>
                 <TypeAnimation
                   sequence={["Aspiring Frontend Enthusiast", 2000, "Passionate Web Developer", 2000, "Eager Learner of Web Wizardry", 2000]}
                   speed={50}
@@ -37,7 +37,7 @@ const Banner = () => {
               </div>
             </div>
             <div className="flex flex-col lg:items-start items-center md:gap-6 gap-8 w-full mx-auto">
-              <p className="text-[1.2rem] lg:w-[77.2%] text-gray-400 sm:text-[.95rem] text-justify">  I’m highly skilled in Frontend Development specialized in React.js, JavaScript, modern web development and variety of UI frameworks & libraries. Passionate about delivering user-friendly, engaging and performance-optimized user interfaces.
+              <p className="text-[1rem]  text-gray-400 sm:text-[.95rem] text-justify">  I’m highly skilled in Frontend Development specialized in React.js, JavaScript, modern web development and variety of UI frameworks & libraries. Passionate about delivering user-friendly, engaging and performance-optimized user interfaces.
               </p>
               <div className="tracking-widest shadow-2x font-bold hide-scrollbar">
                 <h1 data-aos="fade-up" data-aos-duration="2000" className='text-gray-300 lg:text-xl md:text-2xl max-xs:text-[18px] sm:text-2xl max-sm:text-xl '>Let's Build Something Together...✨</h1>

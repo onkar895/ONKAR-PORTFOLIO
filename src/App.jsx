@@ -24,7 +24,7 @@ function App() {
     <div className={loading ? "setBackground w-full h-screen flex items-center justify-center" : "setBackground w-full flex items-center justify-center"}>
       <ParticleBackground />
       {loading ? (
-        <BeatLoader className="text-gradient" size={50} color={"#36a1ee"} />
+        <BeatLoader className="text-gradient" size={50} color={"#D76571"} />
       ) : (
         <Router>
           <Header />

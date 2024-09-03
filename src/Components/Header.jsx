@@ -27,20 +27,20 @@ const Header = () => {
     navigate('/');
   };
 
-  const work = "text-sm space-y-1 transition-all ease-in-out duration-700 cursor-pointer font-extrabold text-gradient brightness-125 hover:brightness-200 hover:text-gradient tracking-widest hover:-translate-y-1"
+  const work = "text-sm space-y-1 transition-all ease-in-out duration-700 cursor-pointer font-extrabold text-gradient tracking-widest hover:-translate-y-1"
 
-  const Hline = "w-full h-1 bg-gradient-to-r from-cyan-400 to-[#8124f2] animate-slideFade"
+  const Hline = "w-full h-1 bg-gradient-to-r from-[#5082EE] via-[#A071C4] to-[#D76571] animate-slideFade"
 
   // Header
   return (
-    <nav className={`py-5 lg:py-3 fixed top-0 left-0 z-40 w-full transition-all ease-in-out duration-300 ${isScrolled ? 'bg-[rgba(30,23,53,0.4)] backdrop-blur-xl' : 'bg-transparent'}`}>
+    <nav className={`py-5 lg:py-3 fixed top-0 left-0 z-40 w-full transition-all ease-in-out duration-300 ${isScrolled ? 'bg-[rgba(30,23,53,0.5)] backdrop-blur-xl' : 'bg-transparent'}`}>
       <div className='flex justify-between items-center md:px-6 px-2 sm:px-6 lg:px-[4.7rem]'>
         <div data-aos="fade-down" data-aos-duration="2000" className='flex items-center gap-2'>
           <div onClick={handleClick}>
             <img src={Logo} alt='MyLogo' className='w-10 h-10 transition-all duration-500 hover:scale-95 cursor-pointer' />
           </div>
           <div className='flex gap-x-2 text-2xl tracking-widest font-extrabold cursor-pointer'>
-            <span className='text-gradient brightness-125 hover:text-gradient hover:brightness-150'>Omkar</span>
+            <span className='text-gradient hover:text-gradient'>Omkar</span>
             <span>Karale</span>
           </div>
         </div>
