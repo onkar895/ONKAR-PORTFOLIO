@@ -96,12 +96,12 @@ html {
   left: -2px;
   right: -2px;
   bottom: -2px;
-  background: conic-gradient(from var(--angle), transparent 30%, #487df0, #995ec6, #d65a67);
-  border-radius: 8px;
+  background: conic-gradient(from var(--angle), transparent 10%, #487df0, #995ec6, #d65a67);
+  border-radius: 3px;
   z-index: -1;
   filter: blur(2px);
   opacity: 1;
-  animation: rotate 3s linear infinite;
+  animation: rotate 4s linear infinite;
 }
 
 @property --angle {

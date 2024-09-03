@@ -24,7 +24,7 @@ const Banner = () => {
             <div className='space-y-4 lg:w-[31vw] w-full flex flex-col max-sm:items-center sm:items-center md:items-center lg:items-start hide-scrollbar'>
               <h1 className='flex gap-2 items-center lg:text-md text-xl font-bold animate-pulse text-gray-400 cursor-pointer hover:-translate-y-1 transition-all duration-500'>Hello there ! <img src={HII} alt="" className='w-7 h-7 lg:w-5 lg:h-5' /></h1>
               <h1 className='font-extrabold py-2 lg:text-[2.5rem] text-[2.25rem] min-[320px]:text-[2rem] min-[1024px]:text-[2.625rem] tracking-widest img'> I'm Omkar Karale</h1>
-              <div className='lg:w-full max-sm:w-[82%] md:w-[60%] h-1 bg-gradient-to-r from-[#5082EE] via-[#A071C4] to-[#D76571] animate-slideFade'></div>
+              <div className='lg:w-full max-sm:w-[82%] md:w-[60%] h-1 bg-gradient-to-r from-[#5082EE] via-[#A071C4] to-[#D76571] animate-slideFade brightness-125'></div>
               <div className='text-xl font-semibold text-gradient hover:text-gradient'>
                 <TypeAnimation
                   sequence={["Aspiring Frontend Enthusiast", 2000, "Passionate Web Developer", 2000, "Eager Learner of Web Wizardry", 2000]}
@@ -46,7 +46,7 @@ const Banner = () => {
                 <div className={`md:hidden min-[1024px]:hidden sm:hidden content`}>
                   <NavLink to='https://drive.google.com/file/d/1rd5hOJNFTWpUasmsJAt4Wlr007IrZB6r/view?usp=sharing'>
                     <span className="flex items-center gap-2 px-4 tracking-widest text-gradient hover:-translate-y-1 transition-all ease-in-out duration-700">
-                      <strong> Resume🔻</strong>
+                      Resume🔻
                       {/* <TiArrowSortedDown /> */}
                     </span>
                     {/* <div className={Hline}></div> */}
