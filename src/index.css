@@ -96,10 +96,10 @@ html {
   left: -2px;
   right: -2px;
   bottom: -2px;
-  background: conic-gradient(from var(--angle), transparent 60%, #48b5f0, #995ec6, #d76571);
+  background: conic-gradient(from var(--angle), transparent 70%, #48b5f0, #995ec6, #d76571);
   border-radius: 8px;
   z-index: -1;
-  filter: blur(2px);
+  filter: blur(3px);
   opacity: 1;
   animation: rotate 4s linear infinite;
 }
