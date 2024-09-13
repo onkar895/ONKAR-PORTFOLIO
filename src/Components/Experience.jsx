@@ -19,31 +19,30 @@ const Experience = () => {
         </div>
         <div className='text-sm text-justify text-white/70'>
           <ul className='my-4'>
-            <li className='mb-2 flex items-center gap-2'>
-              <MdOutlineRemove className='font-extrabold max-sm:text-xl text-white' />
-              Designed and delivered responsive, high-performance user interfaces using React.js, ensuring a consistent and seamless experience across all devices and platforms.
+            <li className='mb-2 max-sm:mb-3 flex items-center gap-2'>
+              <MdOutlineRemove className='font-extrabold text-white text-xl max-sm:hidden' />
+              Designed and delivered impactful, scalable user interfaces using React.js, optimized development efficiency through the creation of modular, reusable components that improved code maintainability and reduced complexity.
             </li>
-            <li className='mb-2 flex items-center gap-2'>
-              <MdOutlineRemove className='font-extrabold max-sm:text-2xl text-lg text-white' />
-              Actively contributed to code reviews, identifying and resolving bugs while enhancing overall code quality.
-              Provided critical input on UI/UX design improvements, optimizing application flow and user experience.
+            <li className='mb-2 max-sm:mb-3 flex items-center gap-2'>
+              <MdOutlineRemove className='font-extrabold text-2xl text-white max-sm:hidden' />
+              Worked closely with designers to provide actionable feedback on UI/UX improvements that enhanced the overall application flow. Actively contributed to code reviews, identifying and resolving bugs, and implementing best practices for cleaner, and more maintainable code.
             </li>
-            <li className='mb-2 flex items-center gap-2'>
-              <MdOutlineRemove className='font-extrabold max-sm:text-xl text-white' />
-              Collaborated closely with senior developers to refine user interface designs, contributing to the continuous improvement of coding standards and best practices across the team.
+            <li className='mb-2 max-sm:mb-3 flex items-center gap-2'>
+              <MdOutlineRemove className='font-extrabold max-sm:text-xl text-white max-sm:hidden' />
+              Collaborated with cross-functional teams to refine UI designs, ensuring alignment with business goals and improving feature usability.
             </li>
-            <li className='mb-2 flex items-center gap-2'>
-              <MdOutlineRemove className='font-extrabold max-sm:text-xl text-white' />
-              Gained hands-on experience in web development, focusing on front-end technologies including HTML5, CSS3, JavaScript, React.js, and React-Bootstrap.
+            <li className='mb-2 max-sm:mb-3 flex items-center gap-2'>
+              <MdOutlineRemove className='font-extrabold max-sm:text-xl text-white max-sm:hidden' />
+              Implemented a responsive web design system that delivered a seamless, high-quality user experience across devices and platforms, ensuring consistency and accessibility.
             </li>
-            <li className='mb-2 flex items-center gap-2'>
-              <MdOutlineRemove className='font-extrabold max-sm:text-xl text-white' />
-              Utilized Git and GitHub for version control and collaborative development, ensuring streamlined code management and project tracking.
+            <li className='mb-2 max-sm:mb-3 flex items-center gap-2'>
+              <MdOutlineRemove className='font-extrabold max-sm:text-xl text-white max-sm:hidden' />
+              Utilized modern web technologies like HTML5, CSS3, JavaScript, React.js, and React-Bootstrap to deliver clean, efficient code with a strong emphasis on performance and scalability.
             </li>
           </ul>
 
           <div>
-            <p><h4 className='text-white font-bold'>Skills:</h4> React.js, HTML5, Cascading Style Sheets, (CSS), Bootstrap (Framework), JavaScript, User Experience (UX), User Interface Design</p>
+            <p><h4 className='text-white font-bold'>Skills:</h4> React.js, HTML5, Cascading Style Sheets (CSS), React-Bootstrap, JavaScript, User Interface Design, Git & GitHub</p>
           </div>
         </div>
       </div>

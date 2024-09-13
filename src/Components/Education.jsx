@@ -24,13 +24,13 @@ const Education = () => {
   return (
     <div className="w-full h-auto shadow-inner shadow-[#789fef] hover:shadow-lg hover:shadow-[#789fef] bg-[#17191b]  hover:bg-black rounded-xl py-6 px-5 overflow-hidden cursor-pointer hover:scale-95 transition-all duration-300 grow">
       <h3 className="font-bold lg:text-lg text-xl text-center text-gradient hover:text-gradient tracking-wider">Education</h3>
-      <div className="flex flex-col lg:gap-y-8 gap-y-4">
+      <div className="block mx-auto lg:gap-y-8 space-y-10">
         <div className="flex space-x-3 mt-10 lg:mx-0 mx-auto">
           <div className="mt-[5px]">
             <div className="w-[6px] h-[6px] bg-[#ddbdf6] bg-opacity-60 rounded-full shadow-md"></div>
             <div className="h-20 w-[1px] ml-[2px] bg-white bg-opacity-10"></div>
           </div>
-          <div className="flex flex-col gap-3 text-sm lg:text-sm md:text-lg">
+          <div className="flex flex-col gap-3 text-sm lg:text-sm md:text-lg ">
             <h6 className="text-white">
               Specialization in Full Stack Web
               Developement

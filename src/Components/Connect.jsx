@@ -53,7 +53,7 @@ const Connect = () => {
   ];
 
   return (
-    <div className="w-full h-auto  shadow-inner shadow-[#789fef] hover:shadow-lg hover:shadow-[#789fef] bg-[#17191b]  hover:bg-black rounded-xl py-6 md:px-7 overflow-hidden cursor-pointer hover:scale-95 transition-all duration-300  grow">
+    <div className="w-full h-auto shadow-inner shadow-[#789fef] hover:shadow-lg hover:shadow-[#789fef] bg-[#17191b]  hover:bg-black rounded-xl py-6 md:px-7 overflow-hidden cursor-pointer hover:scale-95 transition-all duration-300  grow">
       <h3 className="font-extrabold lg:text-lg text-xl text-center text-gradient hover:text-gradient tracking-wider">Connect & Follow</h3>
       <div className='flex flex-wrap justify-center items-center py-10 mx-auto'>
         {
