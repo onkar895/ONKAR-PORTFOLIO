@@ -9,7 +9,7 @@ export const data = [
   {
     id: 1,
     img: youTubePic,
-    title: "YouTube UI",
+    title: "YouTube Platform",
     desc: "React.js, Redux-Toolkit, Tailwind CSS, YouTube Live API",
     link: "https://my-youtube-ui.netlify.app/",
     git: "https://github.com/onkar895/YouTube-UI",
@@ -33,9 +33,9 @@ export const data = [
   {
     id: 4,
     img: portfolioPic,
-    title: "Portfolio",
+    title: "My Portfolio",
     desc: "React.js, Tailwind CSS, Aos Library",
-    link: "https://onkar-portfolio-one.vercel.app/",
+    link: "https://onkar-portfolio-website.netlify.app/",
     git: "https://github.com/onkar895/ONKAR-PORTFOLIO",
   },
   {
