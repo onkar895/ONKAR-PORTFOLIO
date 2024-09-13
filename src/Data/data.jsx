@@ -11,7 +11,7 @@ export const data = [
     img: youTubePic,
     title: "YouTube UI",
     desc: "React.js, Redux-Toolkit, Tailwind CSS, YouTube Live API",
-    link: "https://you-tube-ui-six.vercel.app/",
+    link: "https://my-youtube-ui.netlify.app/",
     git: "https://github.com/onkar895/YouTube-UI",
   },
   {
