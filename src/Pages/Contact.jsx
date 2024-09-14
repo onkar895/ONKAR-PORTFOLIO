@@ -1,6 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 import Connect from '../Components/Connect';
 import emailjs from "@emailjs/browser";
+import { FaCircleNodes } from "react-icons/fa6";
 
 const Contact = () => {
   const [messageSent, setMessageSent] = useState(false);
@@ -53,7 +54,10 @@ const Contact = () => {
     <section data-aos="fade-up" data-aos-duration="2000">
       <div className='flex flex-col items-center mx-auto w-full h-full hide-scrollbar'>
         <div data-aos="fade-up" data-aos-duration="2000" className='py-6 mx-auto text-center font-bold lg:text-xl text-2xl hide-scrollbar'>
-          <span className='tracking-wider text-gradient hover:text-gradient'>Contact Me</span>
+          <div className='flex items-center justify-center gap-4'>
+            <span className='tracking-wider text-gradient hover:text-gradient'>Contact Me</span>
+            <FaCircleNodes className='text-2xl max-sm:text-3xl text-[#82cfff] spin' />
+          </div>
           <span className='flex text-sm text-gray-400 mt-3'>Appreciate you taking the time to browse my portfolio! If you have any inquiries or opportunities, feel free to reach out. I'm always up for collaboration and embracing new challenges.</span>
         </div>
         <div data-aos="fade-up" data-aos-duration="2000" className='lg:flex lg:gap-x-8 hide-scrollbar w-full'>

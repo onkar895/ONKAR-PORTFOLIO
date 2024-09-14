@@ -3,13 +3,17 @@
 import React from 'react'
 import { data } from '../Data/data'
 import WorkData from '../Components/WorkData'
+import { FaCircleNodes } from "react-icons/fa6";
 
 const Work = () => {
   return (
     <section data-aos="fade-up" data-aos-duration="2000" className='mx-auto w-full h-full'>
-      <div className='shadow-inner shadow-[#789fef] hover:shadow-lg hover:shadow-[#789fef] bg-[#17191b]  hover:bg-black rounded-xl py-8 hide-scrollbar'>
+      <div className='shadow-inner shadow-[#789fef] hover:shadow-lg hover:shadow-[#789fef] bg-[#141d2a] hover:bg-black/40 rounded-xl py-8 hide-scrollbar'>
         <div className='flex flex-col items-center max-sm:justify-center gap-y-3 px-3'>
-          <h2 className='font-bold text-2xl min-[320px]:text-xl tracking-wider'>My Recent <span className='text-gradient hover:text-gradient tracking-wider'>Works & Projects</span></h2>
+          <div className='flex items-center justify-center gap-4'>
+            <h2 className='font-bold text-2xl min-[320px]:text-xl tracking-wider'>My Recent <span className='text-gradient hover:text-gradient tracking-wider'>Works & Projects</span></h2>
+            <FaCircleNodes className='text-2xl max-sm:text-3xl text-[#82cfff] spin' />
+          </div>
           <div className='text-center'>
             <p className='text-sm text-gray-400'>See the results of my work: passionately created designs that are loaded with passion and commitment;</p>
             <p className='text-sm text-gray-400'>each one perfectly captures the heart and soul I've put into each and every detail.</p>

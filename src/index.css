@@ -53,7 +53,7 @@ html {
 
 .gradient,
 .active {
-  background: linear-gradient(57.4deg, rgb(247, 156, 106) 14.6%, rgb(188, 82, 249) 39.1%, rgb(63, 157, 245) 76.5%);
+  background: linear-gradient(57.4deg, rgb(188, 82, 249) 4.6%, rgb(247, 106, 162) 29.1%, rgb(94, 171, 243) 76.5%);
 }
 
 .active {
@@ -66,7 +66,7 @@ html {
   position: relative;
   overflow: hidden;
   /* background-image: linear-gradient(to left, #1c132e, #14141b); */
-  background-color: #131314;
+  background-color: #0e1622;
 }
 
 /* .img {
@@ -102,6 +102,38 @@ html {
   filter: blur(3px);
   opacity: 1;
   animation: rotate 4s linear infinite;
+}
+
+.bounce {
+  animation: bounce 2s linear infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(20px);
+  }
+  60% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.spin {
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @property --angle {

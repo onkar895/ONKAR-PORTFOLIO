@@ -7,7 +7,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 
 const WorkData = ({ info }) => {
 
-  const background = "relative lg:w-[26.8vw] lg:h-[60vh] w-[85vw] h-[42vh] md:w-[65vw] md:h-[50vh] flex flex-col items-center justify-center cursor-pointer shadow-inner shadow-[#384b76] bg-[#17191b]  hover:bg-black overflow-hidden backdrop-blur rounded-xl group"
+  const background = "relative lg:w-[26.8vw] lg:h-[60vh] w-[85vw] h-[42vh] md:w-[65vw] md:h-[50vh] flex flex-col items-center justify-center cursor-pointer shadow-inner shadow-[#384b76] bg-[#141d2a] hover:bg-black/40 overflow-hidden backdrop-blur rounded-xl group"
 
   const ImageContainer = "relative lg:w-[26.8vw] lg:h-[40vh] w-[85vw] h-[28vh] md:w-[62vw] md:h-[40vh] flex items-center justify-center overflow-hidden hover:overflow-hidden cursor-pointer group"
 

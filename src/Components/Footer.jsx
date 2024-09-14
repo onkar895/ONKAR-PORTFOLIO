@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom'
 const Footer = () => {
   return (
     <section data-aos="fade-up" data-aos-duration="2000" className='mx-auto w-full lg:h-[60vh] h-[55vh]'>
-      <div className='flex flex-col lg:flex-row lg:justify-start justify-center items-center shadow-inner shadow-[#789fef] hover:shadow-lg hover:shadow-[#789fef] bg-[#17191b]  hover:bg-black rounded-xl h-full'>
+      <div className='flex flex-col lg:flex-row lg:justify-start justify-center items-center shadow-inner shadow-[#789fef] hover:shadow-lg hover:shadow-[#789fef] bg-[#141d2a] hover:bg-black/40 rounded-xl h-full'>
         <div data-aos="fade-right" data-aos-duration="2000">
           <img src={Image} alt="GIF" className='w-full lg:h-[45vh] h-[22vh] cursor-pointer' />
         </div>
