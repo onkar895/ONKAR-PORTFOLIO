@@ -19,11 +19,14 @@ const Banner = () => {
   const Icons = "text-white/80 font-extrabold transition-all ease-in-out duration-300 hover:text-white hover:brightness-200 hover:scale-110 text-2xl max-sm:text-3xl";
 
   return (
-    <section className='relative flex' data-aos="fade-up" data-aos-duration="2000">
+    <section className='relative flex' data-aos="zoom-in-right" data-aos-duration="2000">
       <div className='lg:flex items-center justify-center lg:space-y-0 space-y-20 lg:space-x-40'>
         <div className='flex flex-col sm:mt-12 lg:gap-2 gap-4 max-sm:mt-10 max-sm:mx-auto lg:w-[100%]'>
           <div className='w-full space-y-4 flex flex-col max-sm:items-center sm:items-center md:items-center lg:items-start hide-scrollbar'>
-            <h1 className='flex gap-4 items-center lg:text-md text-xl font-bold text-gray-400 cursor-pointer hover:-translate-y-1 transition-all duration-500' data-aos="zoom-in-right" data-aos-duration="2000"><span className='animate-pulse'>Hello there !</span> <FaCircleNodes className='text-2xl max-sm:text-3xl text-[#A071C4] max-sm:text-[#FF82A2] spin' /></h1>
+            <div className='flex gap-4 items-center cursor-pointer hover:-translate-y-1 transition-all duration-500'>
+              <h1 className='lg:text-md text-xl font-bold text-gray-400'><span className='animate-pulse'>Hello there !</span></h1>
+              <FaCircleNodes className='text-2xl max-sm:text-3xl text-[#A071C4] max-sm:text-[#FF82A2] spin' />
+            </div>
             <div className='space-y-3' data-aos="zoom-in-right" data-aos-duration="2000">
               <h1 className='font-extrabold py-2 lg:text-[2.5rem] text-[2.25rem] min-[320px]:text-[2rem] min-[1024px]:text-[2.625rem] tracking-widest img'> I'm Omkar Karale</h1>
               <div className='w-[100%] h-1 bg-gradient-to-r from-[#2e86de] via-[#A071C4] to-[#D76571] animate-slideFade brightness-125'></div>
